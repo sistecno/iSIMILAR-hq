@@ -30,7 +30,7 @@ Marca cada punto como hecho / no aplica / pendiente, con la evidencia.
       enlaces a términos y privacidad.
 - [ ] Precio idéntico en app, ficha de tienda, web y anuncios (skill `tono-de-marca`).
 
-### Protocolo de verificación del trial (copiado de solopila/CLAUDE.md, sección 10)
+### Protocolo de verificación del trial (copiado de ../solopila/docs/arquitectura/monetizacion.md)
 
 Para evitar conjeturas al implementar trials en otras apps, seguir este checklist:
 
