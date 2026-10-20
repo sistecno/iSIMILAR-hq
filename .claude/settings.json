@@ -2,10 +2,11 @@
   "permissions": {
     "additionalDirectories": ["../solopila", "../solopila_landingPAGE"],
     "deny": [
-      "Edit(../solopila/**)",
-      "Read(../solopila/android/key.properties)",
-      "Read(../solopila/android/**/*.jks)",
-      "Read(../solopila/android/**/*.keystore)"
+      "Edit(//Users/anibalcastano/Documents/Flutter/iSIMILAR-hq/docs/**)",
+      "Edit(//Users/anibalcastano/Documents/Flutter/solopila/**)",
+      "Read(//Users/anibalcastano/Documents/Flutter/solopila/android/key.properties)",
+      "Read(//Users/anibalcastano/Documents/Flutter/solopila/android/**/*.jks)",
+      "Read(//Users/anibalcastano/Documents/Flutter/solopila/android/**/*.keystore)"
     ]
   }
 }

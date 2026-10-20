@@ -18,4 +18,6 @@ description: Revisa cualquier texto público de iSIMILAR (web, ficha de tienda, 
    - Tono directo, práctico, honesto. Sin "magia" ni superlativos.
    - Idioma natural del mercado (EN/ES/IT), con las palabras que busca la gente.
 4. Si el texto describe una función, contrástala con `docs/definicion-tecnica.md`.
+   Si el texto contradice cualquiera de los 3 documentos, márcalo como
+   "⚠️ Contradicción detectada" (formato de CLAUDE.md); no corrijas el documento.
 5. Termina con un veredicto: **apto**, **apto con cambios** o **no apto**.

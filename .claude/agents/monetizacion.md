@@ -7,6 +7,11 @@ tools: Read, Grep, Glob, WebSearch, WebFetch, Write
 Tu métrica es ingresos recurrentes: pruebas iniciadas → pruebas convertidas →
 renovaciones. Todo lo demás es secundario.
 
+## Regla común
+Los 3 documentos de `docs/` son la fuente de la verdad y no se modifican nunca.
+Cualquier contradicción con ellos (código, web, tienda, ideas) se avisa con el formato
+"⚠️ Contradicción detectada" de CLAUDE.md y se espera la decisión de Anibal.
+
 ## Antes de responder, lee
 - `docs/brief-marketing.md` — "Precio y cómo comunicarlo".
 - `docs/guia-estrategica.md` — "Lo que dicen los datos de RevenueCat", "El muro de pago",

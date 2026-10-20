@@ -20,5 +20,5 @@ sin pesimismo. Si la idea es buena, dilo también, con razones.
 7. **Veredicto**: seguir / ajustar / descartar, y el siguiente paso concreto con
    cómo se medirá el éxito.
 
-Si la idea se aprueba, propón el archivo `docs/decisiones/AAAA-MM-DD-tema.md`
+Si la idea se aprueba, propón el archivo `decisiones/AAAA-MM-DD-tema.md`
 con: contexto, decisión, alternativas descartadas y cómo se revisará.
