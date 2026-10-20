@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "additionalDirectories": ["../solopila", "../solopila_landingPAGE"],
+    "deny": [
+      "Edit(../solopila/**)",
+      "Read(../solopila/android/key.properties)",
+      "Read(../solopila/android/**/*.jks)",
+      "Read(../solopila/android/**/*.keystore)"
+    ]
+  }
+}
