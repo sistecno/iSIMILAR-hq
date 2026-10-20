@@ -57,4 +57,5 @@ anual (12 € / 11,99 USD, 7 días de prueba) para acciones en lote.
 
 ## Proyecto técnico activo
 Destilación DINOv2 → MobileNetV3 (vector 960 → 384, obliga a re-escanear).
-Plan completo en `../solopila` (sección 17 de su CLAUDE.md). No anunciar nada hasta medirlo.
+Plan completo en `../solopila/tools/distill/ROADMAP.md` (mientras no se aplique la
+propuesta, sección 17 de `../solopila/CLAUDE.md`). No anunciar nada hasta medirlo.
