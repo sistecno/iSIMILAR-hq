@@ -26,8 +26,9 @@ Este archivo es solo un índice: no superar 80 líneas. Lo nuevo va a `decisione
 ## Carpetas
 - `../solopila/` → app Flutter. **Solo lectura desde aquí.** Para programar, abrir
   Claude Code en esa carpeta.
-- `../solopila_landingPAGE/` → web isimilar.app (publicada: `Nueva/`). Para editarla,
-  abrir Claude Code en esa carpeta.
+- `../solopila_landingPAGE/` → web isimilar.app (publicada: `web/`). **Solo lectura
+  desde aquí.** Los cambios se deciden aquí, se escriben en `borradores/` y se aplican
+  en una sesión abierta en esa carpeta.
 - `reglas/instrucciones-chats-claude-ai.md` → reglas completas de colaboración y de
   modificación de código. Mandan sobre cualquier resumen.
 - `decisiones/` → una decisión por archivo: `AAAA-MM-DD-tema.md`
