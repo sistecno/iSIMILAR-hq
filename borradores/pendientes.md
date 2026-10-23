@@ -39,9 +39,9 @@ Actualizado: 2026-10-22. Marca con [x] lo hecho.
 - [x] **Anibal, docs:** brief y definición técnica actualizados (2026-10-23): compartir en
       lote es PRO; borrar, mover o compartir de una en una es gratis.
 
-- [ ] **legal-tiendas:** los términos de uso publicados (`astro/src/legal/*/terms.md`, apartado de
-      precio) dicen "12 € al año… 11,99 USD"; Google Play Italia cobra hoy 15,99 €. La web ya no
-      muestra precio fijo (decisión de Anibal 2026-10-23). Proponer texto sin importe fijo.
+- [x] **legal-tiendas:** términos v3.1 sin importe fijo y con planes actualizados
+      (`borradores/2026-10-23-legal-terminos-v3.1.md`), aplicados en la web el 2026-10-23.
+- [ ] **Anibal:** subir `astro/dist/` (correcciones de textos, precios y términos v3.1).
 - [ ] **Anibal, docs:** añadir a `definicion-tecnica.md` las funciones que la web ya menciona:
       detalle de la foto (fecha, resolución, peso), ordenar resultados por parecido y por fecha,
       visor de álbumes creados desde la app (con detalle y búsqueda desde la foto).
@@ -50,6 +50,8 @@ Actualizado: 2026-10-22. Marca con [x] lo hecho.
 - FAQ de duplicados: se queda "placas de distintas reparaciones" (opción A).
 - Compartir en lote: se publica hoy, aunque la versión de la app salga después.
 - Una sola acción (borrar, mover, compartir) siempre es gratis.
+- (2026-10-23) Sin pago único: PRO es siempre una suscripción anual. Sin revisión de abogado
+  por ahora (sin presupuesto). Términos v3.1 publicados en la web (planes y precio sin importe).
 
 ### Dudas de growth para la web (respondidas por Anibal el 2026-10-23)
 1. "Pantallas de móvil" = **fotos de pantallas físicas** de celulares (p. ej. fotos de

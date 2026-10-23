@@ -1,6 +1,6 @@
 # Instrucciones para la sesión de la app (`solopila/`) · próxima versión
 
-Estado: listo para usar. Fuentes: `docs/definicion-tecnica.md` (Datos y privacidad),
+Estado: listo para usar (actualizado el 2026-10-23: T4c, T4d, T4e). Fuentes: `docs/definicion-tecnica.md` (Datos y privacidad),
 `decisiones/2026-10-22-ficha-y-muro.md`, `borradores/2026-10-22-ficha-y-muro.md`.
 
 ## Cómo usarlo
@@ -66,6 +66,28 @@ Estado: listo para usar. Fuentes: `docs/definicion-tecnica.md` (Datos y privacid
 - Al arrancar la app, aplicar el valor guardado antes de enviar nada.
 - Las compras y la restauración siguen funcionando: RevenueCat no se desactiva.
 
+**T4c. Compartir en lote es PRO (añadido el 2026-10-23)**
+- Hoy `lib/views/widgets/album_detail_sheet.dart:72-87` comparte varias fotos sin comprobar
+  PRO ni abrir el muro (lo detectó legal-tiendas). Brief, definición técnica, web y términos
+  ya dicen que todas las acciones en lote son PRO; compartir una sola foto sigue gratis.
+- Aplicar la misma comprobación que borrar y mover en lote en todos los puntos desde los que
+  se comparten varias fotos (resultados de búsqueda y visor de álbumes).
+- Al abrir el muro desde ahí, enviar `paywall_trigger` = `batch_share` (definición técnica,
+  Medición: valor pendiente).
+
+**T4d. Enlaces legales a la web (añadido el 2026-10-23)**
+- Las páginas ya están publicadas. Sustituir las URLs de Notion en `premium_offer_sheet.dart`
+  y `settings_view.dart` por las de la web, en el idioma de la app:
+  - EN: `https://isimilar.app/privacy/`, `/terms/`, `/delete-data/`
+  - ES: `https://isimilar.app/es/privacy/`, `/es/terms/`, `/es/delete-data/`
+  - IT: `https://isimilar.app/it/privacy/`, `/it/terms/`, `/it/delete-data/`
+- Buscar cualquier otro enlace a Notion en `lib/` y en los `.arb`.
+
+**T4e. Comprobar "Reset App" (añadido el 2026-10-23)**
+- La página publicada de borrado de datos dice lo que hace "Reset App". Comprobar en el
+  código que hace exactamente eso (índice, ajustes y álbumes creados desde la app) e
+  informar. No cambiar nada sin autorización; si no coincide, se corrige la página.
+
 ### Textos del muro de pago (`lib/l10n/intl_en.arb`, `intl_es.arb`, `intl_it.arb`)
 
 **T5. `faq_a3` (precisión).** Probar las dos versiones en pantalla y quedarse con la que
@@ -91,8 +113,7 @@ quepa bien. Elegir la misma longitud en los 3 idiomas.
 Después de T5–T8: regenerar `lib/generated/` (`flutter gen-l10n`) y comprobar que compila.
 
 ### Al publicar la versión (no es código)
-- URLs de privacidad y términos: si ya existen `isimilar.app/privacy` y `/terms`, cambiar
-  las URLs de Notion en `premium_offer_sheet.dart` y `settings_view.dart`. Si no, mantener
-  Notion y dejarlo para la siguiente versión.
+- En App Store Connect y Google Play Console: URL de privacidad `https://isimilar.app/privacy/`
+  y, en Google Play, URL de borrado de datos `https://isimilar.app/delete-data/`.
 - Descripción de App Store: aplicar los cambios de `borradores/2026-10-22-ficha-y-muro.md`.
 - `checklist-release` de hq antes de enviar a revisión.
