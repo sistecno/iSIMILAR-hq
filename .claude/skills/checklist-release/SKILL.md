@@ -46,6 +46,6 @@ Para evitar conjeturas al implementar trials en otras apps, seguir este checklis
 
 ## Ficha de tienda y web
 - [ ] Capturas según la guía del brief (resultado, no proceso; ≤5 palabras por titular).
-- [ ] La web (`../solopila_landingPAGE/web/`) coincide con la versión publicada:
+- [ ] La web (`../solopila_landingPAGE/astro/`) coincide con la versión publicada:
       funciones, precio y enlaces a App Store y Google Play.
 - [ ] Commit en git de la app y de la web antes de publicar.

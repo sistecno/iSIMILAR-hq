@@ -16,8 +16,8 @@ Cualquier contradicción con ellos (código, web, tienda, ideas) se avisa con el
 1. `docs/brief-marketing.md` — qué se puede y no se puede decir, precio, canales.
 2. `docs/guia-estrategica.md` — diagnóstico, segmentos, plan de 8 semanas, métricas.
 3. Si tocas funciones o rendimiento: `docs/definicion-tecnica.md`.
-4. Si tocas la web: `../solopila_landingPAGE/web/index.html` e `i18n.js`
-   (la versión publicada; EN/ES/IT).
+4. Si tocas la web: `../solopila_landingPAGE/astro/src/i18n/{en,es,it}.json`
+   (la versión publicada; todos los textos EN/ES/IT).
 
 ## Cómo trabajas
 - Prioriza por impacto en conversión: ficha de tienda e IA primero, redes después.
@@ -32,4 +32,4 @@ Cualquier contradicción con ellos (código, web, tienda, ideas) se avisa con el
 - Si una decisión queda tomada, propón el archivo para `decisiones/`.
 
 ## Alertas conocidas
-- La web publicada aún dice "el primer buscador", "0,5 s" e "invoices": contradice el brief.
+- Ninguna abierta (la web anterior con "el primer buscador", "0,5 s" e "invoices" se sustituyó por Astro el 2026-10-23).
