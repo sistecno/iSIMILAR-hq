@@ -32,13 +32,12 @@ Actualizado: 2026-10-22. Marca con [x] lo hecho.
 - [ ] Abrir la sesión en `solopila_landingPAGE/` y seguir `borradores/2026-10-22-plan-astro.md`.
       **Objetivo de Anibal: Astro subido el 2026-10-23**, con `/privacy` y `/terms` incluidas.
 - [x] **Anibal:** datos del responsable para la v3 legal (2026-10-23). En la web:
-      `solopila_landingPAGE/src/legal/datos.json`. Sin REA. Correo: info@isimilar.app.
-- [ ] **Anibal:** subir con FileZilla el contenido de `solopila_landingPAGE/dist/` y comprobar
+      `solopila_landingPAGE/astro/src/legal/datos.json`. Sin REA. Correo: info@isimilar.app.
+- [ ] **Anibal:** subir con FileZilla el contenido de `solopila_landingPAGE/astro/dist/` y comprobar
       `/`, `/es/`, `/it/`, `/en/` (redirige), `/privacy/`, `/sitemap-index.xml`, `/robots.txt`.
 - [ ] **Anibal:** dar de alta el sitemap en Google Search Console y Bing Webmaster Tools.
-- [ ] **Anibal, docs:** el brief y la definición técnica no recogen dos decisiones del
-      2026-10-23: compartir en lote es PRO, y las acciones sueltas (borrar, mover, compartir
-      una foto) son gratis. La web ya lo dice.
+- [x] **Anibal, docs:** brief y definición técnica actualizados (2026-10-23): compartir en
+      lote es PRO; borrar, mover o compartir de una en una es gratis.
 
 ### Decisiones de Anibal sobre los ajustes de growth (2026-10-23)
 - FAQ de duplicados: se queda "placas de distintas reparaciones" (opción A).
