@@ -5,10 +5,9 @@ Actualizado: 2026-10-23. Marca con [x] lo hecho.
 ## Para Anibal (tareas manuales, fuera del código)
 
 ### Documentos (`docs/`, solo los edita Anibal)
-- [x] `definicion-tecnica.md` · Rendimiento medido (línea 134) sigue diciendo "Primer escaneo,
-      Android de gama media · Sin medir" (y la línea 155 lo tiene como pendiente). La web ya
-      publica: Xiaomi Mi A3, unas 8.000 fotos, 4-5 minutos. *Actualizado por Anibal el 2026-10-23 (comprobado).*
-- [x] `definicion-tecnica.md` · Qué hace: añadir las funciones que la web ya menciona (hecho el 2026-10-23):
+- [x] `definicion-tecnica.md` · Rendimiento medido: Xiaomi Mi A3, unas 8.000 fotos, 4-5 minutos
+      (actualizado por Anibal el 2026-10-23, comprobado).
+- [x] `definicion-tecnica.md` · Qué hace: funciones que la web ya menciona (añadidas el 2026-10-23):
       detalle de la foto (fecha, resolución en píxeles, peso); ordenar resultados por más o
       menos parecidas y por más o menos recientes; visor de álbumes creados desde la app (con
       detalle y búsqueda desde la foto).
