@@ -72,7 +72,7 @@ Todo mensaje debe apoyarse en uno de estos tres pilares:
 | "Busca por parecido visual, no por etiquetas" | "Google Fotos y Apple Fotos necesitan internet" | Apple Fotos también busca dentro del teléfono |
 | "Busca en menos de un segundo" | "Tiempo ahorrado infinito" o "15 GB liberados de media" | No hay datos que lo respalden |
 
-**Sin anuncios:** la app no muestra publicidad, ni en la versión gratuita ni en PRO, y no recoge el identificador publicitario. La frase común es "La app se financia con las compras de PRO, no con publicidad". No se dice "solo con la suscripción PRO", porque está prevista la prueba de un pago único.
+**Sin anuncios:** la app no muestra publicidad, ni en la versión gratuita ni en PRO, y no recoge el identificador publicitario. La frase común es "La app se financia con las compras de PRO, no con publicidad".
 
 ## Precio y cómo comunicarlo
 
@@ -80,7 +80,7 @@ Todo mensaje debe apoyarse en uno de estos tres pilares:
 
 **PRO:** suscripción anual de 12 € en la zona euro; en cada país, el equivalente que fija la tienda (en EE. UU., 11,99 USD). Incluye 7 días de prueba, búsquedas con cámara ilimitadas y acciones en lote: borrar, mover a un álbum o compartir muchas fotos de una vez.
 
-**Confirmado:** las acciones en lote son siempre de PRO, sin ninguna gratuita. El aviso "5 free actions" de versiones antiguas no debe aparecer en la app ni en las capturas.
+**Confirmado:** PRO es siempre una suscripción anual; no hay pago único ni vitalicio. Las acciones en lote son siempre de PRO, sin ninguna gratuita. El aviso "5 free actions" de versiones antiguas no debe aparecer en la app ni en las capturas.
 
 **Cómo decirlo:** "Buscar es gratis. Ordenar en lote, con PRO." El precio debe ser el mismo en la app, la ficha de la tienda, la web y cualquier material.
 

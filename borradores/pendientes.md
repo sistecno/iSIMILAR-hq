@@ -4,16 +4,19 @@ Actualizado: 2026-10-24. Marca con [x] lo hecho.
 
 ## Para Anibal (tareas manuales, fuera del código)
 
-### Documentos (`docs/`, solo los edita Anibal)
+### Documentos (`docs/`: los edita Claude con autorización de Anibal)
 - [x] `definicion-tecnica.md` · Rendimiento medido: Xiaomi Mi A3, unas 8.000 fotos, 4-5 minutos
       (actualizado por Anibal el 2026-10-23, comprobado).
 - [x] `definicion-tecnica.md` · Qué hace: funciones que la web ya menciona (añadidas el 2026-10-23):
       detalle de la foto (fecha, resolución en píxeles, peso); ordenar resultados por más o
       menos parecidas y por más o menos recientes; visor de álbumes creados desde la app (con
       detalle y búsqueda desde la foto).
-- [ ] Precio en los docs: brief y definición técnica dicen "12 € en la zona euro"; Anibal
-      configuró 12,99 y cada tienda lo convierte con impuestos. Dejar en los docs el precio
-      configurado real. (La web y los términos ya no muestran importes.)
+- [ ] **Precio (se revisa al terminar la app):** brief y definición técnica dicen "12 € en la
+      zona euro"; Anibal configuró 12,99 y cada tienda lo convierte con impuestos. Falta decidir
+      qué precio se dice y dónde. La web hoy dice (EN): "Annual subscription with a 7-day free
+      trial. You won't be charged if you cancel before the trial ends. The exact price for your
+      country is shown in the store." + "Unlimited camera searches" + "Batch actions: delete,
+      move or share many photos at once".
 
 ### Web
 - [x] Subida de `astro/dist/` a isimilar.app (confirmado por Anibal el 2026-10-24).
@@ -31,8 +34,8 @@ Actualizado: 2026-10-24. Marca con [x] lo hecho.
       URL de borrado de datos `https://isimilar.app/delete-data/`.
 - [ ] **App Store Connect:** descripción de la ficha con los cambios de
       `borradores/2026-10-22-ficha-y-muro.md` (en el próximo envío).
-- [ ] **Panel de RevenueCat:** comprobar que no hay integraciones con terceros y si se
-      puede buscar un cliente por número de pedido.
+- [x] **Panel de RevenueCat:** sin integraciones con terceros; el borrado se pide con el ID
+      de usuario de RevenueCat (comprobado el 2026-10-22, recogido en `definicion-tecnica.md`).
 
 ## App (sesión en `solopila/`)
 Instrucciones completas y en orden: `borradores/2026-10-22-instrucciones-app.md`.
@@ -66,7 +69,8 @@ Instrucciones completas y en orden: `borradores/2026-10-22-instrucciones-app.md`
 - Sin precio fijo en la web: "Suscripción anual con 7 días de prueba gratis. El precio exacto
   de tu país se muestra en la tienda."
 - Sin anuncios: "La app se financia con las compras de PRO, no con publicidad."
-- Sin pago único: PRO es siempre una suscripción anual.
+- Sin pago único: PRO es siempre una suscripción anual. Unificado en brief y guía el
+  2026-10-24 (`decisiones/2026-10-24-sin-pago-unico-y-regla-docs.md`).
 - Sin revisión de abogado por ahora (sin presupuesto).
 - Fecha del detalle de la foto: escribir solo "la fecha" (no se sabe si es de captura o de
   guardado).

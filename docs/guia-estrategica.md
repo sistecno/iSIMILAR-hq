@@ -39,7 +39,6 @@ El orden es tienda primero, asistentes de IA después y contenido al final, porq
 ### Semanas 3–4: muro de pago y visibilidad en IA
 
 - [ ] Muro de pago que nombre la acción: "Borra estas 800 fotos de un toque", con el número real.
-- [ ] Añadir una opción de pago único junto a la anual y medir cuál eligen.
 - [ ] Web con una dirección por idioma (/en, /es, /it), página de privacidad clara y preguntas frecuentes honestas.
 - [ ] Ficha en AlternativeTo y respuestas útiles en hilos de Reddit donde alguien busca una app así.
 - [ ] Repetir las preguntas en ChatGPT, Perplexity, Gemini y Copilot y anotar los resultados.
@@ -190,10 +189,10 @@ Hay también un problema técnico. La página declara el idioma inglés, pero el
 
 El muro de pago es claro y honesto con el precio, pero habla de algo distinto a lo que el usuario acaba de intentar, y la prueba gratis probablemente regala justo el trabajo por el que se cobra.
 
-- **La prueba gratis regala el trabajo completo.** El muro aparece al intentar una acción en lote. Con 7 días gratis, el usuario hace su limpieza grande, que suele ser puntual, y cancela. Encaja con los datos: cinco de seis pruebas se cancelaron en 1 a 7 días, ninguna se convirtió, y los cuatro pagos llegaron sin prueba. Vale la pena probar una prueba con un límite de fotos en lote, o quitar la prueba y ofrecer un pago único.
+- **La prueba gratis regala el trabajo completo.** El muro aparece al intentar una acción en lote. Con 7 días gratis, el usuario hace su limpieza grande, que suele ser puntual, y cancela. Encaja con los datos: cinco de seis pruebas se cancelaron en 1 a 7 días, ninguna se convirtió, y los cuatro pagos llegaron sin prueba. Vale la pena probar una prueba con un límite de fotos en lote.
 - **El titular no habla de lo que el usuario intentaba hacer.** Quien quiere borrar 800 fotos ve "El motor de búsqueda visual offline para profesionales". Un muro que nombre la acción convierte mejor: "Borra estas 800 fotos de un toque" o "Mueve 127 fotos al álbum Trabajo", con el número real.
 - **Hay promesas sin respaldo.** "Infinito: tiempo ahorrado" y "encuentra cualquier foto al instante" no son creíbles, y "< 50 ms" convive en la misma pantalla con "menos de 1 segundo".
-- **"Mejor valor" no tiene con qué compararse.** Solo hay un plan. Una opción de pago único al lado daría sentido a la etiqueta y una salida a quien no quiere suscripciones.
+- **"Mejor valor" no tiene con qué compararse.** Solo hay un plan y no habrá otro (no hay pago único), así que la etiqueta sobra.
 - **El precio no coincide en todas partes.** La app cobra 11,99 USD; la web y la descripción interna del muro dicen 12,99.
 - **Un detalle visual:** "Organización" se parte en "Organizaci / ón" en la tarjeta de funciones.
 
@@ -203,7 +202,6 @@ El muro de pago es claro y honesto con el precio, pero habla de algo distinto a 
 2. **Reordenar las capturas** para que las tres primeras muestren el resultado con fotos de trabajo: la cámara apuntando a una placa, las fotos parecidas encontradas y el traslado en lote a un álbum.
 3. **Corregir la web** según la tabla anterior.
 4. **Cambiar las palabras clave** "duplicate" y "cleaner" por términos de búsqueda visual y privacidad.
-5. **Probar un pago único o vitalicio** junto a la suscripción anual. ChatGPT prefiere Queryable en parte por su pago único, y limpiar la galería es un trabajo puntual.
 
 ## Qué es realmente iSIMILAR
 
@@ -235,7 +233,7 @@ A favor: es un público enorme, el dolor (almacenamiento lleno) se entiende en u
 En contra:
 
 - **La competencia es brutal.** Hay decenas de apps limpiadoras con presupuestos grandes, y iOS y Google ya ofrecen limpieza y fusión de duplicados gratis. iSIMILAR no busca duplicados exactos, que es lo que este público espera.
-- **Es un trabajo puntual.** Se limpia la galería una vez y se olvida la app. Eso encaja con un pago único, no con una suscripción anual, y da un valor por cliente bajo.
+- **Es un trabajo puntual.** Se limpia la galería una vez y se olvida la app. Eso encaja mal con una suscripción anual y da un valor por cliente bajo. Decisión del 23 de octubre de 2026: no habrá pago único; PRO es siempre una suscripción anual.
 - **"Ahorra en iCloud" es un argumento débil.** Borrar memes y capturas rara vez baja a alguien de plan; la mayor parte del espacio son vídeos y fotos que nadie quiere borrar.
 - **"Encontrar una foto vieja" choca con el producto.** Para buscar hace falta una foto base parecida, y sin búsqueda por texto no se puede pedir "la foto de la playa de 2019".
 
