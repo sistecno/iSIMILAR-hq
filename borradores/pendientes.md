@@ -84,6 +84,17 @@ Instrucciones completas y en orden: `borradores/2026-10-22-instrucciones-app.md`
 5. Se mantiene la FAQ "¿Es un limpiador de duplicados?", con nombres verificados de las
    herramientas y sin decir nada negativo de ellas.
 
+## A decidir con datos (después de publicar esta versión)
+- [ ] **Límite en lote durante la prueba** (propuesta de Anibal, 2026-10-24): hasta 30 fotos
+      por acción durante los 7 días de prueba, sin límite al pagar. No entra en esta versión.
+      - Por qué: 5 de 6 pruebas canceladas y ninguna convertida; los 4 pagos llegaron sin
+        prueba. Hipótesis sin comprobar: la prueba regala la limpieza grande.
+      - Datos a mirar en RevenueCat: `batch_size` y `paywall_trigger` de quien empieza la
+        prueba; si los que no tenían prueba la rechazaron o no tenían derecho a ella.
+      - Antes de aplicar: avisos claros (muro y foto 31), y actualizar web, términos, ficha
+        y `docs/`. Se decide junto con el precio.
+      - 30 es una intuición, no un dato. Alternativa si no funciona: quitar la prueba.
+
 ## Más adelante
 - [ ] Ficha de App Store para México.
 - [ ] Pantalla de consentimiento (cuando se reactive Analytics).
