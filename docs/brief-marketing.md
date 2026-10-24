@@ -1,14 +1,14 @@
 # Brief de marketing de iSIMILAR
 
-Oct 16, 2026 · @Anibal Castano
+Actualizado el Oct 23, 2026 · @Anibal Castano
 
 Este brief resume qué es iSIMILAR, para quién es y cómo se comunica. Sustituye al brief anterior y debe usarse en todo lo que se produzca: vídeos, capturas, textos de la tienda, web y anuncios.
 
 ## Qué es iSIMILAR
 
-iSIMILAR es un buscador visual privado para la galería del móvil. Eliges una foto de la galería o haces una con la cámara, y la app encuentra las fotos que se le parecen. Todo ocurre dentro del teléfono, sin internet y sin nube.
+iSIMILAR es un buscador privado de imágenes similares para la galería del teléfono. Eliges una foto de la galería o haces una con la cámara, y la app encuentra las fotos que se le parecen. Todo ocurre dentro del teléfono, sin internet y sin nube.
 
-Desde los resultados se puede buscar de nuevo a partir de cualquier foto (búsqueda en cadena), mover las fotos a un álbum o borrarlas en lote.
+Desde los resultados se puede buscar de nuevo a partir de cualquier foto (búsqueda en cadena), mover las fotos a un álbum, compartirlas o borrarlas, de una en una o en lote. Los resultados se pueden ordenar por parecido o por fecha, y al abrir una foto se ven su fecha, su resolución y su peso. Los álbumes creados desde la app tienen su propio visor, desde el que también se puede buscar.
 
 La app compara forma, textura, color y composición. No reconoce objetos por su nombre ni busca por texto. Funciona mejor con fotos hechas en condiciones parecidas: mismo ángulo, misma luz, mismo fondo. Acierta en torno al 80% de las veces y confunde documentos con pantallas de móvil en alrededor de un 20% de los casos.
 
@@ -47,7 +47,7 @@ Estos oficios también fotografían una y otra vez el mismo tipo de cosa. Sirven
 
 ## Posicionamiento, mensaje y tono
 
-**Frase central:** "Elige una foto o apunta la cámara: iSIMILAR encuentra las que se parecen, sin internet y sin subir nada."
+**Frase central:** "Elige una foto o apunta la cámara: iSIMILAR encuentra las que se parecen, sin internet y sin subir tus fotos."
 
 **Concepto:** "Encuentra lo que buscas mirando, no escribiendo."
 
@@ -72,11 +72,13 @@ Todo mensaje debe apoyarse en uno de estos tres pilares:
 | "Busca por parecido visual, no por etiquetas" | "Google Fotos y Apple Fotos necesitan internet" | Apple Fotos también busca dentro del teléfono |
 | "Busca en menos de un segundo" | "Tiempo ahorrado infinito" o "15 GB liberados de media" | No hay datos que lo respalden |
 
+**Sin anuncios:** la app no muestra publicidad, ni en la versión gratuita ni en PRO, y no recoge el identificador publicitario. La frase común es "La app se financia con las compras de PRO, no con publicidad". No se dice "solo con la suscripción PRO", porque está prevista la prueba de un pago único.
+
 ## Precio y cómo comunicarlo
 
-**Gratis:** escaneo de la galería, búsquedas ilimitadas desde fotos guardadas, 5 búsquedas con cámara y borrado de una en una.
+**Gratis:** escaneo de la galería, búsquedas ilimitadas desde fotos guardadas, 5 búsquedas con cámara y borrar, mover a un álbum o compartir fotos de una en una.
 
-**PRO:** suscripción anual de 12 € en la zona euro; en cada país, el equivalente que fija la tienda (en EE. UU., 11,99 USD). Incluye 7 días de prueba, búsquedas con cámara ilimitadas y acciones en lote: borrar o mover cientos de fotos de una vez.
+**PRO:** suscripción anual de 12 € en la zona euro; en cada país, el equivalente que fija la tienda (en EE. UU., 11,99 USD). Incluye 7 días de prueba, búsquedas con cámara ilimitadas y acciones en lote: borrar, mover a un álbum o compartir muchas fotos de una vez.
 
 **Confirmado:** las acciones en lote son siempre de PRO, sin ninguna gratuita. El aviso "5 free actions" de versiones antiguas no debe aparecer en la app ni en las capturas.
 
@@ -128,11 +130,11 @@ Mucha gente descarga desde los resultados de búsqueda sin abrir la ficha, así 
 
 | Orden | Qué se ve | Titular orientativo |
 | --- | --- | --- |
-| 1 | La cámara apuntando a una placa y la cuadrícula de fotos parecidas | "Find every photo that looks like this" |
+| 1 | La cámara apuntando a una placa y la cuadrícula de fotos parecidas | "Find photos that look like this" |
 | 2 | Fotos de trabajo movidas a un álbum en un toque | "Separate work from personal" |
 | 3 | Búsqueda en cadena con productos del supermercado | "Search again from any result" |
 | 4 | Selección y borrado en lote de memes y capturas | "Delete hundreds at once" |
-| 5 | Modo avión activado y la búsqueda funcionando | "100% offline. Nothing uploaded" |
+| 5 | Modo avión activado y la búsqueda funcionando | "Works offline. Photos stay local" |
 | 6 | Pantalla gratuita frente a PRO | "Search free. Batch with PRO" |
 
 **Reglas:** fotos reales de trabajo y del día a día, nunca diálogos de permisos ni barras de progreso; titulares de cinco palabras o menos; un candado cerrado si se usa como icono de privacidad; los mismos titulares adaptados en español e italiano.
@@ -147,7 +149,7 @@ Los likes y las visualizaciones no cuentan como éxito. Cada mes se revisan esto
 | Conversión de visita a la ficha en descarga | App Store Connect y Google Play Console |
 | Descargas que llegan desde ChatGPT y otros asistentes | App Store Connect, referencias de apps |
 | Qué abre el muro de pago y para qué dicen usar la app quienes pagan | RevenueCat (atributos `paywall_trigger` y `use_case`) |
-| Escaneos completados y acciones en lote intentadas | Firebase Analytics |
+| Escaneos completados y acciones en lote intentadas (pendiente de activar) | Firebase Analytics |
 | Pagos, cancelaciones de prueba y renovaciones | RevenueCat |
 
-Firebase Analytics es un servicio nuevo que llega en la próxima versión. Antes de publicarla hay que actualizar a la vez la política de privacidad, la etiqueta de la App Store y el formulario de seguridad de datos de Google Play.
+Firebase Analytics está preparado en el código, pero no se incluye en la próxima versión hasta resolver si en la UE hace falta el consentimiento del usuario. Mientras tanto, los datos salen solo de RevenueCat. Si se activa, antes hay que actualizar a la vez la política de privacidad, la etiqueta de la App Store y el formulario de seguridad de datos de Google Play.

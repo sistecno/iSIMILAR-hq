@@ -1,6 +1,6 @@
 # Pendientes de iSIMILAR
 
-Actualizado: 2026-10-23. Marca con [x] lo hecho.
+Actualizado: 2026-10-24. Marca con [x] lo hecho.
 
 ## Para Anibal (tareas manuales, fuera del código)
 
@@ -16,16 +16,11 @@ Actualizado: 2026-10-23. Marca con [x] lo hecho.
       configurado real. (La web y los términos ya no muestran importes.)
 
 ### Web
-- [ ] Subir con FileZilla **todo el contenido** de `solopila_landingPAGE/astro/dist/`
-      (con archivos ocultos visibles: lleva `.htaccess`). Incluye: correcciones de textos,
-      cuadros de precio, términos v3.1 y el arreglo de `/en/`.
-- [ ] Después de subir: comprobar que `isimilar.app/en/` lleva a la portada.
-- [ ] Borrar del servidor `i18n.js` (de la web anterior) y, si se quiere, los archivos de
-      `_astro/` que ya no estén en `dist/_astro/`. No borrar `.well-known`.
+- [x] Subida de `astro/dist/` a isimilar.app (confirmado por Anibal el 2026-10-24).
+      Comprobado: `/en/` redirige a la portada (301), `i18n.js` ya no existe (404) y el
+      sitemap responde (200).
 - [ ] Dar de alta la web y el sitemap (`https://isimilar.app/sitemap-index.xml`) en Google
       Search Console y en Bing Webmaster Tools (Bing alimenta a ChatGPT y Copilot).
-- [ ] Probar en un iPhone y un Android reales: botones de tienda y "Empezar la prueba",
-      QR desde el ordenador, idioma automático en ventana privada, vista previa en WhatsApp.
 
 ### Tiendas y paneles
 - [ ] **App Store Connect:** etiqueta de privacidad: identificadores y compras como
@@ -58,9 +53,9 @@ Instrucciones completas y en orden: `borradores/2026-10-22-instrucciones-app.md`
 - [x] Legales v3 publicados (`/privacy/`, `/terms/`, `/delete-data/`), con datos del
       responsable en `astro/src/legal/datos.json` (sin REA; correo info@isimilar.app).
 - [x] Términos v3.1 (legal-tiendas): planes actualizados y precio sin importe fijo
-      (`borradores/2026-10-23-legal-terminos-v3.1.md`). Pendiente de subir (ver arriba).
+      (`borradores/2026-10-23-legal-terminos-v3.1.md`). Subido el 2026-10-24.
 - [x] Correcciones de Anibal (`borradores/2026-10-23-web-correcciones-anibal.md`) y ajustes
-      de growth (`borradores/2026-10-23-web-ajustes-growth.md`). Pendiente de subir.
+      de growth (`borradores/2026-10-23-web-ajustes-growth.md`). Subido el 2026-10-24.
 - [x] Brief y definición técnica: compartir en lote es PRO; de una en una, gratis.
 
 ## Decisiones de Anibal (2026-10-23)

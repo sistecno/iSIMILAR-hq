@@ -1,6 +1,6 @@
 # Guía estratégica de marketing de iSIMILAR
 
-Actualizada el Oct 15, 2026 · @Anibal Castano
+Actualizada el Oct 22, 2026 · @Anibal Castano
 
 ## Resumen ejecutivo
 
@@ -34,7 +34,7 @@ El orden es tienda primero, asistentes de IA después y contenido al final, porq
 - [ ] Corregir la web: "Búsqueda gratis para siempre", quitar "el primero", rehacer la comparativa, arreglar los enlaces de privacidad y términos.
 - [ ] Medir en la próxima versión: enviar a RevenueCat qué abrió el muro de pago (cámara o lote) y registrar escaneo completo, primera búsqueda, primera acción en lote y muro mostrado.
 
-* [ ] Antes de publicar la versión con Firebase Analytics, actualizar a la vez la política de privacidad, la etiqueta de la App Store y la seguridad de datos de Google Play.
+* [ ] Publicar la próxima versión sin Firebase Analytics y añadir a la política de privacidad los atributos nuevos de RevenueCat (para qué usa la app y qué abrió el muro de pago). Firebase Analytics se activará solo cuando esté resuelto el consentimiento en la UE.
 
 ### Semanas 3–4: muro de pago y visibilidad en IA
 
@@ -43,6 +43,9 @@ El orden es tienda primero, asistentes de IA después y contenido al final, porq
 - [ ] Web con una dirección por idioma (/en, /es, /it), página de privacidad clara y preguntas frecuentes honestas.
 - [ ] Ficha en AlternativeTo y respuestas útiles en hilos de Reddit donde alguien busca una app así.
 - [ ] Repetir las preguntas en ChatGPT, Perplexity, Gemini y Copilot y anotar los resultados.
+
+* [ ] Lanzar en App Store Connect una prueba A/B de capturas (optimización de la página de producto): una versión centrada en el trabajo y otra en limpiar WhatsApp.
+* [ ] Leer reseñas de Queryable y de apps limpiadoras y anotar qué piden y qué les molesta.
 
 ### Semanas 5–6: contenido que alimenta la tienda y la IA
 
@@ -172,7 +175,7 @@ Es una sola prueba con una sola pregunta, y las respuestas de estos asistentes c
 
 | Afirmación | Problema | Propuesta |
 | --- | --- | --- |
-| "Gratis para siempre" | Es cierto para la búsqueda, pero sin matiz parece que todo es gratis | "Búsqueda desde la galería gratis; cámara y acciones en lote con PRO" |
+| "Gratis para siempre" | Es cierto para la búsqueda, pero sin matiz parece que todo es gratis | "Búsqueda desde la galería gratis y 5 búsquedas con cámara; cámara ilimitada y acciones en lote con PRO" |
 | "$12.99 / año" | La app y la tienda cobran 11,99 USD | Usar el precio real |
 | "El primer buscador visual" | Falso: Queryable existe y ChatGPT lo recomienda | Quitar "el primero" |
 | Comparativa: Google Fotos y Apple Fotos exigen Wi‑Fi y procesan en servidores | Apple Fotos busca dentro del teléfono y sin conexión; comparar con datos falsos resta credibilidad y puede traer problemas legales | Comparar solo lo verificable: la cámara como consulta y las acciones en lote |
@@ -196,7 +199,7 @@ El muro de pago es claro y honesto con el precio, pero habla de algo distinto a 
 
 ### Prioridades
 
-1. **Desmentir el error de privacidad.** La etiqueta real solo declara identificadores, compras, uso y errores, no vinculados a la persona y sin publicidad. Hay que publicar en la web una página de privacidad clara, en texto legible por buscadores, que diga exactamente eso y que las fotos nunca salen del teléfono.
+1. **Desmentir el error de privacidad.** La etiqueta real declara identificadores, compras, uso y errores, sin rastreo ni publicidad; desde el 22 de octubre de 2026, identificadores y compras se declaran como vinculados a la persona, porque RevenueCat usa un ID de usuario. Hay que publicar en la web una página de privacidad clara, en texto legible por buscadores, que diga exactamente eso y que las fotos nunca salen del teléfono.
 2. **Reordenar las capturas** para que las tres primeras muestren el resultado con fotos de trabajo: la cámara apuntando a una placa, las fotos parecidas encontradas y el traslado en lote a un álbum.
 3. **Corregir la web** según la tabla anterior.
 4. **Cambiar las palabras clave** "duplicate" y "cleaner" por términos de búsqueda visual y privacidad.
@@ -208,7 +211,7 @@ iSIMILAR es un buscador de "fotos que se parecen a esta" que funciona dentro del
 
 Solo cobra por dos cosas: buscar con la cámara más de 5 veces y hacer acciones en lote. Todo el marketing tiene que llevar a una persona a necesitar una de esas dos cosas de forma repetida. Quien busca desde la galería y borra de una en una nunca va a pagar.
 
-Su ventaja real frente a Google Fotos o la galería del sistema no es "buscar por imagen". Es la combinación de tres cosas: usar un objeto físico delante de la cámara como consulta, actuar sobre cientos de fotos de golpe y no subir nada a ningún servidor.
+Su ventaja real frente a Google Fotos o la galería del sistema no es "buscar por imagen". Es la combinación de tres cosas: usar un objeto físico delante de la cámara como consulta, actuar sobre cientos de fotos de golpe y no subir ninguna foto a ningún servidor.
 
 | Se puede decir | No se puede decir | Por qué |
 | --- | --- | --- |
@@ -292,7 +295,7 @@ El posicionamiento recomendado es "la galería de trabajo privada", no "el limpi
 | Público | Dolor que se nombra | Mensaje | Prueba en vídeo |
 | --- | --- | --- | --- |
 | Técnico de reparación | "Le enseño una foto al cliente y aparece algo personal" | "Saca todas tus fotos de placas de la galería en un minuto" | Una foto de placa como base, 200 resultados, mover a álbum de un toque |
-| Técnico en general | "Tengo el trabajo mezclado con las fotos de mis hijos" | "Tu trabajo en un álbum, tu vida en otro. Nada sale del teléfono" | Antes y después de la galería en pantalla dividida |
+| Técnico en general | "Tengo el trabajo mezclado con las fotos de mis hijos" | "Tu trabajo en un álbum, tu vida en otro. Tus fotos no salen del teléfono" | Antes y después de la galería en pantalla dividida |
 | Profesional con datos sensibles | "No puedo subir fotos de clientes o pacientes a la nube" | "Busca entre tus fotos sin conexión. Nunca salen del teléfono" | Modo avión activado y la búsqueda funcionando |
 | Acumulador | "Tengo 3.000 capturas de WhatsApp" | "Elige una captura y borra todas las parecidas de golpe" | Contador de espacio liberado en tiempo real |
 
