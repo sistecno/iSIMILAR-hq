@@ -4,8 +4,11 @@
       "../solopila",
       "../solopila_landingPAGE"
     ],
-    "deny": [
+    "ask": [
       "Edit(//Users/anibalcastano/Documents/Flutter/iSIMILAR-hq/docs/**)",
+      "Write(//Users/anibalcastano/Documents/Flutter/iSIMILAR-hq/docs/**)"
+    ],
+    "deny": [
       "Edit(//Users/anibalcastano/Documents/Flutter/solopila/**)",
       "Edit(//Users/anibalcastano/Documents/Flutter/solopila_landingPAGE/**)",
       "Read(//Users/anibalcastano/Documents/Flutter/solopila/android/key.properties)",

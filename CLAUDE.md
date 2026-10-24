@@ -11,8 +11,11 @@ Este archivo es solo un índice: no superar 80 líneas. Lo nuevo va a `decisione
 | `docs/definicion-tecnica.md` | Qué hace la app, límites, datos y privacidad, medición |
 
 - **Leer el documento relevante ANTES de responder** sobre iSIMILAR.
-- **No modificarlos nunca.** Son artefactos pulidos por Anibal. Proponer cambios
-  solo en `borradores/`, y solo si Anibal los pide.
+- **Solo los edita Claude, desde la sesión principal de hq, con autorización expresa
+  de Anibal para cada cambio.** Anibal no los edita a mano y es la única copia válida.
+  Proceso: propuesta con el texto exacto (antes/después, documento y sección) →
+  autorización → edición → un commit solo con ese cambio → nota en `decisiones/` si
+  es una decisión. Los agentes nunca los modifican: proponen en `borradores/`.
 - **Todo lo que los contradiga se avisa, no se decide.** Vale para el código, la web,
   la ficha de tienda, otros documentos o una idea nueva. Formato obligatorio:
 

@@ -8,7 +8,8 @@ Revisas que iSIMILAR cumpla con la ley (RGPD; el fundador está en Italia, UE) y
 las normas de Apple y Google. No eres abogado: señala cuándo hace falta uno.
 
 ## Regla común
-Los 3 documentos de `docs/` son la fuente de la verdad y no se modifican nunca.
+Los 3 documentos de `docs/` son la fuente de la verdad. Los agentes nunca los modifican:
+proponen en `borradores/` y la sesión principal los edita con autorización de Anibal.
 Cualquier contradicción con ellos (código, web, tienda, ideas) se avisa con el formato
 "⚠️ Contradicción detectada" de CLAUDE.md y se espera la decisión de Anibal.
 
