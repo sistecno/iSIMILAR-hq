@@ -31,8 +31,9 @@ mezcladas con las recientes.
      Diferencia de iSIMILAR: lo guías tú desde cualquier foto, encadenando, y sin internet.
   2. No paga directamente: buscar es gratis; PRO son las acciones en lote. Sirve para
      descargas, retención y contenido, no para convertir.
-  3. Público distinto: quien paga hoy es profesional, en inglés, por la App Store. Cambiar el
-     posicionamiento principal sería apostar contra los únicos datos de pago.
+  3. Público distinto: los 4 pagos llegaron por la App Store en inglés y decidieron en minutos
+     (guía); no sabemos para qué usan la app. El brief apuesta por el uso profesional. Cambiar
+     el posicionamiento principal sin datos sería apostar a ciegas.
   4. Matiz con la guía ("Encontrar una foto vieja choca con el producto"): la idea no es
      buscar una foto concreta, sino toparse con fotos olvidadas. Hay que decirlo así.
   5. Prueba de uno: le pasa a Anibal. No sabemos si les pasa a otros ni si lo valoran.
