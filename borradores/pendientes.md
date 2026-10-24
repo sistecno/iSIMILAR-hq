@@ -87,9 +87,10 @@ Instrucciones completas y en orden: `borradores/2026-10-22-instrucciones-app.md`
 ## App · próxima versión técnica (después de esta)
 - [ ] Actualizar los paquetes de Firebase (core 4.5→4.15, crashlytics 5.0.8→5.4, messaging
       16.1.2→16.7, remote_config 6.2→6.7) en una tarea propia, con prueba en dispositivo de
-      notificaciones, Crashlytics, Remote Config y compras. Junto con subir
-      `IPHONEOS_DEPLOYMENT_TARGET` a 15.0 (límite primavera 2027). Decidido el 2026-10-24:
-      esta versión sale con el `pubspec.lock` de producción (opción A).
+      notificaciones, Crashlytics, Remote Config y compras. Decidido el 2026-10-24: esta
+      versión sale con el `pubspec.lock` de producción (opción A).
+- [ ] Subir `IPHONEOS_DEPLOYMENT_TARGET` a 15.0 (límite primavera 2027). Recomendado en esta
+      versión (el Podfile ya está en 15.0); si no entra, va con la de Firebase.
 
 ## A decidir con datos (después de publicar esta versión)
 - [ ] **Límite en lote durante la prueba** (propuesta de Anibal, 2026-10-24): hasta 30 fotos
