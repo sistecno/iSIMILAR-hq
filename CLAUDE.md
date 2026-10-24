@@ -47,6 +47,14 @@ Este archivo es solo un índice: no superar 80 líneas. Lo nuevo va a `decisione
 - Antes de modificar cualquier archivo fuera de `borradores/`: explica qué, por qué,
   riesgo y cómo deshacerlo, y espera autorización.
 
+## Mantenimiento (lo hace Claude en la sesión de hq)
+- Al empezar cada sesión: comparar `borradores/pendientes.md` con los commits nuevos de
+  `../solopila` y `../solopila_landingPAGE` y avisar de lo desfasado.
+- Cuando Anibal dice que algo está hecho: comprobarlo (código, git log o web publicada),
+  marcarlo en `pendientes.md`, mover a `archivo/` los borradores ya aplicados y, si cambia
+  lo que dicen `docs/`, proponer el texto exacto y esperar autorización.
+- Las sesiones de `solopila/` y de la web no editan nada de hq.
+
 ## Agentes (`.claude/agents/`)
 | Agente | Para qué |
 |---|---|
