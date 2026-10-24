@@ -84,6 +84,13 @@ Instrucciones completas y en orden: `borradores/2026-10-22-instrucciones-app.md`
 5. Se mantiene la FAQ "¿Es un limpiador de duplicados?", con nombres verificados de las
    herramientas y sin decir nada negativo de ellas.
 
+## App · próxima versión técnica (después de esta)
+- [ ] Actualizar los paquetes de Firebase (core 4.5→4.15, crashlytics 5.0.8→5.4, messaging
+      16.1.2→16.7, remote_config 6.2→6.7) en una tarea propia, con prueba en dispositivo de
+      notificaciones, Crashlytics, Remote Config y compras. Junto con subir
+      `IPHONEOS_DEPLOYMENT_TARGET` a 15.0 (límite primavera 2027). Decidido el 2026-10-24:
+      esta versión sale con el `pubspec.lock` de producción (opción A).
+
 ## A decidir con datos (después de publicar esta versión)
 - [ ] **Límite en lote durante la prueba** (propuesta de Anibal, 2026-10-24): hasta 30 fotos
       por acción durante los 7 días de prueba, sin límite al pagar. No entra en esta versión.
