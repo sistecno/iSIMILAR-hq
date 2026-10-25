@@ -75,6 +75,15 @@ Estado: listo para usar (actualizado el 2026-10-23: T4c, T4d, T4e). Fuentes: `do
 - Al abrir el muro desde ahí, enviar `paywall_trigger` = `batch_share` (definición técnica,
   Medición: valor pendiente).
 
+**T4f. Compartir en lote desde los resultados de búsqueda (añadido el 2026-10-25)**
+- Hoy la barra de selección de los resultados (`image_selection_view.dart`, `BottomNavigation`)
+  solo tiene borrar y mover ("Save Image"). Compartir varias fotos solo existe en el visor de
+  álbumes. Brief, definición técnica y web ya lo anuncian desde los resultados.
+- Añadir "Compartir" a la selección de resultados con la misma comprobación PRO que borrar y
+  mover (`canPerformBatchAction`) y `paywall_trigger` = `batch_share`. Una sola foto se sigue
+  compartiendo gratis desde el detalle (`full_image_dialog.dart`).
+- Hacerla junto con T4c (misma comprobación y mismo trigger) y traducir el texto del botón.
+
 **T4d. Enlaces legales a la web (añadido el 2026-10-23)**
 - Las páginas ya están publicadas. Sustituir las URLs de Notion en `premium_offer_sheet.dart`
   y `settings_view.dart` por las de la web, en el idioma de la app:

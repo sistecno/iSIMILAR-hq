@@ -45,6 +45,8 @@ Instrucciones completas y en orden: `borradores/2026-10-22-instrucciones-app.md`
 - [ ] T4b: interruptor "Compartir datos técnicos" en Ajustes.
 - [ ] T4c: compartir en lote es PRO (hoy es gratis en `album_detail_sheet.dart:72-87`);
       `paywall_trigger` = `batch_share`.
+- [ ] T4f: compartir en lote desde los resultados de búsqueda (hoy no existe), PRO, con
+      `batch_share`. Va con T4c.
 - [ ] T4d: enlaces legales de Notion → web, en el idioma de la app.
 - [ ] T4e: comprobar que "Reset App" hace lo que dice `/delete-data/`.
 - [ ] T5–T8: textos del muro de pago.
@@ -102,6 +104,17 @@ Instrucciones completas y en orden: `borradores/2026-10-22-instrucciones-app.md`
       - Antes de aplicar: avisos claros (muro y foto 31), y actualizar web, términos, ficha
         y `docs/`. Se decide junto con el precio.
       - 30 es una intuición, no un dato. Alternativa si no funciona: quitar la prueba.
+
+## Ideas de producto (más adelante, sin decidir)
+- [ ] **Idea "Encuentra lo que no buscabas"** (2026-10-24): segundo ángulo emocional,
+      lluvia de ideas y riesgos en `borradores/2026-10-24-idea-recuerdos.md`.
+- [ ] **Texto encima de las fotos** (2026-10-25): escribir un texto sobre una foto encontrada,
+      estilo TikTok o meme, y compartirla (caso real de Anibal: foto de 2018 para un familiar).
+      Se guarda como foto nueva; el original no se toca. Pendiente decidir gratis o PRO,
+      alcance (solo texto o también tipografías y colores) y si lleva marca de iSIMILAR.
+- [ ] **"Compartido desde iSIMILAR"** (2026-10-25): marca al compartir. Opciones a decidir:
+      texto en el mensaje (no en la foto), marca solo en las fotos con texto, o marca en
+      todas. Ver la revisión del 2026-10-25.
 
 ## Más adelante
 - [ ] Ficha de App Store para México.
