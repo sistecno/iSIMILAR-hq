@@ -84,6 +84,24 @@ Estado: listo para usar (actualizado el 2026-10-23: T4c, T4d, T4e). Fuentes: `do
   compartiendo gratis desde el detalle (`full_image_dialog.dart`).
 - Hacerla junto con T4c (misma comprobación y mismo trigger) y traducir el texto del botón.
 
+**T4g. Redes en Ajustes: TikTok → YouTube y Facebook (añadido el 2026-10-26)**
+- Hoy la sección "Social" de `settings_view.dart` (líneas ~171-183 y `_showTikTok`, ~645)
+  abre `https://www.tiktok.com/@lifesolutionsapp`. Quitar ese botón.
+- Añadir dos botones con el mismo estilo (`_buildSocialButton`):
+  - YouTube: `https://www.youtube.com/@iSIMILAR-APP` (icono genérico de vídeo, p. ej.
+    `Icons.smart_display`; no añadir dependencias de iconos).
+  - Facebook: `https://www.facebook.com/iSIMILAR/` (`Icons.facebook`).
+- Textos en los `.arb` (sustituir `follow_tiktok*` por claves nuevas y borrar las viejas):
+
+  | Clave | EN | ES | IT |
+  |---|---|---|---|
+  | `follow_youtube` | Watch us on YouTube | Síguenos en YouTube | Seguici su YouTube |
+  | `follow_youtube_subtitle` | Tutorials and tips for using the app | Tutoriales y consejos para usar la app | Tutorial e consigli per usare l'app |
+  | `follow_facebook` | Follow us on Facebook | Síguenos en Facebook | Seguici su Facebook |
+  | `follow_facebook_subtitle` | News and updates | Novedades de la app | Novità dell'app |
+
+- Abrir los enlaces fuera de la app, como hoy con TikTok. No envía datos.
+
 **T4d. Enlaces legales a la web (añadido el 2026-10-23)**
 - Las páginas ya están publicadas. Sustituir las URLs de Notion en `premium_offer_sheet.dart`
   y `settings_view.dart` por las de la web, en el idioma de la app:

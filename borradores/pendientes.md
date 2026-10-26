@@ -51,6 +51,8 @@ Instrucciones completas y en orden: `borradores/2026-10-22-instrucciones-app.md`
 - [ ] T4f: compartir en lote desde los resultados de búsqueda (hoy no existe), PRO, con
       `batch_share`. Va con T4c.
 - [ ] T4d: enlaces legales de Notion → web, en el idioma de la app.
+- [ ] T4g: en Ajustes, cambiar TikTok (`@lifesolutionsapp`) por YouTube
+      (`@iSIMILAR-APP`) y Facebook (`facebook.com/iSIMILAR`).
 - [ ] T4e: comprobar que "Reset App" hace lo que dice `/delete-data/`.
 - [ ] T5–T8: textos del muro de pago.
 - [ ] Diálogo previo al muro: Anibal elige A (abrir el muro directamente con cabecera según la
@@ -127,6 +129,10 @@ Instrucciones completas y en orden: `borradores/2026-10-22-instrucciones-app.md`
       que cree el token solo a quien lo active, más una línea en la política y revisión de
       las etiquetas de las tiendas. Contexto: con T2 (opción A) el token solo existe si el
       recordatorio semanal está activo; nunca se ha enviado una push desde la consola.
+
+- [ ] **Serie de tutoriales en YouTube** (2026-10-26): cómo se usa la app y contacto con
+      usuarios en los comentarios. Pendiente: idioma(s), lista de capítulos, y encaje con el
+      plan de vídeos de la guía (vídeos del fundador en su taller).
 
 ## Más adelante
 - [ ] Ficha de App Store para México.
