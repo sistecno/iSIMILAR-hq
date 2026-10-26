@@ -122,6 +122,12 @@ Instrucciones completas y en orden: `borradores/2026-10-22-instrucciones-app.md`
       texto en el mensaje (no en la foto), marca solo en las fotos con texto, o marca en
       todas. Ver la revisión del 2026-10-25.
 
+- [ ] **Notificaciones de novedades** (2026-10-26): Anibal quiere usar push de Firebase en el
+      futuro. Hacerlo con un interruptor propio en Ajustes ("Recibir novedades de iSIMILAR")
+      que cree el token solo a quien lo active, más una línea en la política y revisión de
+      las etiquetas de las tiendas. Contexto: con T2 (opción A) el token solo existe si el
+      recordatorio semanal está activo; nunca se ha enviado una push desde la consola.
+
 ## Más adelante
 - [ ] Ficha de App Store para México.
 - [ ] Pantalla de consentimiento (cuando se reactive Analytics).
