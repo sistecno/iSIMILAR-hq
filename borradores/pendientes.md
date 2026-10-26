@@ -17,6 +17,9 @@ Actualizado: 2026-10-24. Marca con [x] lo hecho.
       trial. You won't be charged if you cancel before the trial ends. The exact price for your
       country is shown in the store." + "Unlimited camera searches" + "Batch actions: delete,
       move or share many photos at once".
+      Dato nuevo (sesión de la app, 2026-10-26): Google Play Italia cobra **15,99 €** y App Store
+      Italia **12,99 €** (Play ya cobraba 15,99 en marzo). Revisar en Play Console el precio del
+      plan base por país.
 
 ### Web
 - [x] Subida de `astro/dist/` a isimilar.app (confirmado por Anibal el 2026-10-24).
@@ -50,6 +53,9 @@ Instrucciones completas y en orden: `borradores/2026-10-22-instrucciones-app.md`
 - [ ] T4d: enlaces legales de Notion → web, en el idioma de la app.
 - [ ] T4e: comprobar que "Reset App" hace lo que dice `/delete-data/`.
 - [ ] T5–T8: textos del muro de pago.
+- [ ] Diálogo previo al muro: Anibal elige A (abrir el muro directamente con cabecera según la
+      acción), 2026-10-26. Decisión en `solopila/docs/decisiones/2026-10-26-dialogo-previo-al-muro.md`.
+      Va con T4c/T4f. Rediseño del muro: ver respuesta del 2026-10-26 (alcance a decidir).
 - [ ] Al terminar: volver a hq y decir "app lista".
 
 ## Web (hecho el 2026-10-23)
