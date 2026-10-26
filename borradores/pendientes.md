@@ -40,6 +40,17 @@ Actualizado: 2026-10-24. Marca con [x] lo hecho.
 - [x] **Panel de RevenueCat:** sin integraciones con terceros; el borrado se pide con el ID
       de usuario de RevenueCat (comprobado el 2026-10-22, recogido en `definicion-tecnica.md`).
 
+## Esperando decisión de Anibal (2026-10-26)
+- Capturas: contradicción 1 (titular 1 del brief tiene 6 palabras → "Find photos like this
+  one") y 2 (captura 3 con trabajo, 7.PNG, en vez de supermercado). Recomendado: A en ambas.
+  Detalle en `borradores/2026-10-24-capturas-tienda.md`.
+- Vídeo de búsquedas: A (cortar) o B (desenfocar) y destino (ficha o redes).
+- Precio de Google Play Italia 15,99 € vs App Store 12,99 €: corregir en Play Console.
+- Muro de pago: alcance del rediseño (recomendado: solo textos y cabecera por acción en esta
+  versión; rediseño visual después, valorando el editor de muros de RevenueCat).
+- Redes: idioma del contenido de YouTube/Facebook; ¿Instagram?; ¿qué hacer con la cuenta de
+  TikTok?
+
 ## App (sesión en `solopila/`)
 Instrucciones completas y en orden: `borradores/2026-10-22-instrucciones-app.md`.
 - [ ] T1–T3: quitar `firebase_analytics`, retrasar el token de notificaciones, confirmar que

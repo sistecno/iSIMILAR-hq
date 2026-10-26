@@ -174,3 +174,32 @@ Riesgos:
 
 ---
 Google Play: pendiente, con capturas de Android.
+
+## Revisión de las capturas de Anibal (EN, 2026-10-24)
+Carpeta: `archivo/Imagenes_APP_iSIMILAR/Ingles/` (1170×2532, interfaz en inglés, versión 1.1.6).
+Respuestas de Anibal: etiqueta PRO en 2 y 4: sí · precio tapado en la 6: sí · revisa el italiano: Anibal.
+
+| Imagen | Uso propuesto | Nota |
+|---|---|---|
+| 5.PNG | Captura 1 | Placa, 162 resultados. La mejor |
+| 4.PNG | Captura 2 + PRO | Todas seleccionadas, Delete / Save Image |
+| 7.PNG | Captura 3 | Detalle con "Search similar". Desenfocar pegatinas con código de barras / n.º de serie |
+| 6.PNG | Extra (7) | Menú de orden |
+| 8.PNG | No usar | Débil |
+| 1, 3.PNG | No usar | Textos "Find every…" y "Scans… instantly" contrarios al brief |
+| 2.PNG | No usar | Barra de progreso |
+| 9, 10.PNG | No usar | Marcas de terceros (Tabasco, Tampax, Dash, Gillette…) |
+| 11, 12.PNG | Opcional | Leche de almendras; desenfocar marca |
+
+Faltan: captura 4 (borrado en lote con fotos propias, sin memes), captura 5 (modo avión
+visible), captura 6 (muro, con la versión nueva), "1b" cámara apuntando a una placa (o quitar
+el recuadro del prompt). Anibal debe repetir las válidas en ES e IT.
+
+Vídeo `VIDEO_BUSQUEDAS.mov` (18,75 s): de 0,5 s a 4,25 s sale el selector de Fotos de iOS con
+fotos personales (una cara, carteles, muro antiguo con $11.99). Quitarlo. Si se corta queda
+en ~15 s (mínimo de App Store, sin verificar hoy). Opciones: A) cortar y alargar el final ·
+B) desenfocar el selector. Para la ficha: convertir a 886×1920. Falta saber el destino
+(ficha de App Store o redes).
+
+Pendiente: ajustar el prompt de Claude Design con este reparto cuando Anibal decida las dos
+contradicciones (titular 1 de 6 palabras; captura 3 con trabajo en vez de supermercado).
