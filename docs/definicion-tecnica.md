@@ -71,7 +71,7 @@ Las fotos y sus miniaturas nunca salen del teléfono. Los vectores se calculan y
 | --- | --- | --- |
 | RevenueCat | Compras, un identificador de usuario seudónimo y los atributos de medición | Activo |
 | Firebase Crashlytics | Informes de errores | Activo |
-| Firebase Cloud Messaging | Un token del dispositivo para enviar notificaciones, creado solo cuando el usuario activa el recordatorio | Activo |
+| Firebase Cloud Messaging | Solo en Android: un token del dispositivo para enviar notificaciones, creado solo cuando el usuario activa el recordatorio. En iOS no se usa: la app no tiene notificaciones push. Está previsto añadirlas en iOS en el futuro; entonces habrá que revisar esta fila, la etiqueta de privacidad de la App Store y la política de privacidad | Activo en Android |
 | Firebase Remote Config | Un identificador de instalación para descargar la configuración remota | Activo |
 | Firebase Analytics | Eventos de uso (escaneos, búsquedas, acciones, muro de pago), sin ningún contenido de las fotos | Fuera de la app hasta resolver el consentimiento |
 
@@ -134,7 +134,7 @@ El código conserva piezas de un modelo de créditos que ya no se vende. Se elim
 
 | Dato | Valor |
 | --- | --- |
-| Primer escaneo, 15.000 fotos, iPhone 13 | Entre 2,5 y 3 minutos |
+| Primer escaneo, 15.000 fotos, iPhone 13 | Unos 3 minutos y medio (medido el 2026-10-26: 15.700 fotos en 3:30) |
 | Primer escaneo, unas 8.000 fotos, Xiaomi Mi A3 (Android de gama media) | Entre 4 y 5 minutos |
 | Tamaño del índice | Unos 3,84 KB por foto; unos 38 MB para 10.000 fotos |
 | Precisión | mAP de 0,79 sobre 917 imágenes |
