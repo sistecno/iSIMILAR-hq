@@ -78,11 +78,13 @@ Actualizado: 2026-10-30. Marca con [x] lo hecho.
 Instrucciones completas y en orden: `borradores/2026-10-22-instrucciones-app.md`.
 - [x] T1: quitar `firebase_analytics` (commit 9b2375e de `solopila`).
 - [x] T2: retrasar el token de notificaciones (commits 24fcdfa y a69309c).
-- [ ] T3: confirmar que no se usa Firebase Performance Monitoring (sin commit; pedir el
-      resultado a `solopila`).
-- [ ] T4: precio de respaldo $12.99 (solo el precio de la tienda). Botón siempre activo y
+- [x] T3: Firebase Performance Monitoring no se usa (resultado en `solopila/HISTORY.md`,
+      commit 2eaae3d).
+- [x] T4 (commit 2eaae3d): precio de respaldo $12.99 (solo el precio de la tienda). Botón siempre activo y
       mensaje traducido en errores de red (`decisiones/2026-10-30-boton-pago-sin-precio.md`).
-- [ ] T4i: Restaurar compras sin compras → aviso y el muro queda abierto. Commit propio tras T4.
+- [x] T4i (commit d6304eb): Restaurar compras sin compras → aviso y el muro queda abierto.
+- [ ] Antes de enviar a tiendas: probar reinstalar la app → "Restaurar compras" → vuelve a
+      ser PRO. Comprobar también si "Reset App" hace perder el reconocimiento de la compra.
 - [ ] T4h: entradas al muro en la pantalla principal (contador y botón "PRO"), después de T4i
       (`decisiones/2026-10-30-entradas-al-muro.md`).
 - [ ] T4b: interruptor "Compartir datos técnicos" en Ajustes.
