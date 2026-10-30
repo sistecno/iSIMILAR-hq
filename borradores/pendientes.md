@@ -20,7 +20,8 @@ Actualizado: 2026-10-30. Marca con [x] lo hecho.
       Dato nuevo (sesión de la app, 2026-10-26): Google Play Italia cobra **15,99 €** y App Store
       Italia **12,99 €** (Play ya cobraba 15,99 en marzo). Revisar en Play Console el precio del
       plan base por país.
-- [ ] **⚠️ Contradicción · tiempo de escaneo** (sesión de la app, 2026-10-26).
+- [x] **⚠️ Contradicción · tiempo de escaneo** (sesión de la app, 2026-10-26). `docs/` corregido
+      el 2026-10-30 (commits 88ed563 y 24a593b).
       Documento dice (`definicion-tecnica.md`, Rendimiento medido): "Primer escaneo, 15.000
       fotos, iPhone 13: entre 2,5 y 3 minutos".
       Medición dice: **15.700 fotos en 3:30** en iPhone 13 (iOS 26.6.2), modo profile
@@ -30,18 +31,20 @@ Actualizado: 2026-10-30. Marca con [x] lo hecho.
       más de velocidad de la real.
       Opciones: A) acelerar el escaneo (proyecto aparte, no esta versión); B) Anibal revisa el
       documento (p. ej. "unos 3-3,5 minutos para 15.000 fotos") y los textos que lo citen.
-      **Decidido B (Anibal, 2026-10-30):** "unos 3 minutos y medio". Pendiente: texto exacto
-      en `definicion-tecnica.md` y `guia-estrategica.md` y borrador para la web (EN/ES/IT).
-- [ ] **`definicion-tecnica.md` · Datos y privacidad: FCM solo en Android** (sesión de la app,
+      **Decidido B (Anibal, 2026-10-30):** "unos 3 minutos y medio".
+- [x] **`definicion-tecnica.md` · Datos y privacidad: FCM solo en Android** (sesión de la app,
       2026-10-26). La app de iOS no tiene la capacidad Push Notifications, así que en iOS nunca
       ha existido token de FCM (las notificaciones remotas nunca han funcionado en iOS). Desde
       T2 el token se crea solo en Android al activar el recordatorio. El recordatorio semanal es
       local y funciona en las dos plataformas. Push en iOS queda para el futuro (decisión de
       Anibal). Revisar la tabla de servicios y la etiqueta de la App Store con este dato.
-      **Decidido (Anibal, 2026-10-30):** anotar "solo Android" y que iOS lo tendrá en el futuro.
-      Pendiente: texto exacto para `definicion-tecnica.md`.
+      **Hecho (2026-10-30, commit 88ed563):** "solo Android" y que iOS lo tendrá en el futuro.
+- [ ] **App Store Connect · etiqueta de privacidad:** comprobar que no declara el token de
+      notificaciones para iOS (en iOS no existe).
 
 ### Web
+- [ ] Tiempo del primer escaneo: "unos 3 minutos y medio" en EN/ES/IT
+      (`borradores/2026-10-30-web-tiempo-escaneo.md`), en una sesión de la web.
 - [x] Subida de `astro/dist/` a isimilar.app (confirmado por Anibal el 2026-10-24).
       Comprobado: `/en/` redirige a la portada (301), `i18n.js` ya no existe (404) y el
       sitemap responde (200).
