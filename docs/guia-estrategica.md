@@ -383,7 +383,7 @@ El mayor riesgo no es que el marketing no funcione, sino que funcione con promes
 | Precio y modelo sin definir | No se puede calcular cuánto pagar por adquirir un cliente | Cerrar el modelo real y alinear briefing, tienda y anuncios |
 | Precisión del 80% | Un profesional que confía en la búsqueda y falla una vez no vuelve | Presentarlo como "encuentra rápido y revisa", no como fuente exacta |
 | Sin sincronización ni búsqueda por fecha o cliente | Excluye a profesionales con varios dispositivos o con muchos proyectos | No apuntar a ellos hasta que existan esas funciones |
-| Primer escaneo en galerías grandes | Si tarda mucho o gasta batería, el usuario abandona antes del momento clave | Medir el tiempo de escaneo con 15.000 fotos en un Android de gama media |
+| Primer escaneo en galerías grandes | Si tarda mucho o gasta batería, el usuario abandona antes del momento clave | Medido: unas 8.000 fotos en 4-5 minutos en un Xiaomi Mi A3 (Android de gama media de 2019). Falta medir una galería de 15.000 fotos en Android |
 | Sector salud | Hay riesgo regulatorio si se insinúa uso diagnóstico | No usarlo como mensaje principal hasta revisar el marco legal |
 | Dispersión del equipo | Cuatro mercados y dos segmentos con un equipo pequeño no producen datos útiles | Un mercado, un segmento y un canal principal durante 60 días |
 
