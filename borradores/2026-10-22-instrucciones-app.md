@@ -52,8 +52,14 @@ Estado: listo para usar (actualizado el 2026-10-23: T4c, T4d, T4e). Fuentes: `do
 **T4. Precio de respaldo $12.99**
 - `lib/services/premium_service.dart:84-92` y `lib/views/widgets/premium_offer_sheet.dart:638, 665, 741`.
 - El muro debe mostrar solo el precio que devuelve la tienda a través de RevenueCat.
-  Si no llega, mostrar un estado de carga o error ("No se pudo cargar el precio") y no
-  permitir comprar, nunca un precio escrito a mano.
+  Si no llega, mostrar un estado de carga o error ("No se pudo cargar el precio"), nunca
+  un precio escrito a mano.
+- El botón de compra sigue siempre activo (decisión A del 2026-10-30,
+  `decisiones/2026-10-30-boton-pago-sin-precio.md`). Al pulsarlo sin producto cargado:
+  spinner y nueva petición a la tienda; si llega, el muro muestra el precio real y se abre
+  la compra nativa; si no, mensaje "Sin conexión con la tienda, inténtalo de nuevo"
+  (EN/ES/IT), nunca un fallo silencioso. Mientras no se sepa si hay prueba, el botón usa
+  un texto neutro, no "Desbloquear todo".
 
 **T4b. Interruptor para oponerse (decidido el 22-10)**
 - En Ajustes: interruptor "Compartir datos técnicos para mejorar la app", activado por
