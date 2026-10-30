@@ -39,8 +39,6 @@ Actualizado: 2026-10-30. Marca con [x] lo hecho.
       local y funciona en las dos plataformas. Push en iOS queda para el futuro (decisión de
       Anibal). Revisar la tabla de servicios y la etiqueta de la App Store con este dato.
       **Hecho (2026-10-30, commit 88ed563):** "solo Android" y que iOS lo tendrá en el futuro.
-- [ ] **App Store Connect · etiqueta de privacidad:** comprobar que no declara el token de
-      notificaciones para iOS (en iOS no existe).
 
 ### Web
 - [ ] Tiempo del primer escaneo: "unos 3 minutos y medio" en EN/ES/IT
@@ -54,6 +52,8 @@ Actualizado: 2026-10-30. Marca con [x] lo hecho.
 ### Tiendas y paneles
 - [ ] **App Store Connect:** etiqueta de privacidad: identificadores y compras como
       vinculados, sin rastreo; quitar "Datos de rendimiento". No requiere versión nueva.
+      Comprobar también que no declara el token de notificaciones (FCM): en iOS no existe
+      (añadido el 2026-10-30).
 - [ ] **Google Play Console:** formulario de seguridad de datos coherente con la etiqueta,
       incluidos Cloud Messaging y Remote Config. "Contiene anuncios: No".
 - [ ] **Ambas tiendas:** URL de privacidad `https://isimilar.app/privacy/`; en Google Play,
