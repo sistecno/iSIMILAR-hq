@@ -59,7 +59,7 @@ No hay créditos a la venta. El único producto es una suscripción anual.
 | Gratis | Escaneo de la galería, búsquedas ilimitadas desde fotos guardadas, 5 búsquedas con cámara y borrar, mover a un álbum o compartir fotos de una en una |
 | PRO | Suscripción anual de 12 € en la zona euro (en EE. UU., 11,99 USD; en cada país, el equivalente que fija la tienda), con 7 días de prueba. Búsquedas con cámara ilimitadas y acciones en lote: borrar, mover a un álbum o compartir muchas fotos de una vez |
 
-**Cuándo se abre el muro de pago:** al intentar una acción en lote, al agotar las búsquedas gratuitas con cámara y desde el botón "Mejora a iSIMILAR PRO" de Ajustes. Ofrece la compra con 7 días de prueba.
+**Cuándo se abre el muro de pago:** al intentar una acción en lote, al agotar las búsquedas gratuitas con cámara, desde el botón "Mejora a iSIMILAR PRO" de Ajustes y, en la pantalla principal, desde el contador de búsquedas con cámara y el botón "PRO" de la barra superior. Ofrece la compra con 7 días de prueba.
 
 **Confirmado:** las acciones en lote son siempre de PRO, sin ninguna gratuita. El aviso "5 free actions" de versiones antiguas es un resto del sistema de créditos y no debe aparecer en la app ni en las capturas de la tienda.
 
@@ -97,7 +97,7 @@ Todo pasa por un único servicio, `lib/services/analytics_service.dart`, que nun
 
 | Atributo | Valores | Cuándo se guarda |
 | --- | --- | --- |
-| `paywall_trigger` | `camera`, `batch_delete`, `batch_album`, `settings` | Justo antes de abrir el muro de pago |
+| `paywall_trigger` | `camera`, `batch_delete`, `batch_album`, `settings`, `home_counter`, `home_appbar` | Justo antes de abrir el muro de pago |
 | `batch_size` | Número de fotos seleccionadas | Al abrir el muro desde una acción en lote |
 | `gallery_size` | `<3k`, `3-10k`, `>10k` | Una sola vez, tras el primer escaneo |
 | `use_case` | `work_repair`, `work_field`, `work_creative`, `work_other`, `memes_screenshots`, `everyday_photos`, `other` | Al responder la pregunta tras la compra o el inicio de la prueba |
