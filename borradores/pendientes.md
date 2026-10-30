@@ -1,6 +1,6 @@
 # Pendientes de iSIMILAR
 
-Actualizado: 2026-10-24. Marca con [x] lo hecho.
+Actualizado: 2026-10-30. Marca con [x] lo hecho.
 
 ## Para Anibal (tareas manuales, fuera del código)
 
@@ -20,6 +20,26 @@ Actualizado: 2026-10-24. Marca con [x] lo hecho.
       Dato nuevo (sesión de la app, 2026-10-26): Google Play Italia cobra **15,99 €** y App Store
       Italia **12,99 €** (Play ya cobraba 15,99 en marzo). Revisar en Play Console el precio del
       plan base por país.
+- [ ] **⚠️ Contradicción · tiempo de escaneo** (sesión de la app, 2026-10-26).
+      Documento dice (`definicion-tecnica.md`, Rendimiento medido): "Primer escaneo, 15.000
+      fotos, iPhone 13: entre 2,5 y 3 minutos".
+      Medición dice: **15.700 fotos en 3:30** en iPhone 13 (iOS 26.6.2), modo profile
+      (equivalente a producción), instalación desde cero. Ritmo ~75 fotos/s → **15.000 fotos
+      en ~3:20**. Una medición anterior coincide (13.700 fotos en 3:26).
+      Impacto: cualquier texto con "2,5-3 minutos" (web, ficha, marketing) promete un 10-30 %
+      más de velocidad de la real.
+      Opciones: A) acelerar el escaneo (proyecto aparte, no esta versión); B) Anibal revisa el
+      documento (p. ej. "unos 3-3,5 minutos para 15.000 fotos") y los textos que lo citen.
+      **Decidido B (Anibal, 2026-10-30):** "unos 3 minutos y medio". Pendiente: texto exacto
+      en `definicion-tecnica.md` y `guia-estrategica.md` y borrador para la web (EN/ES/IT).
+- [ ] **`definicion-tecnica.md` · Datos y privacidad: FCM solo en Android** (sesión de la app,
+      2026-10-26). La app de iOS no tiene la capacidad Push Notifications, así que en iOS nunca
+      ha existido token de FCM (las notificaciones remotas nunca han funcionado en iOS). Desde
+      T2 el token se crea solo en Android al activar el recordatorio. El recordatorio semanal es
+      local y funciona en las dos plataformas. Push en iOS queda para el futuro (decisión de
+      Anibal). Revisar la tabla de servicios y la etiqueta de la App Store con este dato.
+      **Decidido (Anibal, 2026-10-30):** anotar "solo Android" y que iOS lo tendrá en el futuro.
+      Pendiente: texto exacto para `definicion-tecnica.md`.
 
 ### Web
 - [x] Subida de `astro/dist/` a isimilar.app (confirmado por Anibal el 2026-10-24).
@@ -53,9 +73,15 @@ Actualizado: 2026-10-24. Marca con [x] lo hecho.
 
 ## App (sesión en `solopila/`)
 Instrucciones completas y en orden: `borradores/2026-10-22-instrucciones-app.md`.
-- [ ] T1–T3: quitar `firebase_analytics`, retrasar el token de notificaciones, confirmar que
-      no se usa Firebase Performance Monitoring.
-- [ ] T4: precio de respaldo $12.99 (solo el precio de la tienda).
+- [x] T1: quitar `firebase_analytics` (commit 9b2375e de `solopila`).
+- [x] T2: retrasar el token de notificaciones (commits 24fcdfa y a69309c).
+- [ ] T3: confirmar que no se usa Firebase Performance Monitoring (sin commit; pedir el
+      resultado a `solopila`).
+- [ ] T4: precio de respaldo $12.99 (solo el precio de la tienda). Botón siempre activo y
+      mensaje traducido en errores de red (`decisiones/2026-10-30-boton-pago-sin-precio.md`).
+- [ ] T4i: Restaurar compras sin compras → aviso y el muro queda abierto. Commit propio tras T4.
+- [ ] T4h: entradas al muro en la pantalla principal (contador y botón "PRO"), después de T4i
+      (`decisiones/2026-10-30-entradas-al-muro.md`).
 - [ ] T4b: interruptor "Compartir datos técnicos" en Ajustes.
 - [ ] T4c: compartir en lote es PRO (hoy es gratis en `album_detail_sheet.dart:72-87`);
       `paywall_trigger` = `batch_share`.
