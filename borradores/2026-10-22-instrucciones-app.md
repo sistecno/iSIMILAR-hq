@@ -121,6 +121,48 @@ Estado: listo para usar (actualizado el 2026-10-23: T4c, T4d, T4e). Fuentes: `do
   código que hace exactamente eso (índice, ajustes y álbumes creados desde la app) e
   informar. No cambiar nada sin autorización; si no coincide, se corrige la página.
 
+**T4i. Restaurar compras sin compras que restaurar (aprobado el 2026-10-30)**
+- Hoy, si "Restaurar compras" termina sin error pero no encuentra ninguna compra, el muro
+  se cierra (`Navigator.pop` en `_purchase`) y el usuario no recibe ningún aviso. Parece
+  un botón roto, y el revisor de Apple suele probarlo con una cuenta sin compras.
+- Después de restaurar: si el usuario es PRO, se cierra el muro como hoy. Si sigue sin ser
+  PRO, el muro queda abierto y se muestra este mensaje:
+
+  | Clave | EN | ES | IT |
+  |---|---|---|---|
+  | `restore_nothing_found` | We couldn't find any purchases to restore. | No encontramos compras para restaurar. | Non abbiamo trovato acquisti da ripristinare. |
+
+- Los errores de la restauración siguen el mismo criterio que T4 (error de red → mensaje
+  traducido "Sin conexión con la tienda, inténtalo de nuevo").
+- Commit propio, justo después del de T4. Probar en el iPhone con la cuenta sandbox
+  caducada (sin compras activas).
+
+**T4h. Entrar al muro desde la pantalla principal (aprobado el 2026-10-30)**
+- Motivo: hoy el muro solo se abre al chocar con un límite (cámara, lote) o desde
+  Ajustes. Quien no hace acciones y quiere comprar no encuentra cómo (caso real de un
+  cliente). Hacer después de T4: el muro tiene que funcionar sin precio cargado.
+- Solo para usuarios sin PRO. Los PRO no ven nada nuevo.
+- **a) El contador se vuelve botón.** La pastilla naranja de
+  `image_selection_view.dart:375-405` ("N búsquedas con cámara restantes") abre el muro
+  al pulsarla, con `paywall_trigger` = `home_counter`. Que se vea pulsable: debajo del
+  número, una segunda línea más pequeña con flecha:
+
+  | Clave | EN | ES | IT |
+  |---|---|---|---|
+  | `home_counter_cta` | Unlimited with PRO › | Ilimitadas con PRO › | Illimitate con PRO › |
+
+  Ojo: esta pastilla solo sale en la pantalla vacía (sin foto de referencia). Por eso
+  hace falta también b).
+- **b) Botón PRO fijo arriba.** En `custom_app_bar.dart`, a la derecha, una pastilla
+  naranja (`0xFFFF6D00`) con `Icons.workspace_premium_rounded` y el texto "PRO", visible
+  siempre que no se esté en modo selección. Abre el muro con `paywall_trigger` =
+  `home_appbar`. Convive con el botón "Seleccionar": comprobar en la pantalla más
+  estrecha (iPhone SE, 320 pt) que título y los dos botones caben; si no caben, el de PRO
+  queda solo con el icono. Pasar captura de las dos situaciones antes de cerrar.
+- **Medición:** añadir `home_counter` y `home_appbar` al contrato de valores de
+  `analytics_service.dart` (sección `paywall_trigger`). No renombrar los existentes.
+- Nada de ventanas emergentes ni avisos automáticos: solo puntos de entrada visibles.
+
 ### Textos del muro de pago (`lib/l10n/intl_en.arb`, `intl_es.arb`, `intl_it.arb`)
 
 **T5. `faq_a3` (precisión).** Probar las dos versiones en pantalla y quedarse con la que
