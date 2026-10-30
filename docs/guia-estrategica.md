@@ -400,7 +400,7 @@ Casi todas las preguntas tienen ya respuesta. Lo que falta no se resuelve con m�
 | Validación del técnico | El fundador y técnicos conocidos con el mismo problema; ningún pagador confirmado | Hipótesis fuerte, todavía sin validar |
 | Contacto con quien paga | Ninguno | Añadir una pregunta tras la compra |
 | Precio | Solo suscripción anual de 12 €, sin créditos; varía con impuestos y moneda | Usar el mismo precio en todos los textos |
-| Primer escaneo | 2,5–3 minutos con 15.000 fotos en un iPhone 13; obligatorio, con consejos en pantalla | Aceptable; falta probar un Android de gama media |
+| Primer escaneo | Unos 3 minutos y medio con 15.000 fotos en un iPhone 13; obligatorio, con consejos en pantalla | Aceptable |
 | Escaneo completo y acciones en lote | Sin datos | Medirlo en la próxima versión |
 | Funciones previstas | Búsqueda por texto y modelo mejorado por destilación; sin sincronización | No anunciarlas hasta medir el resultado |
 | Por qué en español | Es la lengua materna; se esperaba llegar a España desde Italia | TikTok no lo permite desde un teléfono italiano |
