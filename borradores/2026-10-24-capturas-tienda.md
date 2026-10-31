@@ -203,3 +203,16 @@ B) desenfocar el selector. Para la ficha: convertir a 886×1920. Falta saber el 
 
 Pendiente: ajustar el prompt de Claude Design con este reparto cuando Anibal decida las dos
 contradicciones (titular 1 de 6 palabras; captura 3 con trabajo en vez de supermercado).
+
+## Decisiones de hq (2026-10-31) · se hacen con la versión nueva (app lista)
+- Contradicción 1: **A**, "Find photos like this one" (5 palabras).
+- Contradicción 2: la captura 3 es la **búsqueda en cadena con fotos de trabajo** (7.PNG o
+  nueva), que cumple el brief (cadena) y la guía (trabajo en las 3 primeras). El supermercado
+  queda como opcional (11/12.PNG, marca desenfocada).
+- Contradicción 3: resuelta por T5–T9 (muro sin textos prohibidos).
+- Restos de "free actions" en el código: ya no existen (comprobado en `solopila/lib`).
+- Orden: capturas y ficha **antes** de enviar la versión. En App Store las capturas van con
+  la versión; en Google Play se pueden cambiar en cualquier momento.
+- Pendiente de hacer con la app nueva (iPhone, en EN, ES e IT): captura 4 (borrado en lote
+  con fotos propias, ~100+ seleccionadas), captura 5 (modo avión visible), captura 6 (muro
+  nuevo, precio tapado), y repetir 1–3 en ES e IT.
