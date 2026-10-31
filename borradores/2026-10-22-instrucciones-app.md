@@ -156,9 +156,11 @@ Estado: listo para usar (actualizado el 2026-10-23: T4c, T4d, T4e). Fuentes: `do
 - **b) Botón PRO fijo arriba.** En `custom_app_bar.dart`, a la derecha, una pastilla
   naranja (`0xFFFF6D00`) con `Icons.workspace_premium_rounded` y el texto "PRO", visible
   siempre que no se esté en modo selección. Abre el muro con `paywall_trigger` =
-  `home_appbar`. Convive con el botón "Seleccionar": comprobar en la pantalla más
-  estrecha (iPhone SE, 320 pt) que título y los dos botones caben; si no caben, el de PRO
-  queda solo con el icono. Pasar captura de las dos situaciones antes de cerrar.
+  `home_appbar`. Convive con el botón "Seleccionar". **Criterio de espacio (decidido por
+  Anibal el 2026-10-31, tras las capturas):** el botón PRO conserva siempre su texto y, si
+  no cabe todo, se reduce el título "iSIMILAR" (medido con resultados en español: 390 pt →
+  30 pt, 375 pt → 26,9 pt, 360 pt → 23,7 pt). Solo por debajo de 360 pt (iPhone SE de
+  1.ª generación) el botón PRO queda con el icono solo. Hecho en el commit 340dfdf.
 - **Medición:** añadir `home_counter` y `home_appbar` al contrato de valores de
   `analytics_service.dart` (sección `paywall_trigger`). No renombrar los existentes.
 - Nada de ventanas emergentes ni avisos automáticos: solo puntos de entrada visibles.

@@ -6,7 +6,9 @@
   Dato propio: 3 de los 4 pagos llegaron en los primeros 20 minutos (`guia-estrategica.md`).
 - Para usuarios sin PRO:
   - El contador de búsquedas con cámara abre el muro, con la línea "Ilimitadas con PRO ›".
-  - Botón "PRO" con corona, fijo en la barra superior (solo icono si no cabe).
+  - Botón "PRO" con corona, fijo en la barra superior. Si no cabe, se reduce el título
+    "iSIMILAR" y PRO conserva su texto; solo por debajo de 360 pt queda con el icono
+    (decisión de Anibal del 2026-10-31, tras ver las capturas).
 - Medición: `paywall_trigger` = `home_counter` y `home_appbar`.
 - Sin ventanas emergentes ni avisos automáticos: solo puntos de entrada visibles.
 - `docs/definicion-tecnica.md` actualizado con autorización de Anibal (commit 3cb298e).

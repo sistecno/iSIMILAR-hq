@@ -85,7 +85,7 @@ Instrucciones completas y en orden: `borradores/2026-10-22-instrucciones-app.md`
 - [x] T4i (commit d6304eb): Restaurar compras sin compras → aviso y el muro queda abierto.
 - [ ] Antes de enviar a tiendas: probar reinstalar la app → "Restaurar compras" → vuelve a
       ser PRO. Comprobar también si "Reset App" hace perder el reconocimiento de la compra.
-- [ ] T4h: entradas al muro en la pantalla principal (contador y botón "PRO"), después de T4i
+- [x] T4h (commit 340dfdf): entradas al muro en la pantalla principal (contador y botón "PRO"), después de T4i
       (`decisiones/2026-10-30-entradas-al-muro.md`).
 - [ ] T4b: interruptor "Compartir datos técnicos" en Ajustes.
 - [ ] T4c: compartir en lote es PRO (hoy es gratis en `album_detail_sheet.dart:72-87`);

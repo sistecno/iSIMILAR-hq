@@ -17,6 +17,10 @@
   de `premium_service.dart:61` no lo captura `_purchase`, que solo atrapa `PlatformException`.
 - Se corrige la instrucción de T4 ("no permitir comprar"), que fue un error de hq.
 
+## Nota (2026-10-31, comprobado por `solopila` en T4)
+- RevenueCat guarda en el teléfono el último precio recibido. Sin red, el muro muestra ese
+  precio real guardado; "No se pudo cargar el precio" solo sale si nunca llegó ninguno.
+
 ## Riesgo aceptado
 - Norma 3.1.2 de Apple: en el caso de reintento, el usuario ve el precio en la hoja nativa
   y no antes en el muro. Riesgo bajo: solo ocurre si falla la carga.
