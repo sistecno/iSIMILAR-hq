@@ -72,6 +72,11 @@ Estado: listo para usar (actualizado el 2026-10-23: T4c, T4d, T4e). Fuentes: `do
   - Borrar de RevenueCat los atributos ya enviados (`paywall_trigger`, `batch_size`,
     `gallery_size`, `use_case`) enviándolos vacíos (opción B, decidida por Anibal el
     2026-10-31). Comprobar que el borrado llega también si se desactiva sin red.
+  - Límite aceptado (opción A, 2026-10-31): si una compra o restauración enlaza con una
+    instalación anterior, sus datos antiguos siguen en RevenueCat; se borran a mano si el
+    usuario lo pide. No forzar el borrado con trucos del SDK.
+  - `FirebaseCrashlytics.instance.deleteUnsentReports()` al desactivar y en cada arranque
+    con el interruptor desactivado.
 - Al arrancar la app, aplicar el valor guardado antes de enviar nada.
 - Las compras y la restauración siguen funcionando: RevenueCat no se desactiva.
 
@@ -120,6 +125,7 @@ Estado: listo para usar (actualizado el 2026-10-23: T4c, T4d, T4e). Fuentes: `do
 - Buscar cualquier otro enlace a Notion en `lib/` y en los `.arb`.
 
 **T4e. Comprobar "Reset App" (añadido el 2026-10-23)**
+- "Reset App" debe conservar la elección del interruptor "Compartir datos técnicos".
 - La página publicada de borrado de datos dice lo que hace "Reset App". Comprobar en el
   código que hace exactamente eso (índice, ajustes y álbumes creados desde la app) e
   informar. No cambiar nada sin autorización; si no coincide, se corrige la página.

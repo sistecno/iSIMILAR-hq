@@ -91,8 +91,14 @@ Instrucciones completas y en orden: `borradores/2026-10-22-instrucciones-app.md`
       los atributos ya enviados a RevenueCat (opción B, 2026-10-31).
 - [ ] **Política de privacidad (EN/ES/IT) y formulario de Google Play por T4b:** mencionar el
       interruptor como forma de oponerse (apartados 5.2 y 5.3); en Google Play, informes de
-      errores y datos de uso como opcionales. Borrador de `legal-tiendas`. **Publicar a la
-      vez que la versión de la app, no antes.**
+      errores y datos de uso como opcionales. Borrador:
+      `borradores/2026-10-31-privacidad-interruptor-t4b.md`. **Publicar a la vez que la
+      versión de la app, no antes.** Decidido (2026-10-31): aplicar también B.4 (orígenes
+      del muro, más `batch_share` si T4c sale en esta versión); la fecha compartida con los
+      Términos se acepta; el formulario de Google Play se cambia con la versión al 100 %.
+- [ ] **Día de publicación:** App Store con publicación manual y Google Play con publicación
+      gestionada; subir la web (política y `/delete-data/`) justo antes de liberar.
+      T4d (enlaces legales a la web) debe ir en esta misma versión.
 - [ ] T4c: compartir en lote es PRO (hoy es gratis en `album_detail_sheet.dart:72-87`);
       `paywall_trigger` = `batch_share`.
 - [ ] T4f: compartir en lote desde los resultados de búsqueda (hoy no existe), PRO, con
