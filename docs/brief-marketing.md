@@ -54,7 +54,7 @@ Estos oficios también fotografían una y otra vez el mismo tipo de cosa. Sirven
 Todo mensaje debe apoyarse en uno de estos tres pilares:
 
 - **Encuentra.** Busca por parecido visual, desde una foto o desde la cámara, y sigue buscando en cadena desde cualquier resultado.
-- **Ordena.** Mueve o borra cientos de fotos parecidas de una vez.
+- **Ordena.** Mueve, borra o comparte cientos de fotos parecidas de una vez.
 - **Privado.** Funciona sin conexión y las fotos nunca salen del teléfono.
 
 **Tono:** directo, práctico y honesto. Se enseña la app funcionando en lugar de describirla. Nada de "magia", superlativos ni comparaciones que no se puedan comprobar.
