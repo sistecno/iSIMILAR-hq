@@ -127,7 +127,7 @@ Estado: listo para usar (actualizado el 2026-10-23: T4c, T4d, T4e). Fuentes: `do
 **T4e. Comprobar "Reset App" (añadido el 2026-10-23)**
 - "Reset App" debe conservar la elección del interruptor "Compartir datos técnicos".
 - La página publicada de borrado de datos dice lo que hace "Reset App". Comprobar en el
-  código que hace exactamente eso (índice, ajustes y álbumes creados desde la app) e
+  código que hace exactamente eso (índice, datos de análisis y álbumes creados desde la app) e
   informar. No cambiar nada sin autorización; si no coincide, se corrige la página.
 
 **T4j. Visor de álbumes: 1 foto gratis y panel de ayuda en Android (decidido el 2026-10-31)**

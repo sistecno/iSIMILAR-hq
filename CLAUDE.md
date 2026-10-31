@@ -53,7 +53,9 @@ Este archivo es solo un índice: no superar 80 líneas. Lo nuevo va a `decisione
 - Cuando Anibal dice que algo está hecho: comprobarlo (código, git log o web publicada),
   marcarlo en `pendientes.md`, mover a `archivo/` los borradores ya aplicados y, si cambia
   lo que dicen `docs/`, proponer el texto exacto y esperar autorización.
-- Las sesiones de `solopila/` y de la web no editan nada de hq.
+- Las sesiones de `solopila/` y de la web no editan nada de hq. Informan en su buzón
+  (`../solopila/docs/PARA-HQ.md`, `../solopila_landingPAGE/PARA-HQ.md`): leerlo al empezar
+  y cuando Anibal diga "revisa el buzón" (`decisiones/2026-10-31-buzon-para-hq.md`).
 
 ## Agentes (`.claude/agents/`)
 | Agente | Para qué |

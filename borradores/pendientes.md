@@ -1,6 +1,7 @@
 # Pendientes de iSIMILAR
 
-Actualizado: 2026-10-30. Marca con [x] lo hecho.
+Actualizado: 2026-10-31. Marca con [x] lo hecho.
+Buzones leídos hasta: `solopila` — (aún vacío) · web — (aún vacío).
 
 ## Para Anibal (tareas manuales, fuera del código)
 
@@ -53,7 +54,8 @@ Actualizado: 2026-10-30. Marca con [x] lo hecho.
 - [ ] **App Store Connect:** etiqueta de privacidad: identificadores y compras como
       vinculados, sin rastreo; quitar "Datos de rendimiento". No requiere versión nueva.
       Comprobar también que no declara el token de notificaciones (FCM): en iOS no existe
-      (añadido el 2026-10-30).
+      (añadido el 2026-10-30). RevenueCat envía por su cuenta el estado de ATT ("Not
+      determined": la app nunca pide rastrear); no cambia la respuesta "sin rastreo".
 - [ ] **Google Play Console:** formulario de seguridad de datos coherente con la etiqueta,
       incluidos Cloud Messaging y Remote Config. "Contiene anuncios: No".
 - [ ] **Ambas tiendas:** URL de privacidad `https://isimilar.app/privacy/`; en Google Play,
@@ -108,7 +110,8 @@ Instrucciones completas y en orden: `borradores/2026-10-22-instrucciones-app.md`
 - [ ] T4d: enlaces legales de Notion → web, en el idioma de la app.
 - [ ] T4g: en Ajustes, cambiar TikTok (`@lifesolutionsapp`) por YouTube
       (`@iSIMILAR-APP`) y Facebook (`facebook.com/iSIMILAR`).
-- [ ] T4e: comprobar que "Reset App" hace lo que dice `/delete-data/`.
+- [x] T4e: "Reset App" coincide con `/delete-data/` (informe de `solopila`, 2026-10-31). La
+      página se completa con dos matices (sección H del borrador de privacidad T4b).
 - [ ] T5–T8: textos del muro de pago.
 - [ ] Diálogo previo al muro: Anibal elige A (abrir el muro directamente con cabecera según la
       acción), 2026-10-26. Decisión en `solopila/docs/decisiones/2026-10-26-dialogo-previo-al-muro.md`.

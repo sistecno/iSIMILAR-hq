@@ -488,3 +488,18 @@ Fuera del alcance (para `growth`, solo aviso): la FAQ de la web ("¿Qué datos r
 - Firebase, datos para Google Play: https://firebase.google.com/docs/android/play-data-disclosure
 - RevenueCat, atributos de cliente: https://www.revenuecat.com/docs/customers/customer-attributes
 - RevenueCat, seguridad de datos de Google Play: https://www.revenuecat.com/docs/platform-resources/google-platform-resources/google-plays-data-safety
+
+---
+
+## H. `/delete-data/` · Restablecer App (añadido por hq el 2026-10-31, tras el informe T4e)
+
+Comprobado en el código por `solopila`: el reset borra índice, datos de análisis y álbumes
+de la app; no borra fotos; conserva ajustes (idioma, recordatorio, interruptor) y el
+contador de búsquedas con cámara. Dos matices que la página no dice: en iPhone los álbumes
+creados en Fotos siguen existiendo (solo salen de iSIMILAR) y la app vuelve a escanear la
+galería justo después. Se publica junto con el resto de este borrador.
+
+Apartado 1, punto "Restablecer la app" (sustituir la frase completa):
+- EN DESPUÉS: `- Reset the app: open iSIMILAR > Settings > Reset App. This deletes the visual index and the analysis data, and undoes the albums created in the app. Your photos are not deleted. On iPhone, albums the app created in Photos stay there with their photos; delete them in Photos if you want. After the reset, the app scans your gallery again and builds a new index on the phone.`
+- ES DESPUÉS: `- Restablecer la app: abre iSIMILAR > Ajustes > Restablecer App. Se borran el índice visual y los datos de análisis, y se deshacen los álbumes creados en la app. Tus fotos no se borran. En iPhone, los álbumes que la app creó en Fotos siguen allí con sus fotos; bórralos en Fotos si quieres. Después del restablecimiento, la app vuelve a escanear tu galería y crea un índice nuevo en el teléfono.`
+- IT DESPUÉS: `- Reimpostare l'app: apri iSIMILAR > Impostazioni > Reimposta App. Vengono cancellati l'indice visivo e i dati di analisi, e vengono annullati gli album creati nell'app. Le tue foto non vengono eliminate. Su iPhone, gli album creati dall'app in Foto restano lì con le loro foto; eliminali in Foto se vuoi. Dopo il ripristino, l'app analizza di nuovo la galleria e crea un nuovo indice sul telefono.`
