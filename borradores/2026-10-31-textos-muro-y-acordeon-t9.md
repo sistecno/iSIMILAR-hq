@@ -16,7 +16,7 @@ texto no cabe, acortarlo en los tres idiomas igual y anotarlo en PARA-HQ-DE-SOLO
 
 | Clave | ES | EN | IT |
 |---|---|---|---|
-| `premium_hero_title` | Borra o mueve cientos de\nfotos parecidas de una vez | Delete or move hundreds of\nsimilar photos at once | Elimina o sposta centinaia di\nfoto simili in una volta |
+| `premium_hero_title` | Borra, mueve o comparte cientos\nde fotos parecidas de una vez | Delete, move or share hundreds\nof similar photos at once | Elimina, sposta o condividi centinaia\ndi foto simili in una volta |
 | `premium_hero_subtitle` | Buscar es gratis. Con PRO, la cámara no tiene límite y actúas en lote: borrar, mover a un álbum o compartir. Sin conexión: tus fotos nunca salen del teléfono. | Searching is free. With PRO, camera searches are unlimited and you act in batches: delete, move to an album or share. Works offline: your photos never leave your phone. | Cercare è gratis. Con PRO le ricerche con la fotocamera sono illimitate e agisci in blocco: elimina, sposta in un album o condividi. Funziona offline: le tue foto non lasciano mai il telefono. |
 | `feature_visual_ai_title` | Cámara sin límite | Unlimited camera | Fotocamera illimitata |
 | `feature_visual_ai_short` | Apunta y encuentra\nlas fotos que se parecen. | Point and find\nphotos that look alike. | Inquadra e trova\nle foto simili. |
@@ -39,6 +39,10 @@ texto no cabe, acortarlo en los tres idiomas igual y anotarlo en PARA-HQ-DE-SOLO
 | `faq_a2` | Búsquedas con cámara ilimitadas y acciones en lote: borrar, mover a un álbum o compartir muchas fotos de una vez. | Unlimited camera searches and batch actions: delete, move to an album or share many photos at once. | Ricerche con la fotocamera illimitate e azioni in blocco: eliminare, spostare in un album o condividere molte foto in una volta. |
 | `trial_remaining` | {trial} búsquedas con cámara restantes | {trial} camera searches left | {trial} ricerche con la fotocamera rimaste |
 
+**Quitar la etiqueta "MEJOR VALOR"** (`best_value_badge`) de la tarjeta del precio: solo hay
+un plan, no hay nada con qué compararlo (`docs/guia-estrategica.md`, El muro de pago).
+Quitar el widget y la clave de los `.arb` si queda sin uso.
+
 Sin cambios: `faq_a3`–`faq_a5` (T5–T7), `less_than_coffee`, `premium_hero_badge`, cabeceras
 por acción (`paywall_header_*`), textos legales y de pago.
 
@@ -46,7 +50,7 @@ por acción (`paywall_header_*`), textos legales y de pago.
 
 | Clave | ES | EN | IT |
 |---|---|---|---|
-| `hero_card_text` | Apunta la cámara a un objeto y encuentra en menos de un segundo las fotos de tu galería que se le parecen. | Point the camera at an object and find, in under a second, the photos in your gallery that look like it. | Inquadra un oggetto e trova in meno di un secondo le foto della galleria che gli somigliano. |
+| `hero_card_text` | Haz una foto o elige una de tu galería: en menos de un segundo verás las que se le parecen. | Take a photo or pick one from your gallery: in under a second you'll see the ones that look like it. | Scatta una foto o scegline una dalla galleria: in meno di un secondo vedrai quelle che le somigliano. |
 | `onboarding_faq_a1` | Un buscador de fotos por parecido visual. Apunta la cámara a un objeto o elige una foto guardada, y iSIMILAR te enseña las fotos de tu galería que se le parecen. Sin escribir y sin conexión. | A photo search by visual similarity. Point the camera at an object or pick a saved photo, and iSIMILAR shows you the photos in your gallery that look like it. No typing, no connection needed. | Una ricerca di foto per somiglianza visiva. Inquadra un oggetto o scegli una foto salvata e iSIMILAR ti mostra le foto della galleria che gli somigliano. Senza scrivere e senza connessione. |
 | `onboarding_faq_a3` | No. El análisis se hace dentro de tu teléfono y ninguna foto sale de él. Tu galería es solo tuya. | No. The analysis happens on your phone and no photo ever leaves it. Your gallery is yours alone. | No. L'analisi avviene sul telefono e nessuna foto ne esce. La tua galleria è solo tua. |
 | `onboarding_faq_a4` | Depende de tu teléfono y de cuántas fotos tengas. En un iPhone 13, 15.000 fotos tardan unos 3 minutos y medio. Solo se hace una vez: después, las fotos nuevas se analizan solas. | It depends on your phone and how many photos you have. On an iPhone 13, 15,000 photos take about 3.5 minutes. It only happens once: after that, new photos are analyzed automatically. | Dipende dal telefono e da quante foto hai. Su un iPhone 13, 15.000 foto richiedono circa 3 minuti e mezzo. Succede una sola volta: poi le foto nuove vengono analizzate da sole. |

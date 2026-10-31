@@ -42,6 +42,10 @@ Buzones leídos hasta: `solopila` — (aún vacío) · web — (aún vacío).
       **Hecho (2026-10-30, commit 88ed563):** "solo Android" y que iOS lo tendrá en el futuro.
 
 ### Web
+- [ ] Añadir "compartir" donde la web dice "mueve o borra en lote" (compartir en lote es PRO
+      desde el 2026-10-23). Buscar "move or delete", "mueve o borra", "sposta o elimina",
+      "in bulk", "en lote", "in blocco" en `astro/src/i18n/*.json` (al menos `description` y
+      `ogDescription` de "cómo funciona"). Mismo orden en los 3 idiomas: mueve, borra o comparte.
 - [ ] Tiempo del primer escaneo: "unos 3 minutos y medio" en EN/ES/IT
       (`borradores/2026-10-30-web-tiempo-escaneo.md`), en una sesión de la web.
 - [x] Subida de `astro/dist/` a isimilar.app (confirmado por Anibal el 2026-10-24).
