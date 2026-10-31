@@ -130,6 +130,22 @@ Estado: listo para usar (actualizado el 2026-10-23: T4c, T4d, T4e). Fuentes: `do
   código que hace exactamente eso (índice, ajustes y álbumes creados desde la app) e
   informar. No cambiar nada sin autorización; si no coincide, se corrige la página.
 
+**T4j. Visor de álbumes: 1 foto gratis y panel de ayuda en Android (decidido el 2026-10-31)**
+- Regla (Anibal): toda acción sobre 1 sola foto es gratis en cualquier pantalla (resultados,
+  visores, álbumes). PRO solo para acciones en lote (2 o más fotos). La cámara mantiene sus
+  5 búsquedas gratis. Hoy en `album_detail_sheet.dart` "Quitar del álbum" y "Eliminar"
+  piden PRO con 1 foto: con 1 foto deben funcionar sin muro, igual que en los resultados.
+  Revisar que no quede otra pantalla que pida PRO con 1 foto.
+- El panel "¿Qué puedes hacer aquí?" (`album_detail_sheet.dart`, hoy solo `Platform.isIOS`)
+  se muestra también en Android. Líneas 1 y cabecera iguales; la línea 2 cambia en Android
+  porque allí sí se puede renombrar. Clave nueva:
+
+  | Clave | EN | ES | IT |
+  |---|---|---|---|
+  | `album_info_line2_android` | You can rename the album, remove photos or delete the album here. | Puedes renombrar el álbum, quitar fotos o eliminarlo aquí. | Puoi rinominare l'album, rimuovere foto o eliminarlo qui. |
+
+- Las claves `ios_album_info_*` se pueden mantener con su nombre (no renombrar por estética).
+
 **T4i. Restaurar compras sin compras que restaurar (aprobado el 2026-10-30)**
 - Hoy, si "Restaurar compras" termina sin error pero no encuentra ninguna compra, el muro
   se cierra (`Navigator.pop` en `_purchase`) y el usuario no recibe ningún aviso. Parece

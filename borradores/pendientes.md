@@ -103,6 +103,8 @@ Instrucciones completas y en orden: `borradores/2026-10-22-instrucciones-app.md`
       `paywall_trigger` = `batch_share`.
 - [ ] T4f: compartir en lote desde los resultados de búsqueda (hoy no existe), PRO, con
       `batch_share`. Va con T4c.
+- [ ] T4j: visor de álbumes, 1 foto gratis (como en todas partes) y panel de ayuda también en
+      Android.
 - [ ] T4d: enlaces legales de Notion → web, en el idioma de la app.
 - [ ] T4g: en Ajustes, cambiar TikTok (`@lifesolutionsapp`) por YouTube
       (`@iSIMILAR-APP`) y Facebook (`facebook.com/iSIMILAR`).
