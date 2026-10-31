@@ -60,6 +60,21 @@ por acción (`paywall_header_*`), textos legales y de pago.
 
 Sin cambios: `onboarding_faq_a2`, `onboarding_faq_a5` y las preguntas 1–6.
 
+## C. Pantalla principal de búsqueda (`image_selection_view.dart`) · añadido tras las capturas de Anibal
+
+"Escanea toda tu galería al instante" es falso (unos 3,5 min con 15.000 fotos); "privacidad
+total. Cero nube" promete más de lo que el brief permite; "Motor de búsqueda visual" es jerga.
+
+| Clave | ES | EN | IT |
+|---|---|---|---|
+| `search_similar_photos_title` | Encuentra fotos que se parecen | Find photos that look alike | Trova foto che si somigliano |
+| `search_similar_photos_subtitle` | Haz una foto o elige una guardada:\nen menos de un segundo verás las que se le parecen. | Take a photo or pick a saved one:\nin under a second you'll see the ones that look like it. | Scatta una foto o scegline una salvata:\nin meno di un secondo vedrai quelle che le somigliano. |
+| `target_image_bullet_speed` | ⚡ Busca en menos de un segundo, sin escribir nada. | ⚡ Searches in under a second, no typing needed. | ⚡ Cerca in meno di un secondo, senza scrivere nulla. |
+| `target_image_bullet_privacy` | 🔒 Funciona sin conexión.\nTus fotos nunca salen del teléfono. | 🔒 Works offline.\nYour photos never leave your phone. | 🔒 Funziona offline.\nLe tue foto non lasciano mai il telefono. |
+
+Sin cambios: `target_image_message_title` ("Deja de buscar. Empieza a encontrar."), botones
+Galería y Cámara.
+
 ## Cómo medirlo
 Tras publicar, comparar en RevenueCat las compras por apertura del muro con las de la versión
 anterior. Si no mejora, se prueba otro titular; no cambiar varias cosas a la vez después.
