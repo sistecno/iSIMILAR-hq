@@ -3,6 +3,15 @@
 Actualizado: 2026-10-31. Marca con [x] lo hecho.
 Buzones leídos hasta: `solopila` — (aún vacío) · web — (aún vacío).
 
+## Siguiente sesión (cierre del 2026-10-31)
+- App lista (T1–T9). Quedan en `solopila`: prueba de los 7 días con usuario nuevo (iOS y
+  Android), subir versión y compilar. **No enviar a revisión** hasta tener capturas y ficha.
+- Anibal hace capturas con la versión nueva en EN, ES e IT y las deja en `archivo/`; hq las
+  revisa (`borradores/2026-10-24-capturas-tienda.md`, "Decisiones de hq") y prepara el
+  encargo de Claude Design. Después: textos de la ficha.
+- Web, cuando se abra: buzón `PARA-HQ-DE-WEB.md`, añadir "compartir", tiempo de escaneo,
+  y política + `/delete-data/` (publicar justo antes de liberar la versión).
+
 ## Para Anibal (tareas manuales, fuera del código)
 
 ### Documentos (`docs/`: los edita Claude con autorización de Anibal)
