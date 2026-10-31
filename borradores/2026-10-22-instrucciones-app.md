@@ -69,6 +69,9 @@ Estado: listo para usar (actualizado el 2026-10-23: T4c, T4d, T4e). Fuentes: `do
   - `FirebaseCrashlytics.instance.setCrashlyticsCollectionEnabled(false)`.
   - No enviar `paywall_trigger`, `batch_size`, `gallery_size` ni `use_case` a RevenueCat
     (en `AnalyticsService`), y no mostrar la pregunta tras la compra.
+  - Borrar de RevenueCat los atributos ya enviados (`paywall_trigger`, `batch_size`,
+    `gallery_size`, `use_case`) enviándolos vacíos (opción B, decidida por Anibal el
+    2026-10-31). Comprobar que el borrado llega también si se desactiva sin red.
 - Al arrancar la app, aplicar el valor guardado antes de enviar nada.
 - Las compras y la restauración siguen funcionando: RevenueCat no se desactiva.
 

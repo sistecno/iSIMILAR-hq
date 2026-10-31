@@ -87,7 +87,12 @@ Instrucciones completas y en orden: `borradores/2026-10-22-instrucciones-app.md`
       ser PRO. Comprobar también si "Reset App" hace perder el reconocimiento de la compra.
 - [x] T4h (commit 340dfdf): entradas al muro en la pantalla principal (contador y botón "PRO"), después de T4i
       (`decisiones/2026-10-30-entradas-al-muro.md`).
-- [ ] T4b: interruptor "Compartir datos técnicos" en Ajustes.
+- [ ] T4b: interruptor "Compartir datos técnicos" en Ajustes. Al desactivarlo también borra
+      los atributos ya enviados a RevenueCat (opción B, 2026-10-31).
+- [ ] **Política de privacidad (EN/ES/IT) y formulario de Google Play por T4b:** mencionar el
+      interruptor como forma de oponerse (apartados 5.2 y 5.3); en Google Play, informes de
+      errores y datos de uso como opcionales. Borrador de `legal-tiendas`. **Publicar a la
+      vez que la versión de la app, no antes.**
 - [ ] T4c: compartir en lote es PRO (hoy es gratis en `album_detail_sheet.dart:72-87`);
       `paywall_trigger` = `batch_share`.
 - [ ] T4f: compartir en lote desde los resultados de búsqueda (hoy no existe), PRO, con
