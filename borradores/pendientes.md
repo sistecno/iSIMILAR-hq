@@ -112,7 +112,9 @@ Instrucciones completas y en orden: `borradores/2026-10-22-instrucciones-app.md`
       (`@iSIMILAR-APP`) y Facebook (`facebook.com/iSIMILAR`).
 - [x] T4e: "Reset App" coincide con `/delete-data/` (informe de `solopila`, 2026-10-31). La
       página se completa con dos matices (sección H del borrador de privacidad T4b).
-- [ ] T5–T8: textos del muro de pago.
+- [x] T5–T8: textos del muro de pago (Anibal, 2026-10-31; en pruebas).
+- [ ] T9: textos del muro y del acordeón de inicio más claros y vendedores, dentro del brief
+      (`borradores/2026-10-31-textos-muro-y-acordeon-t9.md`).
 - [ ] Diálogo previo al muro: Anibal elige A (abrir el muro directamente con cabecera según la
       acción), 2026-10-26. Decisión en `solopila/docs/decisiones/2026-10-26-dialogo-previo-al-muro.md`.
       Va con T4c/T4f. Rediseño del muro: ver respuesta del 2026-10-26 (alcance a decidir).
