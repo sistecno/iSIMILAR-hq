@@ -3,6 +3,13 @@
 Actualizado: 2026-10-31. Marca con [x] lo hecho.
 Buzones leídos hasta: `solopila` — (aún vacío) · web — (aún vacío).
 
+## Nuevo 2026-11-02 · T10 escribir sobre una foto y compartir
+- [ ] `solopila` programa T10 (`borradores/2026-11-02-anotar-y-compartir.md`) y lo informa en el buzón.
+- [ ] hq pasa los textos de T10 por `tono-de-marca`.
+- [ ] Anibal prueba en el iPhone y el Mi A3 (lista de pruebas de T10).
+- [ ] A los 30 días de publicar: revisión según `decisiones/2026-11-02-anotar-y-compartir.md`.
+      No tocar `docs/` hasta entonces.
+
 ## Siguiente sesión (cierre del 2026-10-31)
 - App lista (T1–T9). Quedan en `solopila`: prueba de los 7 días con usuario nuevo (iOS y
   Android), subir versión y compilar. **No enviar a revisión** hasta tener capturas y ficha.
