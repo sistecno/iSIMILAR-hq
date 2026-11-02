@@ -110,3 +110,11 @@ Respuesta de hq al informe de `solopila` (16:40):
 4. **RevenueCat:** el código llama a `setPaywallTrigger` igual que en los lotes. Antes de
    tocar nada, hay que confirmar en el panel que el problema no es de visualización
    (datos de prueba ocultos o atributos que aún no se han sincronizado).
+
+### Resultado (2026-11-02, tarde)
+- **Marca de agua: aprobada sin cambios.** Vista en las imágenes recibidas por WhatsApp
+  (`archivo/Horizontal.jpg`, 1600×900, y `archivo/vertical.jpg`, 900×1600): se lee
+  "iSIMILAR" en las dos, no tapa el centro y el texto y los emojis salen nítidos.
+- **RevenueCat: `batch_share` tampoco aparece.** El problema no es de T10, sino de toda la
+  medición de `paywall_trigger`. Va como tarea aparte (T11 en `pendientes.md`). T10 se puede
+  unir a `main` cuando estén los puntos 1 y 2.

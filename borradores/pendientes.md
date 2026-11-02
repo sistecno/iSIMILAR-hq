@@ -7,8 +7,12 @@ Buzones leídos hasta: `solopila` — 2026-11-02 16:40 (T10) · web — (aún va
 - [x] `solopila` programa T10 (`borradores/2026-11-02-anotar-y-compartir.md`) y lo informa en el
       buzón (rama `feature/T10-anotar`, etiqueta `antes-de-T10`).
 - [ ] `solopila`: lápiz a la vista y confirmar al cancelar ("Ajustes tras la primera prueba").
-- [ ] Anibal: captura de la vista previa de WhatsApp (foto vertical y horizontal).
-- [ ] Anibal: confirmar en RevenueCat `annotate_limit` y `annotate_watermark`.
+- [x] Anibal: captura de la vista previa de WhatsApp (foto vertical y horizontal). Marca de
+      agua aprobada sin cambios.
+- [ ] **T11 · `paywall_trigger` no llega a RevenueCat** (ni `batch_share` ni `annotate_*`, en iOS
+      y Android). Sin esto no hay revisión a 30 días de T10 ni dato de qué abre el muro. Antes:
+      Anibal confirma "Sandbox data" activado y busca su App User ID en Customers → Attributes.
+      Si sigue vacío: `solopila` lo revisa con los registros de depuración del SDK.
 - [ ] hq pasa los textos de T10 por `tono-de-marca`.
 - [ ] Anibal prueba en el iPhone y el Mi A3 (lista de pruebas de T10).
 - [ ] A los 30 días de publicar: revisión según `decisiones/2026-11-02-anotar-y-compartir.md`.
