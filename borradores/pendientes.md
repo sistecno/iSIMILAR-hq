@@ -13,6 +13,12 @@ Buzones leídos hasta: `solopila` — 2026-11-02 20:05 (T10) · web — (aún va
       sí se lee. Opciones: A) dejarla · B) abajo a la izquierda · C) a la izquierda al 75–80 %
       de altura. Anibal: A por ahora, decidir al final (buzón `solopila` 2026-11-02 20:05).
 - [ ] Unir `feature/T10-anotar` a `main` cuando Anibal dé T10 por probado.
+- [ ] **T12 · Copias de fotos en la caché** (2026-11-02): en el iPhone hay 10 carpetas con fotos
+      en la caché, anteriores a T10. T10 deja `tmp` limpio. Sospechosos sin confirmar: copias
+      de `photo_manager` al pedir `asset.file` (visor: tamaño de la foto; compartir en lote),
+      con `PhotoManager.clearFileCache()` comentado en `home_view_model.dart:311`, y fotos de la
+      cámara de `image_picker` en Android (`TempFilesCleaner` solo limpia en iOS). Anibal quiere
+      que se borren solas. Comprobar también que "Reset App" las borra (lo promete `/delete-data/`).
 - [x] Anibal: fotos enviadas por WhatsApp (vertical y horizontal): al abrir la foto, la marca
       se lee bien. En la vista previa del chat, no (ver arriba).
 - [x] ~~T11 · `paywall_trigger` no llega a RevenueCat~~ Falsa alarma (2026-11-02): llega bien.
