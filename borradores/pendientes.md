@@ -1,14 +1,20 @@
 # Pendientes de iSIMILAR
 
 Actualizado: 2026-10-31. Marca con [x] lo hecho.
-Buzones leídos hasta: `solopila` — 2026-11-02 16:40 (T10) · web — (aún vacío).
+Buzones leídos hasta: `solopila` — 2026-11-02 20:05 (T10) · web — (aún vacío).
 
 ## Nuevo 2026-11-02 · T10 escribir sobre una foto y compartir
 - [x] `solopila` programa T10 (`borradores/2026-11-02-anotar-y-compartir.md`) y lo informa en el
       buzón (rama `feature/T10-anotar`, etiqueta `antes-de-T10`).
-- [ ] `solopila`: lápiz a la vista y confirmar al cancelar ("Ajustes tras la primera prueba").
-- [x] Anibal: captura de la vista previa de WhatsApp (foto vertical y horizontal). Marca de
-      agua aprobada sin cambios.
+- [x] `solopila`: lápiz a la vista (fila propia "Escribir") y confirmar al cancelar (commits
+      9603177 y 94dfbaf; cancelar probado por Anibal).
+- [ ] **Marca de agua en la vista previa del chat de WhatsApp:** no se ve (en verticales
+      WhatsApp recorta abajo; en horizontales la tapan la hora y los ticks). Al abrir la foto
+      sí se lee. Opciones: A) dejarla · B) abajo a la izquierda · C) a la izquierda al 75–80 %
+      de altura. Anibal: A por ahora, decidir al final (buzón `solopila` 2026-11-02 20:05).
+- [ ] Unir `feature/T10-anotar` a `main` cuando Anibal dé T10 por probado.
+- [x] Anibal: fotos enviadas por WhatsApp (vertical y horizontal): al abrir la foto, la marca
+      se lee bien. En la vista previa del chat, no (ver arriba).
 - [x] ~~T11 · `paywall_trigger` no llega a RevenueCat~~ Falsa alarma (2026-11-02): llega bien.
       Anibal lo vio en Customers → Attributes: `paywall_trigger = annotate_limit`, junto con
       `gallery_size` y `use_case`. RevenueCat guarda solo el último motivo de cada usuario.
@@ -120,7 +126,7 @@ Instrucciones completas y en orden: `borradores/2026-10-22-instrucciones-app.md`
       ser PRO. Comprobar también si "Reset App" hace perder el reconocimiento de la compra.
 - [x] T4h (commit 340dfdf): entradas al muro en la pantalla principal (contador y botón "PRO"), después de T4i
       (`decisiones/2026-10-30-entradas-al-muro.md`).
-- [ ] T4b: interruptor "Compartir datos técnicos" en Ajustes. Al desactivarlo también borra
+- [x] T4b (commit 59d2ae7): interruptor "Compartir datos técnicos" en Ajustes. Al desactivarlo también borra
       los atributos ya enviados a RevenueCat (opción B, 2026-10-31).
 - [ ] **Política de privacidad (EN/ES/IT) y formulario de Google Play por T4b:** mencionar el
       interruptor como forma de oponerse (apartados 5.2 y 5.3); en Google Play, informes de
@@ -132,21 +138,21 @@ Instrucciones completas y en orden: `borradores/2026-10-22-instrucciones-app.md`
 - [ ] **Día de publicación:** App Store con publicación manual y Google Play con publicación
       gestionada; subir la web (política y `/delete-data/`) justo antes de liberar.
       T4d (enlaces legales a la web) debe ir en esta misma versión.
-- [ ] T4c: compartir en lote es PRO (hoy es gratis en `album_detail_sheet.dart:72-87`);
+- [x] T4c (commit 4923dcb): compartir en lote es PRO (hoy es gratis en `album_detail_sheet.dart:72-87`);
       `paywall_trigger` = `batch_share`.
-- [ ] T4f: compartir en lote desde los resultados de búsqueda (hoy no existe), PRO, con
+- [x] T4f (commit 4923dcb): compartir en lote desde los resultados de búsqueda (hoy no existe), PRO, con
       `batch_share`. Va con T4c.
-- [ ] T4j: visor de álbumes, 1 foto gratis (como en todas partes) y panel de ayuda también en
+- [x] T4j (commit fa94b6c, probado en Mi A3): visor de álbumes, 1 foto gratis (como en todas partes) y panel de ayuda también en
       Android.
-- [ ] T4d: enlaces legales de Notion → web, en el idioma de la app.
-- [ ] T4g: en Ajustes, cambiar TikTok (`@lifesolutionsapp`) por YouTube
+- [x] T4d (commit f27c4e7): enlaces legales de Notion → web, en el idioma de la app.
+- [x] T4g (commit e6895e0): en Ajustes, cambiar TikTok (`@lifesolutionsapp`) por YouTube
       (`@iSIMILAR-APP`) y Facebook (`facebook.com/iSIMILAR`).
 - [x] T4e: "Reset App" coincide con `/delete-data/` (informe de `solopila`, 2026-10-31). La
       página se completa con dos matices (sección H del borrador de privacidad T4b).
 - [x] T5–T8: textos del muro de pago (Anibal, 2026-10-31; en pruebas).
-- [ ] T9: textos del muro y del acordeón de inicio más claros y vendedores, dentro del brief
+- [x] T9 (commit 8ae6218): textos del muro y del acordeón de inicio más claros y vendedores, dentro del brief
       (`borradores/2026-10-31-textos-muro-y-acordeon-t9.md`).
-- [ ] Diálogo previo al muro: Anibal elige A (abrir el muro directamente con cabecera según la
+- [x] Diálogo previo al muro (commit 4923dcb): Anibal elige A (abrir el muro directamente con cabecera según la
       acción), 2026-10-26. Decisión en `solopila/docs/decisiones/2026-10-26-dialogo-previo-al-muro.md`.
       Va con T4c/T4f. Rediseño del muro: ver respuesta del 2026-10-26 (alcance a decidir).
 - [ ] Al terminar: volver a hq y decir "app lista".

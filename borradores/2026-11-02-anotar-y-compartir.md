@@ -112,9 +112,11 @@ Respuesta de hq al informe de `solopila` (16:40):
    (datos de prueba ocultos o atributos que aún no se han sincronizado).
 
 ### Resultado (2026-11-02, tarde)
-- **Marca de agua: aprobada sin cambios.** Vista en las imágenes recibidas por WhatsApp
-  (`archivo/Horizontal.jpg`, 1600×900, y `archivo/vertical.jpg`, 900×1600): se lee
-  "iSIMILAR" en las dos, no tapa el centro y el texto y los emojis salen nítidos.
+- **Marca de agua:** al abrir la foto recibida por WhatsApp (`archivo/Horizontal.jpg`, 1600×900,
+  y `archivo/vertical.jpg`, 900×1600) se lee bien. **En la vista previa del chat no se ve**:
+  WhatsApp recorta las verticales por abajo y pinta la hora encima en las horizontales
+  (buzón de `solopila`, 2026-11-02 20:05). Anibal deja la posición actual por ahora y lo
+  decide al final. Consecuencia: quien recibe la foto solo ve la marca si la abre.
 - **RevenueCat: funciona.** `paywall_trigger = annotate_limit` aparece en el usuario de
   Anibal (antes se miraba en el sitio equivocado). Solo se guarda el último motivo, así que
   `annotate_watermark` se comprueba aparte. T10 se puede unir a `main` cuando estén los
