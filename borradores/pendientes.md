@@ -12,8 +12,10 @@ Buzones leídos hasta: `solopila` — 2026-11-02 16:40 (T10) · web — (aún va
 - [x] ~~T11 · `paywall_trigger` no llega a RevenueCat~~ Falsa alarma (2026-11-02): llega bien.
       Anibal lo vio en Customers → Attributes: `paywall_trigger = annotate_limit`, junto con
       `gallery_size` y `use_case`. RevenueCat guarda solo el último motivo de cada usuario.
-- [ ] Anibal: tocar la marca de agua (sin PRO), mandar la app al fondo y confirmar
-      `paywall_trigger = annotate_watermark` en RevenueCat.
+- [x] Anibal: `paywall_trigger = annotate_watermark` confirmado en RevenueCat (Android, 2026-11-02).
+- [ ] Hueco de medición de T10: RevenueCat dice quién paga por T10, pero no cuántos usuarios
+      gratis anotan y comparten (`annotate_share` va a Firebase Analytics, que no está activo).
+      Se decide junto con el consentimiento de Analytics en la UE; no se añade nada ahora.
 - [ ] hq pasa los textos de T10 por `tono-de-marca`.
 - [ ] Anibal prueba en el iPhone y el Mi A3 (lista de pruebas de T10).
 - [ ] A los 30 días de publicar: revisión según `decisiones/2026-11-02-anotar-y-compartir.md`.
