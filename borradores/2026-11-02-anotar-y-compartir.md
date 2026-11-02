@@ -86,3 +86,27 @@ muro no cambia en esta versión.
 
 Al terminar: informe en `docs/PARA-HQ-DE-SOLOPILA.md` con los commits y lo que no se haya
 podido probar.
+
+## Ajustes tras la primera prueba de Anibal (2026-11-02)
+Probado por Anibal en el Mi A3: el texto, las fuentes, el ❤️ y el lápiz funcionan, y en modo
+gratis el límite de 1 al día lleva al muro. Falta comprobarlo en RevenueCat (ver más abajo).
+
+Respuesta de hq al informe de `solopila` (16:40):
+1. **El lápiz tiene que verse sin abrir "Detalles".** Si nadie lo encuentra, la medición
+   a 30 días no sirve. Ponlo a la vista en el visor de la foto. Compartir se queda donde está.
+   Tú eliges el sitio exacto; muestra a Anibal una captura antes de unir a `main`.
+2. **Al cancelar, pedir confirmación solo si hay cambios** (texto o trazo). Sin cambios, se
+   sale directamente. Para "Cancelar" se usa la clave que ya exista.
+
+| Clave | ES | EN | IT |
+|---|---|---|---|
+| `annotate_discard_title` | ¿Salir sin compartir? | Leave without sharing? | Uscire senza condividere? |
+| `annotate_discard_body` | Se perderá lo que has escrito y dibujado. | What you wrote and drew will be lost. | Quello che hai scritto e disegnato andrà perso. |
+| `annotate_discard_confirm` | Salir | Leave | Esci |
+
+3. **Marca de agua:** no se cambia hasta verla. Anibal envía por WhatsApp una foto vertical y
+   otra horizontal y manda una captura de la vista previa del chat. Si no se lee el nombre,
+   se ajusta el tamaño.
+4. **RevenueCat:** el código llama a `setPaywallTrigger` igual que en los lotes. Antes de
+   tocar nada, hay que confirmar en el panel que el problema no es de visualización
+   (datos de prueba ocultos o atributos que aún no se han sincronizado).

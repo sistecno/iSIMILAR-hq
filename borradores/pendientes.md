@@ -1,10 +1,14 @@
 # Pendientes de iSIMILAR
 
 Actualizado: 2026-10-31. Marca con [x] lo hecho.
-Buzones leídos hasta: `solopila` — (aún vacío) · web — (aún vacío).
+Buzones leídos hasta: `solopila` — 2026-11-02 16:40 (T10) · web — (aún vacío).
 
 ## Nuevo 2026-11-02 · T10 escribir sobre una foto y compartir
-- [ ] `solopila` programa T10 (`borradores/2026-11-02-anotar-y-compartir.md`) y lo informa en el buzón.
+- [x] `solopila` programa T10 (`borradores/2026-11-02-anotar-y-compartir.md`) y lo informa en el
+      buzón (rama `feature/T10-anotar`, etiqueta `antes-de-T10`).
+- [ ] `solopila`: lápiz a la vista y confirmar al cancelar ("Ajustes tras la primera prueba").
+- [ ] Anibal: captura de la vista previa de WhatsApp (foto vertical y horizontal).
+- [ ] Anibal: confirmar en RevenueCat `annotate_limit` y `annotate_watermark`.
 - [ ] hq pasa los textos de T10 por `tono-de-marca`.
 - [ ] Anibal prueba en el iPhone y el Mi A3 (lista de pruebas de T10).
 - [ ] A los 30 días de publicar: revisión según `decisiones/2026-11-02-anotar-y-compartir.md`.
