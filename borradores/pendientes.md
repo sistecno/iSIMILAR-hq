@@ -9,10 +9,11 @@ Buzones leídos hasta: `solopila` — 2026-11-02 16:40 (T10) · web — (aún va
 - [ ] `solopila`: lápiz a la vista y confirmar al cancelar ("Ajustes tras la primera prueba").
 - [x] Anibal: captura de la vista previa de WhatsApp (foto vertical y horizontal). Marca de
       agua aprobada sin cambios.
-- [ ] **T11 · `paywall_trigger` no llega a RevenueCat** (ni `batch_share` ni `annotate_*`, en iOS
-      y Android). Sin esto no hay revisión a 30 días de T10 ni dato de qué abre el muro. Antes:
-      Anibal confirma "Sandbox data" activado y busca su App User ID en Customers → Attributes.
-      Si sigue vacío: `solopila` lo revisa con los registros de depuración del SDK.
+- [x] ~~T11 · `paywall_trigger` no llega a RevenueCat~~ Falsa alarma (2026-11-02): llega bien.
+      Anibal lo vio en Customers → Attributes: `paywall_trigger = annotate_limit`, junto con
+      `gallery_size` y `use_case`. RevenueCat guarda solo el último motivo de cada usuario.
+- [ ] Anibal: tocar la marca de agua (sin PRO), mandar la app al fondo y confirmar
+      `paywall_trigger = annotate_watermark` en RevenueCat.
 - [ ] hq pasa los textos de T10 por `tono-de-marca`.
 - [ ] Anibal prueba en el iPhone y el Mi A3 (lista de pruebas de T10).
 - [ ] A los 30 días de publicar: revisión según `decisiones/2026-11-02-anotar-y-compartir.md`.

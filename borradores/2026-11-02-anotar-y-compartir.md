@@ -115,6 +115,7 @@ Respuesta de hq al informe de `solopila` (16:40):
 - **Marca de agua: aprobada sin cambios.** Vista en las imágenes recibidas por WhatsApp
   (`archivo/Horizontal.jpg`, 1600×900, y `archivo/vertical.jpg`, 900×1600): se lee
   "iSIMILAR" en las dos, no tapa el centro y el texto y los emojis salen nítidos.
-- **RevenueCat: `batch_share` tampoco aparece.** El problema no es de T10, sino de toda la
-  medición de `paywall_trigger`. Va como tarea aparte (T11 en `pendientes.md`). T10 se puede
-  unir a `main` cuando estén los puntos 1 y 2.
+- **RevenueCat: funciona.** `paywall_trigger = annotate_limit` aparece en el usuario de
+  Anibal (antes se miraba en el sitio equivocado). Solo se guarda el último motivo, así que
+  `annotate_watermark` se comprueba aparte. T10 se puede unir a `main` cuando estén los
+  puntos 1 y 2.
