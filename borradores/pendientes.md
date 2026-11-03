@@ -19,6 +19,11 @@ Buzones leídos hasta: `solopila` — 2026-11-02 20:05 (T10) · web — (aún va
       con `PhotoManager.clearFileCache()` comentado en `home_view_model.dart:311`, y fotos de la
       cámara de `image_picker` en Android (`TempFilesCleaner` solo limpia en iOS). Anibal quiere
       que se borren solas. Comprobar también que "Reset App" las borra (lo promete `/delete-data/`).
+      Ojo: la limpieza nunca debe borrar la foto base de la cámara mientras se usa (ver T13).
+- [ ] **T13 · Foto de la cámara: "Ver", escribir y guardar** (2026-11-03,
+      `borradores/2026-11-03-foto-camara-escribir-guardar.md`). En `feature/T10-anotar`, después
+      de las pruebas finales de T10.
+- [ ] hq pasa los textos de T13 por `tono-de-marca`.
 - [x] Anibal: fotos enviadas por WhatsApp (vertical y horizontal): al abrir la foto, la marca
       se lee bien. En la vista previa del chat, no (ver arriba).
 - [x] ~~T11 · `paywall_trigger` no llega a RevenueCat~~ Falsa alarma (2026-11-02): llega bien.
