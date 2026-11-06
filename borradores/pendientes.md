@@ -8,21 +8,21 @@ Buzones leídos hasta: `solopila` — 2026-11-06 12:45 (T10+T13) · web — (aú
       buzón (rama `feature/T10-anotar`, etiqueta `antes-de-T10`).
 - [x] `solopila`: lápiz a la vista (fila propia "Escribir") y confirmar al cancelar (commits
       9603177 y 94dfbaf; cancelar probado por Anibal).
-- [x] **Marca de agua: posición A (abajo a la derecha) en esta versión** (Anibal, 2026-11-06).
-      En la vista previa del chat de WhatsApp no se ve; al abrir la foto, sí. Consecuencia: la
-      revisión a 30 días de las descargas desde WhatsApp mide poco; si no suben, no concluir que
-      la marca no sirve. Variantes B y C en `~/Downloads/T10-marca-agua/` para la próxima versión.
+- [ ] **T15 · Marca de agua visible en la vista previa del chat de WhatsApp** (esta versión;
+      sustituye a "A en esta versión"). Paso 1: Anibal envía por WhatsApp las 6 variantes de
+      `~/Downloads/T10-marca-agua/` y pasa a hq la captura del chat. Paso 2: `solopila` aplica la
+      posición elegida (`borradores/2026-11-06-antes-de-tiendas-t14-t15.md`).
 - [x] Unir `feature/T10-anotar` (T10 + T13) a `main`: OK de Anibal el 2026-11-06. Probado en
       iPhone y Mi A3 (buzón 2026-11-06 12:36). Gmail iOS arreglado (9b2f1e4).
 - [ ] **Próxima versión · solapamientos del editor al escribir:** "✓" tapa "Compartir"; los
       colores tapan "Texto" y "Deshacer". Arreglo previsto: ocultar "Compartir" y la fila de
       herramientas mientras se escribe (`annotate_editor.dart`). No usar el editor en las capturas
       de la tienda hasta arreglarlo.
-- [ ] **Antes de enviar a tiendas (visto por `solopila`, ya existía):** con PRO de pruebas
-      caducado, Ajustes sigue diciendo "ilimitado" (`isPremiumSync` frente a `isPremium()`).
-      Decidir si se arregla en esta versión.
-- [ ] Antes de enviar a tiendas: la app exige acceso completo a las fotos al arrancar; que
-      `legal-tiendas` confirme si es un riesgo de rechazo (ya existía y pasó revisiones).
+- [ ] **T14 · Estado PRO único** (esta versión): con PRO de pruebas caducado, Ajustes sigue
+      diciendo "ilimitado" (`isPremiumSync` frente a `isPremium()`). Rama `fix/T14-T15` desde
+      `main`, después de unir T10+T13.
+- [x] Acceso completo a las fotos al arrancar: se mantiene y no se revisa (Anibal, 2026-11-06;
+      `decisiones/2026-11-06-antes-de-tiendas.md`).
 - [ ] **T12 · Copias de fotos en la caché** (2026-11-02): en el iPhone hay 10 carpetas con fotos
       en la caché, anteriores a T10. T10 deja `tmp` limpio. Sospechosos sin confirmar: copias
       de `photo_manager` al pedir `asset.file` (visor: tamaño de la foto; compartir en lote),
