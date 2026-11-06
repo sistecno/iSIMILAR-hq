@@ -1,18 +1,28 @@
 # Pendientes de iSIMILAR
 
 Actualizado: 2026-10-31. Marca con [x] lo hecho.
-Buzones leídos hasta: `solopila` — 2026-11-02 20:05 (T10) · web — (aún vacío).
+Buzones leídos hasta: `solopila` — 2026-11-06 12:45 (T10+T13) · web — (aún vacío).
 
 ## Nuevo 2026-11-02 · T10 escribir sobre una foto y compartir
 - [x] `solopila` programa T10 (`borradores/2026-11-02-anotar-y-compartir.md`) y lo informa en el
       buzón (rama `feature/T10-anotar`, etiqueta `antes-de-T10`).
 - [x] `solopila`: lápiz a la vista (fila propia "Escribir") y confirmar al cancelar (commits
       9603177 y 94dfbaf; cancelar probado por Anibal).
-- [ ] **Marca de agua en la vista previa del chat de WhatsApp:** no se ve (en verticales
-      WhatsApp recorta abajo; en horizontales la tapan la hora y los ticks). Al abrir la foto
-      sí se lee. Opciones: A) dejarla · B) abajo a la izquierda · C) a la izquierda al 75–80 %
-      de altura. Anibal: A por ahora, decidir al final (buzón `solopila` 2026-11-02 20:05).
-- [ ] Unir `feature/T10-anotar` a `main` cuando Anibal dé T10 por probado.
+- [x] **Marca de agua: posición A (abajo a la derecha) en esta versión** (Anibal, 2026-11-06).
+      En la vista previa del chat de WhatsApp no se ve; al abrir la foto, sí. Consecuencia: la
+      revisión a 30 días de las descargas desde WhatsApp mide poco; si no suben, no concluir que
+      la marca no sirve. Variantes B y C en `~/Downloads/T10-marca-agua/` para la próxima versión.
+- [x] Unir `feature/T10-anotar` (T10 + T13) a `main`: OK de Anibal el 2026-11-06. Probado en
+      iPhone y Mi A3 (buzón 2026-11-06 12:36). Gmail iOS arreglado (9b2f1e4).
+- [ ] **Próxima versión · solapamientos del editor al escribir:** "✓" tapa "Compartir"; los
+      colores tapan "Texto" y "Deshacer". Arreglo previsto: ocultar "Compartir" y la fila de
+      herramientas mientras se escribe (`annotate_editor.dart`). No usar el editor en las capturas
+      de la tienda hasta arreglarlo.
+- [ ] **Antes de enviar a tiendas (visto por `solopila`, ya existía):** con PRO de pruebas
+      caducado, Ajustes sigue diciendo "ilimitado" (`isPremiumSync` frente a `isPremium()`).
+      Decidir si se arregla en esta versión.
+- [ ] Antes de enviar a tiendas: la app exige acceso completo a las fotos al arrancar; que
+      `legal-tiendas` confirme si es un riesgo de rechazo (ya existía y pasó revisiones).
 - [ ] **T12 · Copias de fotos en la caché** (2026-11-02): en el iPhone hay 10 carpetas con fotos
       en la caché, anteriores a T10. T10 deja `tmp` limpio. Sospechosos sin confirmar: copias
       de `photo_manager` al pedir `asset.file` (visor: tamaño de la foto; compartir en lote),
@@ -20,9 +30,11 @@ Buzones leídos hasta: `solopila` — 2026-11-02 20:05 (T10) · web — (aún va
       cámara de `image_picker` en Android (`TempFilesCleaner` solo limpia en iOS). Anibal quiere
       que se borren solas. Comprobar también que "Reset App" las borra (lo promete `/delete-data/`).
       Ojo: la limpieza nunca debe borrar la foto base de la cámara mientras se usa (ver T13).
-- [ ] **T13 · Foto de la cámara: "Ver", escribir y guardar** (2026-11-03,
-      `borradores/2026-11-03-foto-camara-escribir-guardar.md`). En `feature/T10-anotar`, después
-      de las pruebas finales de T10.
+- [x] **T13 · Foto de la cámara: "Ver", escribir y guardar** (commit b079491, probado en iPhone
+      y Mi A3). La foto guardada aparece en las búsquedas tras "Escanear fotos nuevas".
+      Para T12: no borrar `<cache>/base_image/`; sí incluir las copias de `share_plus`
+      (`Library/Caches/<uuid>/` en iOS, `cache/share_plus` en Android), que hoy no borra ni
+      `TempFilesCleaner` ni "Reset App".
 - [ ] hq pasa los textos de T13 por `tono-de-marca`.
 - [x] Anibal: fotos enviadas por WhatsApp (vertical y horizontal): al abrir la foto, la marca
       se lee bien. En la vista previa del chat, no (ver arriba).
@@ -34,7 +46,7 @@ Buzones leídos hasta: `solopila` — 2026-11-02 20:05 (T10) · web — (aún va
       gratis anotan y comparten (`annotate_share` va a Firebase Analytics, que no está activo).
       Se decide junto con el consentimiento de Analytics en la UE; no se añade nada ahora.
 - [ ] hq pasa los textos de T10 por `tono-de-marca`.
-- [ ] Anibal prueba en el iPhone y el Mi A3 (lista de pruebas de T10).
+- [x] Anibal prueba en el iPhone y el Mi A3 (lista de pruebas de T10 y T13, 2026-11-06).
 - [ ] A los 30 días de publicar: revisión según `decisiones/2026-11-02-anotar-y-compartir.md`.
       No tocar `docs/` hasta entonces.
 
