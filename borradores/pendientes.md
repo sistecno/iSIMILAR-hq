@@ -53,6 +53,11 @@ Buzones leídos hasta: `solopila` — 2026-11-09 13:56 (T14–T16) · web — (a
 ## Siguiente sesión (cierre del 2026-10-31)
 - App lista (T1–T9). Quedan en `solopila`: prueba de los 7 días con usuario nuevo (iOS y
   Android), subir versión y compilar. **No enviar a revisión** hasta tener capturas y ficha.
+  2026-11-09: en iOS se ve el botón "7 días gratis" (solo prueba que la tienda ofrece la
+  prueba). Falta, con un usuario de sandbox nuevo y en Android con una cuenta de prueba:
+  hoja de compra con "gratis 7 días y después el precio" → PRO al momento → RevenueCat lo
+  marca como prueba → cancelar y seguir PRO hasta el final → al caducar, todo a gratis (T14)
+  → con el mismo usuario, el botón ya no dice "7 días gratis".
 - Anibal hace capturas con la versión nueva en EN, ES e IT y las deja en `archivo/`; hq las
   revisa (`borradores/2026-10-24-capturas-tienda.md`, "Decisiones de hq") y prepara el
   encargo de Claude Design. Después: textos de la ficha.
