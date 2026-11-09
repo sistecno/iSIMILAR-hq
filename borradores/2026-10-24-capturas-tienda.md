@@ -233,3 +233,17 @@ la captura reducida, con el titular encima y un fondo de marca en el espacio que
 - Comprobar en App Store Connect (biblioteca de capturas) los tamaños vigentes al subir.
 Fuentes: developer.apple.com (Screenshot specifications) y support.google.com (Play Console,
 answer 9866151).
+
+## Google Play: capturas desde Android (Anibal, 2026-11-09)
+Las capturas de Google Play se hacen en Android, no con el iPhone. Se recomienda el emulador del
+Mac frente al Mi A3: la pantalla del Mi A3 es de 720 px de ancho, y al ampliarla en un marco de
+1080 × 1920 se vería borrosa.
+- **Emulador:** un Pixel de 1080 × 2400, con la versión de la app que se va a publicar.
+- **Fotos:** copiar al emulador una carpeta de fotos propias de trabajo (cientos o miles) con
+  `adb push` y escanearlas en la app. T16 hace que una carpeta nueva entre marcada. Las mismas
+  reglas: sin datos de clientes, sin caras y sin menores.
+- **Cámara (captura 1):** el emulador puede usar la cámara del Mac como cámara trasera. Si la
+  calidad no basta, esa captura se hace en el Mi A3.
+- **Barra de estado limpia:** usar el modo demo de Android (hora fija, batería llena, sin
+  notificaciones).
+- Mismo marco de 1080 × 1920 y los mismos titulares que en la App Store, en EN, ES e IT.
