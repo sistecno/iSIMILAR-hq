@@ -51,3 +51,24 @@ descargas desde WhatsApp no sirve.
   tocar la marca en el editor siga abriendo el muro.
 
 Al terminar T14 y T15: informe en `docs/PARA-HQ-DE-SOLOPILA.md` con los commits.
+
+## Decisiones de hq del 2026-11-09 (buzón de `solopila`, 12:53–13:56)
+
+### T15 · Posición elegida: B (abajo a la izquierda)
+Prueba real enviada sin texto desde el iPhone y vista en el chat del iPhone y del Mi A3: B se
+lee entera en vertical y en horizontal, y es la que menos tapa la foto. A queda tapada por la
+hora; C se lee, pero tapa más. Aplicar B en `fix/T14-T15`: solo cambia la posición (mismo
+tamaño, mismo estilo y la misma zona para tocar y abrir el muro).
+
+### T16 · Carpetas nuevas en Android: entran marcadas (opción A, en esta versión)
+Se guardan las carpetas **desmarcadas**, no las marcadas, con una conversión única para quien ya
+tiene una lista guardada. Se hace en `fix/T14-T15`. No cambia el esquema de ObjectBox
+(`ConfigEntity`) ni hay textos nuevos. iOS no cambia.
+Pruebas en el Mi A3, además de las tres propuestas por `solopila`:
+- [ ] Una carpeta nueva entra marcada y se escanea con "Buscar fotos nuevas".
+- [ ] Una carpeta desmarcada por el usuario sigue desmarcada.
+- [ ] Quien tenía una lista guardada conserva su elección después de la conversión.
+- [ ] La conversión ocurre una sola vez: abrir la app dos veces no cambia nada.
+- [ ] Instalación nueva: todas las carpetas marcadas, igual que hoy.
+- [ ] "Reset App" deja la elección como en una instalación nueva.
+- [ ] Una carpeta que desaparece (se borra) no da error y no rompe la lista.

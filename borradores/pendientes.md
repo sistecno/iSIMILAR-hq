@@ -1,26 +1,26 @@
 # Pendientes de iSIMILAR
 
 Actualizado: 2026-10-31. Marca con [x] lo hecho.
-Buzones leídos hasta: `solopila` — 2026-11-06 12:45 (T10+T13) · web — (aún vacío).
+Buzones leídos hasta: `solopila` — 2026-11-09 13:56 (T14–T16) · web — (aún vacío).
 
 ## Nuevo 2026-11-02 · T10 escribir sobre una foto y compartir
 - [x] `solopila` programa T10 (`borradores/2026-11-02-anotar-y-compartir.md`) y lo informa en el
       buzón (rama `feature/T10-anotar`, etiqueta `antes-de-T10`).
 - [x] `solopila`: lápiz a la vista (fila propia "Escribir") y confirmar al cancelar (commits
       9603177 y 94dfbaf; cancelar probado por Anibal).
-- [ ] **T15 · Marca de agua visible en la vista previa del chat de WhatsApp** (esta versión;
-      sustituye a "A en esta versión"). Paso 1: Anibal envía por WhatsApp las 6 variantes de
-      `~/Downloads/T10-marca-agua/` y pasa a hq la captura del chat. Paso 2: `solopila` aplica la
-      posición elegida (`borradores/2026-11-06-antes-de-tiendas-t14-t15.md`).
+- [ ] **T15 · Marca de agua en posición B (abajo a la izquierda)**: elegida el 2026-11-09
+      tras la prueba real en WhatsApp (iPhone y Mi A3). Falta que `solopila` la aplique en `fix/T14-T15`.
+- [ ] **T16 · Carpetas nuevas en Android entran marcadas** (opción A, en esta versión, en
+      `fix/T14-T15`). Pruebas en `borradores/2026-11-06-antes-de-tiendas-t14-t15.md`.
+- [x] T10+T13 unidos a `main` (commit 342c54f, 2026-11-09).
 - [x] Unir `feature/T10-anotar` (T10 + T13) a `main`: OK de Anibal el 2026-11-06. Probado en
       iPhone y Mi A3 (buzón 2026-11-06 12:36). Gmail iOS arreglado (9b2f1e4).
 - [ ] **Próxima versión · solapamientos del editor al escribir:** "✓" tapa "Compartir"; los
       colores tapan "Texto" y "Deshacer". Arreglo previsto: ocultar "Compartir" y la fila de
       herramientas mientras se escribe (`annotate_editor.dart`). No usar el editor en las capturas
       de la tienda hasta arreglarlo.
-- [ ] **T14 · Estado PRO único** (esta versión): con PRO de pruebas caducado, Ajustes sigue
-      diciendo "ilimitado" (`isPremiumSync` frente a `isPremium()`). Rama `fix/T14-T15` desde
-      `main`, después de unir T10+T13.
+- [ ] **T14 · Estado PRO único** (commit b23505d): comprar y PRO en modo avión, probados. Falta
+      probar que una suscripción de prueba caducada pasa a gratis (iPhone y Mi A3).
 - [x] Acceso completo a las fotos al arrancar: se mantiene y no se revisa (Anibal, 2026-11-06;
       `decisiones/2026-11-06-antes-de-tiendas.md`).
 - [ ] **T12 · Copias de fotos en la caché** (2026-11-02): en el iPhone hay 10 carpetas con fotos
