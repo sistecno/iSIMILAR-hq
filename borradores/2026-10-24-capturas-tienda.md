@@ -216,3 +216,20 @@ contradicciones (titular 1 de 6 palabras; captura 3 con trabajo en vez de superm
 - Pendiente de hacer con la app nueva (iPhone, en EN, ES e IT): captura 4 (borrado en lote
   con fotos propias, ~100+ seleccionadas), captura 5 (modo avión visible), captura 6 (muro
   nuevo, precio tapado), y repetir 1–3 en ES e IT.
+
+## Tamaños y marcos (hq, 2026-11-09)
+Solo hay un iPhone 13 (1170 × 2532 px, pantalla de 6,1"), con más de 15.000 fotos reales.
+Ninguna tienda acepta esa captura tal cual, así que **todas las capturas van dentro de un marco**:
+la captura reducida, con el titular encima y un fondo de marca en el espacio que sobra.
+
+| Tienda | Tamaño del marco | Por qué |
+|---|---|---|
+| App Store | **1290 × 2796** (6,9") | Apple pide un solo juego, de 6,9" o 6,5", y lo escala a los demás. 6,1" no está entre los aceptados. |
+| Google Play | **1080 × 1920** (9:16) | El lado largo no puede pasar del doble del corto; la captura del iPhone (2,16:1) no cumple. |
+
+- Mismo diseño en las dos tiendas, adaptado a cada proporción.
+- **Para Google Play:** sin marco de iPhone ni elementos propios de iOS a la vista (la barra de
+  estado, recortada o neutra). No he confirmado si Google lo rechaza; se evita por prudencia.
+- Comprobar en App Store Connect (biblioteca de capturas) los tamaños vigentes al subir.
+Fuentes: developer.apple.com (Screenshot specifications) y support.google.com (Play Console,
+answer 9866151).
