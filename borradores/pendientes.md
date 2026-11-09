@@ -126,9 +126,9 @@ Buzones leídos hasta: `solopila` — 2026-11-09 13:56 (T14–T16) · web — (a
       de usuario de RevenueCat (comprobado el 2026-10-22, recogido en `definicion-tecnica.md`).
 
 ## Esperando decisión de Anibal (2026-10-26)
-- Capturas: contradicción 1 (titular 1 del brief tiene 6 palabras → "Find photos like this
-  one") y 2 (captura 3 con trabajo, 7.PNG, en vez de supermercado). Recomendado: A en ambas.
-  Detalle en `borradores/2026-10-24-capturas-tienda.md`.
+- ~~Capturas: contradicciones 1 y 2~~ Resueltas el 2026-10-31 (sección "Decisiones de hq" de
+  `borradores/2026-10-24-capturas-tienda.md`). 2026-11-09: Anibal empieza las capturas en
+  paralelo a T14–T16, sin el editor de T10 en ninguna captura.
 - Vídeo de búsquedas: A (cortar) o B (desenfocar) y destino (ficha o redes).
 - Precio de Google Play Italia 15,99 € vs App Store 12,99 €: corregir en Play Console.
 - Muro de pago: alcance del rediseño (recomendado: solo textos y cabecera por acción en esta
