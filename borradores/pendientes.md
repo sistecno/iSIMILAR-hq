@@ -1,7 +1,7 @@
 # Pendientes de iSIMILAR
 
 Actualizado: 2026-11-10. Marca con [x] lo hecho.
-Buzones leídos hasta: `solopila` — 2026-11-09 13:56 (T14–T16) · web — (aún vacío).
+Buzones leídos hasta: `solopila` — 2026-11-10 21:24 (T14–T16 probados, bc0765f) · web — (aún vacío).
 
 ## Siguiente sesión (cierre del 2026-11-10)
 1. **Leer el buzón de `solopila`**: hay una entrada nueva sin leer ("T15 y T16 hechos, T14
@@ -19,9 +19,9 @@ Buzones leídos hasta: `solopila` — 2026-11-09 13:56 (T14–T16) · web — (a
       buzón (rama `feature/T10-anotar`, etiqueta `antes-de-T10`).
 - [x] `solopila`: lápiz a la vista (fila propia "Escribir") y confirmar al cancelar (commits
       9603177 y 94dfbaf; cancelar probado por Anibal).
-- [ ] **T15 · Marca de agua en posición B (abajo a la izquierda)**: elegida el 2026-11-09
+- [x] **T15 · Marca de agua en posición B (abajo a la izquierda)** (e4c504a, probado en iPhone y Mi A3 el 2026-11-10): elegida el 2026-11-09
       tras la prueba real en WhatsApp (iPhone y Mi A3). Falta que `solopila` la aplique en `fix/T14-T15`.
-- [ ] **T16 · Carpetas nuevas en Android entran marcadas** (opción A, en esta versión, en
+- [x] **T16 · Carpetas nuevas en Android entran marcadas** (33a89ac, 7/7 en Mi A3 el 2026-11-10) (opción A, en esta versión, en
       `fix/T14-T15`). Pruebas en `borradores/2026-11-06-antes-de-tiendas-t14-t15.md`.
 - [x] T10+T13 unidos a `main` (commit 342c54f, 2026-11-09).
 - [x] Unir `feature/T10-anotar` (T10 + T13) a `main`: OK de Anibal el 2026-11-06. Probado en
@@ -30,7 +30,7 @@ Buzones leídos hasta: `solopila` — 2026-11-09 13:56 (T14–T16) · web — (a
       colores tapan "Texto" y "Deshacer". Arreglo previsto: ocultar "Compartir" y la fila de
       herramientas mientras se escribe (`annotate_editor.dart`). No usar el editor en las capturas
       de la tienda hasta arreglarlo.
-- [ ] **T14 · Estado PRO único** (commit b23505d): comprar y PRO en modo avión, probados. Falta
+- [x] **T14 · Estado PRO único** (commit b23505d; caducidad probada en iPhone y Mi A3 el 2026-11-10): comprar y PRO en modo avión, probados. Falta
       probar que una suscripción de prueba caducada pasa a gratis (iPhone y Mi A3).
 - [x] Acceso completo a las fotos al arrancar: se mantiene y no se revisa (Anibal, 2026-11-06;
       `decisiones/2026-11-06-antes-de-tiendas.md`).
