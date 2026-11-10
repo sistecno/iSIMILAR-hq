@@ -247,3 +247,12 @@ Mac frente al Mi A3: la pantalla del Mi A3 es de 720 px de ancho, y al ampliarla
 - **Barra de estado limpia:** usar el modo demo de Android (hora fija, batería llena, sin
   notificaciones).
 - Mismo marco de 1080 × 1920 y los mismos titulares que en la App Store, en EN, ES e IT.
+
+## Marcas en las capturas (Anibal y hq, 2026-11-10)
+Capturas en EN, ES e IT. Se pueden ver productos con marca: son fotos reales de la galería y
+demuestran que la app encuentra productos. Criterios de revisión de hq:
+- La marca no es la protagonista: el logo no ocupa el centro de la foto buscada.
+- Los textos de los marcos no nombran ninguna marca.
+- App Store: ningún teléfono Android, logo de Android ni Google Play en las fotos (norma 2.3.10).
+- Nada personal: caras de otras personas, matrículas, pantallas con correos, nombres o
+  contraseñas de clientes.
