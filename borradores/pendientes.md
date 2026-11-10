@@ -3,6 +3,12 @@
 Actualizado: 2026-11-10. Marca con [x] lo hecho.
 Buzones leídos hasta: `solopila` — 2026-11-10 21:24 (T14–T16 probados, bc0765f) · web — (aún vacío).
 
+## 2026-11-10 noche · Compilar (`decisiones/2026-11-10-compilar-sin-mas-pruebas.md`)
+- [ ] `solopila`: unir `fix/T14-T15` a `main`, subir versión y compilar. Sin más pruebas antes.
+- [ ] Capturas (Anibal) → revisión de hq → encargo de los marcos y textos de la ficha.
+- [ ] Con la compilación en TestFlight / prueba interna: 7 días gratis con usuario nuevo y
+      restaurar compras tras reinstalar. Después, enviar a revisión y liberar.
+
 ## Siguiente sesión (cierre del 2026-11-10)
 1. **Leer el buzón de `solopila`**: hay una entrada nueva sin leer ("T15 y T16 hechos, T14
    pendiente de caducar", commit 9e14493 en `fix/T14-T15`).
@@ -46,7 +52,7 @@ Buzones leídos hasta: `solopila` — 2026-11-10 21:24 (T14–T16 probados, bc07
       Para T12: no borrar `<cache>/base_image/`; sí incluir las copias de `share_plus`
       (`Library/Caches/<uuid>/` en iOS, `cache/share_plus` en Android), que hoy no borra ni
       `TempFilesCleaner` ni "Reset App".
-- [ ] hq pasa los textos de T13 por `tono-de-marca`.
+- [x] hq pasa los textos de T13 por `tono-de-marca` (2026-11-10: aptos sin cambios).
 - [x] Anibal: fotos enviadas por WhatsApp (vertical y horizontal): al abrir la foto, la marca
       se lee bien. En la vista previa del chat, no (ver arriba).
 - [x] ~~T11 · `paywall_trigger` no llega a RevenueCat~~ Falsa alarma (2026-11-02): llega bien.
@@ -56,7 +62,7 @@ Buzones leídos hasta: `solopila` — 2026-11-10 21:24 (T14–T16 probados, bc07
 - [ ] Hueco de medición de T10: RevenueCat dice quién paga por T10, pero no cuántos usuarios
       gratis anotan y comparten (`annotate_share` va a Firebase Analytics, que no está activo).
       Se decide junto con el consentimiento de Analytics en la UE; no se añade nada ahora.
-- [ ] hq pasa los textos de T10 por `tono-de-marca`.
+- [x] hq pasa los textos de T10 por `tono-de-marca` (2026-11-10: aptos sin cambios).
 - [x] Anibal prueba en el iPhone y el Mi A3 (lista de pruebas de T10 y T13, 2026-11-06).
 - [ ] A los 30 días de publicar: revisión según `decisiones/2026-11-02-anotar-y-compartir.md`.
       No tocar `docs/` hasta entonces.
