@@ -1,7 +1,18 @@
 # Pendientes de iSIMILAR
 
-Actualizado: 2026-10-31. Marca con [x] lo hecho.
+Actualizado: 2026-11-10. Marca con [x] lo hecho.
 Buzones leídos hasta: `solopila` — 2026-11-09 13:56 (T14–T16) · web — (aún vacío).
+
+## Siguiente sesión (cierre del 2026-11-10)
+1. **Leer el buzón de `solopila`**: hay una entrada nueva sin leer ("T15 y T16 hechos, T14
+   pendiente de caducar", commit 9e14493 en `fix/T14-T15`).
+2. Prueba de los 7 días gratis + caducidad (cierra también T14), en iPhone y Android.
+3. Capturas: iPhone 13 para App Store (marco 1290 × 2796) y emulador Pixel para Google Play
+   (marco 1080 × 1920). Ver `borradores/2026-10-24-capturas-tienda.md`, secciones finales.
+4. hq: `tono-de-marca` para los textos de T10 y T13; después, el encargo de diseño de los marcos
+   y los textos de la ficha.
+5. Unir `fix/T14-T15` a `main` cuando T14, T15 y T16 estén probados → compilación final →
+   7 días + restaurar compras sobre esa compilación → enviar a revisión.
 
 ## Nuevo 2026-11-02 · T10 escribir sobre una foto y compartir
 - [x] `solopila` programa T10 (`borradores/2026-11-02-anotar-y-compartir.md`) y lo informa en el
