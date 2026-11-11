@@ -26,6 +26,7 @@ Buzones leídos hasta: `solopila` — 2026-11-10 21:24 (T14–T16 probados, bc07
 - [ ] Capturas EN completas salvo la 1: 2_5 (álbum Work) · 3_1+3_2 · 4_2 · 5_1 · 6_1 · 7.
 - [ ] Capturas IT completas salvo la 1 (2026-11-11): 2_4 · 3_1+3_2 · 4_2 · 5_1 · 6_1 · 7.
       Siguiente: la 1 en ES, EN e IT → Claude Design con el prompt de la sección 5.
+      ✅ 2026-11-11: captura 1 hecha en los tres idiomas (1_esp/1_eng/1_ita.PNG, 188 resultados).
       Captura 1 (decidido A, 2026-11-11): captura de pantalla de los resultados de la cámara en cada
       idioma + foto del taller `Italiano/1_1_ita.jpeg` como 1b (la misma en los tres).
 - [ ] Próxima versión · editor: zoom con dos dedos para señalar detalles (hoy los dos dedos
