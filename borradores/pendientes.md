@@ -6,6 +6,10 @@ Buzones leídos hasta: `solopila` — 2026-11-10 21:24 (T14–T16 probados, bc07
 ## 2026-11-10 noche · Compilar (`decisiones/2026-11-10-compilar-sin-mas-pruebas.md`)
 - [ ] `solopila`: unir `fix/T14-T15` a `main`, subir versión y compilar. Sin más pruebas antes.
 - [ ] Capturas (Anibal) → revisión de hq → encargo de los marcos y textos de la ficha.
+      2026-11-11: muro (captura 6) revisado. ES y EN válidas. IT, rehacer: los títulos de las
+      tarjetas se cortan a mitad de palabra ("Fotocamer-a"). `solopila` lo arregla antes de compilar.
+- [ ] Propuesto a Anibal (2026-11-11): cambiar `share_app_message` (Ajustes › compartir la app),
+      que dice "todas las fotos similares", "100% offline" y "¡Una auténtica revolución!".
 - [ ] Con la compilación en TestFlight / prueba interna: 7 días gratis con usuario nuevo y
       restaurar compras tras reinstalar. Después, enviar a revisión y liberar.
 
