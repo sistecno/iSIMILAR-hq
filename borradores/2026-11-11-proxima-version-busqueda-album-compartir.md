@@ -48,4 +48,7 @@ Compartir una foto desde Fotos, WhatsApp o Gmail hacia iSIMILAR y que se busque 
 - ~~250 en el aviso y 247 en el álbum~~: no es un fallo. Anibal borró 3 falsos positivos que, por
   el orden de T18, salían los primeros del álbum.
 
+- El aviso de borrar en lote se titula en singular ("Eliminar foto" / "Delete photo" / "Elimina
+  foto") aunque diga "250 fotos se eliminarán…". Con más de una, el título debería ir en plural.
+
 **Decisión (Anibal, 2026-11-11):** T17–T21 van todas a la próxima versión.

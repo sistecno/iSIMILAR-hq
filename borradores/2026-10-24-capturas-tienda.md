@@ -105,7 +105,7 @@ ELEMENTOS POR ESCENA
 4. Captura 4 (borrado en lote: fotos marcadas y el aviso "249 fotos se eliminarán"). La misma píldora "PRO" bajo el titular.
 5. Captura 5 (modo avión). Un círculo ampliado (lupa) que aumenta el icono de modo avión de la barra de estado de la propia captura, y un candado CERRADO pequeño, de línea, en #39FF14, junto al titular. Nunca un candado abierto.
 6. Captura 6 (muro de pago). Sin elementos extra. Si se ve un precio, tápalo con una franja del color de la tarjeta (#1A1D24).
-7. Captura 7 (escribir sobre una foto). Sin elementos extra: el texto y la flecha roja ya están en la captura.
+7. Captura 7 (escribir sobre una foto). Sin elementos extra: el texto y el dibujo en rojo ya están en la captura.
 
 TITULARES (exactos, no los cambies ni los traduzcas tú)
 | n | EN | ES | IT |
