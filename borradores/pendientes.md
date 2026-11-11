@@ -19,6 +19,8 @@ Buzones leídos hasta: `solopila` — 2026-11-10 21:24 (T14–T16 probados, bc07
       `decisiones/2026-11-02-anotar-y-compartir.md` (no anunciar T10 en capturas); decide Anibal.
 - [ ] Selección ES (2026-11-11): 1 falta · 2_3 · 3 · 4_2 · 5_5 · 6_1 (general) · 7 ESCRIBIR_FOTO.
       EN e IT: mismas escenas con la app en ese idioma; en la 7, el texto escrito en EN/IT.
+      EN revisadas (2026-11-11): 3_1+3_2 · 4_2 · 6_1 · 7 ESCRIBIR_FOTO_eng válidas. Rehacer: 5 (Wi-Fi
+      encendido junto al avión) y 2 (álbum "Work" mezcla cajas y batidoras de tienda). Falta la 1.
 - [ ] Próxima versión · editor: zoom con dos dedos para señalar detalles (hoy los dos dedos
       cambian el tamaño del texto). Va con el arreglo de solapamientos.
 - [ ] Próxima versión · muro ES: "Solo €1.08/mes" con formato inglés (debe ser "1,08 €/mes").
