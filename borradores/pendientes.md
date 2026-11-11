@@ -21,8 +21,8 @@ Buzones leídos hasta: `solopila` — 2026-11-10 21:24 (T14–T16 probados, bc07
       EN e IT: mismas escenas con la app en ese idioma; en la 7, el texto escrito en EN/IT.
       EN revisadas (2026-11-11): 3_1+3_2 · 4_2 · 6_1 · 7 ESCRIBIR_FOTO_eng válidas. Rehacer: 5 (Wi-Fi
       encendido junto al avión) y 2 (álbum "Work" mezcla cajas y batidoras de tienda). Falta la 1.
-- [ ] Próxima versión · T17–T21 (foto buscada primera, orden y orden en álbumes, compartir hacia
-      iSIMILAR, avisos de "0 results" y 250/247): `borradores/2026-11-11-proxima-version-busqueda-album-compartir.md`.
+- [ ] Próxima versión (decidido el 2026-11-11) · T17–T21 (foto buscada primera, orden y orden en
+      álbumes, compartir hacia iSIMILAR, aviso falso de "0 results"): `borradores/2026-11-11-proxima-version-busqueda-album-compartir.md`.
 - [ ] Capturas EN completas salvo la 1: 2_5 (álbum Work) · 3_1+3_2 · 4_2 · 5_1 · 6_1 · 7.
 - [ ] Próxima versión · editor: zoom con dos dedos para señalar detalles (hoy los dos dedos
       cambian el tamaño del texto). Va con el arreglo de solapamientos.

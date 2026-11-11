@@ -45,5 +45,7 @@ Compartir una foto desde Fotos, WhatsApp o Gmail hacia iSIMILAR y que se busque 
 - Tras mover las 250 fotos a un álbum, la lista queda en "0 results" con el mensaje "Sorry, some
   photos do not have the necessary quality to be classified". El mensaje es falso en ese caso:
   las fotos no faltan por calidad, se fueron al álbum.
-- El aviso dice "Album Work created with 250 images" y el álbum muestra **247 photos**. Averiguar
-  qué pasa con las 3 que faltan.
+- ~~250 en el aviso y 247 en el álbum~~: no es un fallo. Anibal borró 3 falsos positivos que, por
+  el orden de T18, salían los primeros del álbum.
+
+**Decisión (Anibal, 2026-11-11):** T17–T21 van todas a la próxima versión.
