@@ -8,7 +8,7 @@ Este brief resume qué es iSIMILAR, para quién es y cómo se comunica. Sustituy
 
 iSIMILAR es un buscador privado de imágenes similares para la galería del teléfono. Eliges una foto de la galería o haces una con la cámara, y la app encuentra las fotos que se le parecen. Todo ocurre dentro del teléfono, sin internet y sin nube.
 
-Desde los resultados se puede buscar de nuevo a partir de cualquier foto (búsqueda en cadena), mover las fotos a un álbum, compartirlas o borrarlas, de una en una o en lote. Los resultados se pueden ordenar por parecido o por fecha, y al abrir una foto se ven su fecha, su resolución y su peso. Los álbumes creados desde la app tienen su propio visor, desde el que también se puede buscar.
+Desde los resultados se puede buscar de nuevo a partir de cualquier foto (búsqueda en cadena), mover las fotos a un álbum, compartirlas o borrarlas, de una en una o en lote. Los resultados se pueden ordenar por parecido o por fecha, y al abrir una foto se ven su fecha, su resolución y su peso. Los álbumes creados desde la app tienen su propio visor, desde el que también se puede buscar. Sobre cualquier foto se puede escribir un texto o dibujar con el dedo para señalar algo, y compartirla así; la foto original no cambia.
 
 La app compara forma, textura, color y composición. No reconoce objetos por su nombre ni busca por texto. Funciona mejor con fotos hechas en condiciones parecidas: mismo ángulo, misma luz, mismo fondo. Acierta en torno al 80% de las veces y confunde documentos con pantallas de móvil en alrededor de un 20% de los casos.
 
@@ -71,14 +71,15 @@ Todo mensaje debe apoyarse en uno de estos tres pilares:
 | "Funciona sin conexión, en modo avión" | "El primer buscador visual" | Existen otras apps parecidas, como Queryable |
 | "Busca por parecido visual, no por etiquetas" | "Google Fotos y Apple Fotos necesitan internet" | Apple Fotos también busca dentro del teléfono |
 | "Busca en menos de un segundo" | "Tiempo ahorrado infinito" o "15 GB liberados de media" | No hay datos que lo respalden |
+| "Escribe sobre la foto y compártela" | "Editor de fotos" o "edita tus fotos" | Solo hay texto, lápiz y deshacer: no recorta, no aplica filtros y no guarda la foto en la galería |
 
 **Sin anuncios:** la app no muestra publicidad, ni en la versión gratuita ni en PRO, y no recoge el identificador publicitario. La frase común es "La app se financia con las compras de PRO, no con publicidad".
 
 ## Precio y cómo comunicarlo
 
-**Gratis:** escaneo de la galería, búsquedas ilimitadas desde fotos guardadas, 5 búsquedas con cámara y borrar, mover a un álbum o compartir fotos de una en una.
+**Gratis:** escaneo de la galería, búsquedas ilimitadas desde fotos guardadas, 5 búsquedas con cámara, borrar, mover a un álbum o compartir fotos de una en una, y escribir sobre 1 foto al día, con marca de agua.
 
-**PRO:** suscripción anual de 12 € en la zona euro; en cada país, el equivalente que fija la tienda (en EE. UU., 11,99 USD). Incluye 7 días de prueba, búsquedas con cámara ilimitadas y acciones en lote: borrar, mover a un álbum o compartir muchas fotos de una vez.
+**PRO:** suscripción anual de 12 € en la zona euro; en cada país, el equivalente que fija la tienda (en EE. UU., 11,99 USD). Incluye 7 días de prueba, búsquedas con cámara ilimitadas, acciones en lote (borrar, mover a un álbum o compartir muchas fotos de una vez) y escribir sobre todas las fotos que quieras, sin marca de agua.
 
 **Confirmado:** PRO es siempre una suscripción anual; no hay pago único ni vitalicio. Las acciones en lote son siempre de PRO, sin ninguna gratuita. El aviso "5 free actions" de versiones antiguas no debe aparecer en la app ni en las capturas.
 
@@ -136,6 +137,7 @@ Mucha gente descarga desde los resultados de búsqueda sin abrir la ficha, así 
 | 4 | Selección y borrado en lote de memes y capturas | "Delete hundreds at once" |
 | 5 | Modo avión activado y la búsqueda funcionando | "Works offline. Photos stay local" |
 | 6 | Pantalla gratuita frente a PRO | "Search free. Batch with PRO" |
+| 7 | Una foto de trabajo con un texto y una flecha señalando un detalle | "Point it out and share" |
 
 **Reglas:** fotos reales de trabajo y del día a día, nunca diálogos de permisos ni barras de progreso; titulares de cinco palabras o menos; un candado cerrado si se usa como icono de privacidad; los mismos titulares adaptados en español e italiano.
 
