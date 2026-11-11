@@ -12,6 +12,14 @@ Buzones leídos hasta: `solopila` — 2026-11-10 21:24 (T14–T16 probados, bc07
       (ES/EN 6_4, IT 6_1): recomendada para la tienda. Anibal hace el resto de capturas en PRO y
       al final se eligen las de la tienda. Compilar y subir a TestFlight: más adelante.
 - [x] `share_app_message` cambiado en EN/ES/IT (4713299, comprobado el 2026-11-11).
+- [ ] Capturas ES revisadas (2026-11-11). Válidas: 2_3 (álbum Trabajo), 6_4 (muro general),
+      3 (detalle con "Buscar similares", de reserva). Rehacer: 4 (fondo Android/MIUI, nombre y
+      correo de Anibal, diálogo tapando la selección), 5 (saludos de terceros y DAT5 de
+      protagonista: hacerla con placas). Falta la 1. ESCRIBIR_FOTO: ⚠️ contradice
+      `decisiones/2026-11-02-anotar-y-compartir.md` (no anunciar T10 en capturas); decide Anibal.
+- [ ] Próxima versión · editor: zoom con dos dedos para señalar detalles (hoy los dos dedos
+      cambian el tamaño del texto). Va con el arreglo de solapamientos.
+- [ ] Próxima versión · muro ES: "Solo €1.08/mes" con formato inglés (debe ser "1,08 €/mes").
 - [ ] Con la compilación en TestFlight / prueba interna: 7 días gratis con usuario nuevo y
       restaurar compras tras reinstalar. Después, enviar a revisión y liberar.
 
