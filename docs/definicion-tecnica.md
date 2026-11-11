@@ -31,8 +31,9 @@ iSIMILAR es un motor de búsqueda por parecido visual que funciona por completo 
 6. **Acciones sobre los resultados.** Borrar, mover a un álbum nuevo o existente y compartir: de una en una gratis, o en lote con PRO, siempre con vista previa y confirmación.
 7. **Visor de álbumes.** Muestra los álbumes creados desde la app. Al abrir una foto de un álbum se ven sus detalles y se puede buscar desde ella. Las fotos que están en un álbum dejan de aparecer en búsquedas futuras. En iOS se puede quitar una foto de un álbum sin borrarla y borrar álbumes desde la app.
 8. **Recordatorio semanal opcional** para revisar las fotos nuevas.
+9. **Escribir sobre una foto y compartirla.** Desde el detalle de una foto: texto, lápiz y deshacer. El resultado solo se comparte; la foto original no cambia y no se guarda nada en la galería. Gratis, 1 foto al día con marca de agua; con PRO, sin límite y sin marca.
 
-Todas estas funciones están publicadas en iOS y Android.
+Las funciones 1 a 8 están publicadas en iOS y Android; la 9 sale con la próxima versión (número por confirmar).
 
 ## Límites conocidos
 
@@ -56,8 +57,8 @@ No hay créditos a la venta. El único producto es una suscripción anual.
 
 | Plan | Qué incluye |
 | --- | --- |
-| Gratis | Escaneo de la galería, búsquedas ilimitadas desde fotos guardadas, 5 búsquedas con cámara y borrar, mover a un álbum o compartir fotos de una en una |
-| PRO | Suscripción anual de 12 € en la zona euro (en EE. UU., 11,99 USD; en cada país, el equivalente que fija la tienda), con 7 días de prueba. Búsquedas con cámara ilimitadas y acciones en lote: borrar, mover a un álbum o compartir muchas fotos de una vez |
+| Gratis | Escaneo de la galería, búsquedas ilimitadas desde fotos guardadas, 5 búsquedas con cámara, borrar, mover a un álbum o compartir fotos de una en una, y escribir sobre 1 foto al día, con marca de agua |
+| PRO | Suscripción anual de 12 € en la zona euro (en EE. UU., 11,99 USD; en cada país, el equivalente que fija la tienda), con 7 días de prueba. Búsquedas con cámara ilimitadas, acciones en lote (borrar, mover a un álbum o compartir muchas fotos de una vez) y escribir sobre todas las fotos que quieras, sin marca de agua |
 
 **Cuándo se abre el muro de pago:** al intentar una acción en lote, al agotar las búsquedas gratuitas con cámara, desde el botón "Mejora a iSIMILAR PRO" de Ajustes y, en la pantalla principal, desde el contador de búsquedas con cámara y el botón "PRO" de la barra superior. Ofrece la compra con 7 días de prueba.
 
