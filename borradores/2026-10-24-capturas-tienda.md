@@ -99,7 +99,7 @@ JERARQUÍA Y COMPOSICIÓN (idéntica en las 18)
 - Sin flechas, manos ni dedos, botones de descarga, insignias de tienda, logotipos de Android o de terceros, ni palabras como "best", "#1", "new" o "free" fuera del titular.
 
 ELEMENTOS POR ESCENA
-1. Captura 1 (resultados). Añade un recuadro redondeado pequeño, arriba a la izquierda del teléfono, con la foto de la placa hecha con la cámara (recórtala de la captura 1b que te adjunto), unido a la cuadrícula por una línea fina cian.
+1. Captura 1 (resultados de una búsqueda con la cámara). Añade un recuadro redondeado, arriba a la izquierda del teléfono, con la foto 1b que te adjunto: el móvil apuntando a una placa real en la mesa de trabajo. Recórtala para que se vean el móvil y la placa; la misma 1b sirve para los tres idiomas. Únela a la cuadrícula con una línea fina cian. No retoques sus colores.
 2. Captura 2 (álbum de trabajo). Píldora "PRO" pequeña (fondo rgba(57,255,20,.12), texto #39FF14, peso 700, mayúsculas) bajo el titular.
 3. Captura 3 (búsqueda en cadena). Dos teléfonos en vez de uno, con el mismo marco y estilo. Detrás, a la izquierda, más pequeño (unos 700 px de ancho) y ligeramente girado (−6°), el teléfono con la captura 3a: una foto abierta con el botón "Buscar similares". Delante, a la derecha, el teléfono principal (unos 900 px) con la captura 3b: los resultados de buscar desde esa misma foto, que aparece arriba como foto buscada. Une el botón "Buscar similares" de 3a con la foto de arriba de 3b con una línea fina cian, igual que en la escena 1. Que se lean el botón de 3a y la foto de arriba de 3b; el resto de 3a puede quedar tapado.
 4. Captura 4 (borrado en lote: fotos marcadas y el aviso "249 fotos se eliminarán"). La misma píldora "PRO" bajo el titular.
