@@ -101,7 +101,7 @@ JERARQUÍA Y COMPOSICIÓN (idéntica en las 18)
 ELEMENTOS POR ESCENA
 1. Captura 1 (resultados de una búsqueda con la cámara). Añade un recuadro redondeado, arriba a la izquierda del teléfono, con la foto 1b que te adjunto: el móvil apuntando a una placa real en la mesa de trabajo. Recórtala para que se vean el móvil y la placa; la misma 1b sirve para los tres idiomas. Únela a la cuadrícula con una línea fina cian. No retoques sus colores.
 2. Captura 2 (álbum de trabajo). Píldora "PRO" pequeña (fondo rgba(57,255,20,.12), texto #39FF14, peso 700, mayúsculas) bajo el titular.
-3. Captura 3 (búsqueda en cadena). Dos teléfonos en vez de uno, con el mismo marco y estilo. Detrás, a la izquierda, más pequeño (unos 700 px de ancho) y ligeramente girado (−6°), el teléfono con la captura 3a: una foto abierta con el botón "Buscar similares". Delante, a la derecha, el teléfono principal (unos 900 px) con la captura 3b: los resultados de buscar desde esa misma foto, que aparece arriba como foto buscada. Une el botón "Buscar similares" de 3a con la foto de arriba de 3b con una línea fina cian, igual que en la escena 1. Que se lean el botón de 3a y la foto de arriba de 3b; el resto de 3a puede quedar tapado.
+3. Captura 3 (búsqueda en cadena). Dos teléfonos con el mismo marco. DELANTE, a la izquierda y ligeramente girado, el de la captura 3a (foto abierta con el botón de buscar similares), con el botón entero y con aire respecto al borde inferior. DETRÁS, a la derecha, el de la captura 3b (resultados desde esa misma foto), con el número de resultados legible. Una línea fina cian sale del botón de 3a, pasa por el hueco entre los dos teléfonos sin cruzar ninguna foto y llega a la foto buscada de 3b. (Decidido por Anibal el 2026-11-11.)
 4. Captura 4 (borrado en lote: fotos marcadas y el aviso "249 fotos se eliminarán"). La misma píldora "PRO" bajo el titular.
 5. Captura 5 (modo avión). Un círculo ampliado (lupa) que aumenta el icono de modo avión de la barra de estado de la propia captura, y un candado CERRADO pequeño, de línea, en #39FF14, junto al titular. Nunca un candado abierto.
 6. Captura 6 (muro de pago). Sin elementos extra. Si se ve un precio, tápalo con una franja del color de la tarjeta (#1A1D24).
@@ -116,6 +116,9 @@ TITULARES (exactos, no los cambies ni los traduzcas tú)
 | 5 | Works offline. Photos stay local | Sin internet y sin nube | Senza internet e senza cloud |
 | 6 | Search free. Batch with PRO | Busca gratis. Lote con PRO | Cerca gratis. In blocco, PRO |
 | 7 | Point it out and share | Señala y comparte | Evidenzia e condividi |
+
+PALABRA CON DEGRADADO (exacta, EN / ES / IT)
+1 photos / fotos / foto · 2 work / trabajo / lavoro · 3 result / resultado / risultato · 4 hundreds / cientos / centinaia · 5 offline / internet / internet · 6 PRO / PRO / PRO · 7 share / comparte / condividi
 
 CONSISTENCIA
 - Primero diseña la escena 1 en EN como plantilla maestra y enséñamela. Cuando la apruebe, aplica exactamente la misma retícula, tamaños, márgenes, posición del teléfono y estilo a las otras 20 (en la 3, los dos teléfonos ocupan el mismo espacio que uno). Solo cambian el titular, la captura y los elementos de cada escena.
