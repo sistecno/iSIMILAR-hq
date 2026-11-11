@@ -7,9 +7,11 @@ Buzones leídos hasta: `solopila` — 2026-11-10 21:24 (T14–T16 probados, bc07
 - [ ] `solopila`: unir `fix/T14-T15` a `main`, subir versión y compilar. Sin más pruebas antes.
 - [ ] Capturas (Anibal) → revisión de hq → encargo de los marcos y textos de la ficha.
       2026-11-11: muro (captura 6) revisado. ES y EN válidas. IT, rehacer: los títulos de las
-      tarjetas se cortan a mitad de palabra ("Fotocamer-a"). `solopila` lo arregla antes de compilar.
-- [ ] Propuesto a Anibal (2026-11-11): cambiar `share_app_message` (Ajustes › compartir la app),
-      que dice "todas las fotos similares", "100% offline" y "¡Una auténtica revolución!".
+      tarjetas se cortan a mitad de palabra ("Fotocamer-a"). Arreglado en `fix/T14-T15`
+      (4713299, 7650225) y capturas IT repetidas: válidas. Hay una 4.ª versión "general" del muro
+      (ES/EN 6_4, IT 6_1): recomendada para la tienda. Anibal hace el resto de capturas en PRO y
+      al final se eligen las de la tienda. Compilar y subir a TestFlight: más adelante.
+- [x] `share_app_message` cambiado en EN/ES/IT (4713299, comprobado el 2026-11-11).
 - [ ] Con la compilación en TestFlight / prueba interna: 7 días gratis con usuario nuevo y
       restaurar compras tras reinstalar. Después, enviar a revisión y liberar.
 
