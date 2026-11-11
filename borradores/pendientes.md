@@ -24,6 +24,9 @@ Buzones leídos hasta: `solopila` — 2026-11-10 21:24 (T14–T16 probados, bc07
 - [ ] Próxima versión (decidido el 2026-11-11) · T17–T21 (foto buscada primera, orden y orden en
       álbumes, compartir hacia iSIMILAR, aviso falso de "0 results"): `borradores/2026-11-11-proxima-version-busqueda-album-compartir.md`.
 - [ ] Capturas EN completas salvo la 1: 2_5 (álbum Work) · 3_1+3_2 · 4_2 · 5_1 · 6_1 · 7.
+- [ ] Capturas IT (2026-11-11): válidas 2_4 (Lavoro, 233) · 3_1+3_2 · 6_1. Rehacer: 4 (falta el aviso
+      "N foto verranno eliminate"; 4_1 vale de reserva), 5 (CONAD de protagonista: usar las fresas),
+      7 (texto "Pulisca la ventola" → "Ventola da pulire"). Falta la 1.
 - [ ] Próxima versión · editor: zoom con dos dedos para señalar detalles (hoy los dos dedos
       cambian el tamaño del texto). Va con el arreglo de solapamientos.
 - [ ] Próxima versión · muro ES: "Solo €1.08/mes" con formato inglés (debe ser "1,08 €/mes").
