@@ -81,11 +81,11 @@ Notas de las escenas:
 ## 5. Prompt para pegar en Claude Design
 
 ```
-Diseña 6 capturas para la App Store (iPhone) de iSIMILAR, un buscador privado de imágenes similares para la galería del teléfono. Te adjunto 6 capturas reales de un iPhone 13 (1170×2532), numeradas 1 a 6, en EN, ES e IT. Genera 18 diseños: 6 escenas × 3 idiomas.
+Diseña 7 capturas para la App Store (iPhone) de iSIMILAR, un buscador privado de imágenes similares para la galería del teléfono. Te adjunto capturas reales de un iPhone 13 (1170×2532), numeradas por escena (la 1 y la 3 llevan dos archivos: 1/1b y 3a/3b), en EN, ES e IT. Genera 21 diseños: 7 escenas × 3 idiomas.
 
 LIENZO
-- Vertical, 1320×2868 px (iPhone 6,9"). Después, exporta cada diseño también a 1206×2622 px (la proporción es casi la misma: reescala sin recolocar).
-- PNG opaco, sin transparencias ni canal alfa. Nombres: isimilar-{idioma}-{n}-{tamaño}.png (ej.: isimilar-es-1-1320x2868.png).
+- Vertical, 1290×2796 px (iPhone 6,9").
+- PNG opaco, sin transparencias ni canal alfa. Nombres: isimilar-{idioma}-{n}.png (ej.: isimilar-es-1.png).
 
 ESTILO (sacado de la web isimilar.app)
 - Fondo #0D0F12 con un brillo radial cian rgba(0,180,216,.22) arriba y otro verde rgba(57,255,20,.10) a un lado, más una rejilla sutil de líneas rgba(255,255,255,.08) cada 56 px que se desvanece hacia abajo.
@@ -101,10 +101,11 @@ JERARQUÍA Y COMPOSICIÓN (idéntica en las 18)
 ELEMENTOS POR ESCENA
 1. Captura 1 (resultados). Añade un recuadro redondeado pequeño, arriba a la izquierda del teléfono, con la foto de la placa hecha con la cámara (recórtala de la captura 1b que te adjunto), unido a la cuadrícula por una línea fina cian.
 2. Captura 2 (álbum de trabajo). Píldora "PRO" pequeña (fondo rgba(57,255,20,.12), texto #39FF14, peso 700, mayúsculas) bajo el titular.
-3. Captura 3 (búsqueda en cadena). Sin elementos extra.
-4. Captura 4 (selección en lote). La misma píldora "PRO" bajo el titular.
+3. Captura 3 (búsqueda en cadena). Dos teléfonos en vez de uno, con el mismo marco y estilo. Detrás, a la izquierda, más pequeño (unos 700 px de ancho) y ligeramente girado (−6°), el teléfono con la captura 3a: una foto abierta con el botón "Buscar similares". Delante, a la derecha, el teléfono principal (unos 900 px) con la captura 3b: los resultados de buscar desde esa misma foto, que aparece arriba como foto buscada. Une el botón "Buscar similares" de 3a con la foto de arriba de 3b con una línea fina cian, igual que en la escena 1. Que se lean el botón de 3a y la foto de arriba de 3b; el resto de 3a puede quedar tapado.
+4. Captura 4 (borrado en lote: fotos marcadas y el aviso "249 fotos se eliminarán"). La misma píldora "PRO" bajo el titular.
 5. Captura 5 (modo avión). Un círculo ampliado (lupa) que aumenta el icono de modo avión de la barra de estado de la propia captura, y un candado CERRADO pequeño, de línea, en #39FF14, junto al titular. Nunca un candado abierto.
 6. Captura 6 (muro de pago). Sin elementos extra. Si se ve un precio, tápalo con una franja del color de la tarjeta (#1A1D24).
+7. Captura 7 (escribir sobre una foto). Sin elementos extra: el texto y la flecha roja ya están en la captura.
 
 TITULARES (exactos, no los cambies ni los traduzcas tú)
 | n | EN | ES | IT |
@@ -114,11 +115,12 @@ TITULARES (exactos, no los cambies ni los traduzcas tú)
 | 4 | Delete hundreds at once | Borra cientos de una vez | Elimina centinaia in un colpo |
 | 5 | Works offline. Photos stay local | Sin internet y sin nube | Senza internet e senza cloud |
 | 6 | Search free. Batch with PRO | Busca gratis. Lote con PRO | Cerca gratis. In blocco, PRO |
+| 7 | Point it out and share | Señala y comparte | Evidenzia e condividi |
 
 CONSISTENCIA
-- Primero diseña la escena 1 en EN como plantilla maestra y enséñamela. Cuando la apruebe, aplica exactamente la misma retícula, tamaños, márgenes, posición del teléfono y estilo a las otras 17. Solo cambian el titular, la captura y los elementos de cada escena.
+- Primero diseña la escena 1 en EN como plantilla maestra y enséñamela. Cuando la apruebe, aplica exactamente la misma retícula, tamaños, márgenes, posición del teléfono y estilo a las otras 20 (en la 3, los dos teléfonos ocupan el mismo espacio que uno). Solo cambian el titular, la captura y los elementos de cada escena.
 - Si un titular en ES o IT no cabe en 2 líneas al tamaño de la plantilla, baja el cuerpo de letra en todo ese idioma a la vez, no solo en esa captura.
-- Al final, muéstrame las 18 en una tabla de 6 columnas (escenas) × 3 filas (idiomas) para revisarlas juntas.
+- Al final, muéstrame las 21 en una tabla de 7 columnas (escenas) × 3 filas (idiomas) para revisarlas juntas.
 ```
 
 ## 6. Revisión `tono-de-marca` (titulares)
