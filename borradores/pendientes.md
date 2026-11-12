@@ -276,6 +276,12 @@ Instrucciones completas y en orden: `borradores/2026-10-22-instrucciones-app.md`
   web "tarda unos 3 minutos y medio" (línea 87, sin móvil) y añadir el dato a `definicion-tecnica.md`.
 
 ## A decidir con datos (después de publicar esta versión)
+- [ ] **Mensajes de retención de Apple** (App Store Connect, sin tocar la app): mensaje al cancelar,
+      solo texto, con imagen o con oferta. Preparar uno de solo texto (`tono-de-marca`); la oferta con
+      descuento se decide con el precio. 5 de 6 pruebas canceladas. (2026-11-12)
+- [ ] **Encabezado de la ficha y recurso para resultados de búsqueda** (App Store, iOS 27+, desde
+      oct. 2026): opcional; preparar después de publicar con `growth`. Leer antes las medidas en la
+      ayuda de Apple. Comprobar al subir capturas si "iPhone Duo" pide otro tamaño. (2026-11-12)
 - [ ] **Límite en lote durante la prueba** (propuesta de Anibal, 2026-10-24): hasta 30 fotos
       por acción durante los 7 días de prueba, sin límite al pagar. No entra en esta versión.
       - Por qué: 5 de 6 pruebas canceladas y ninguna convertida; los 4 pagos llegaron sin
