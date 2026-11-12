@@ -51,4 +51,11 @@ Compartir una foto desde Fotos, WhatsApp o Gmail hacia iSIMILAR y que se busque 
 - El aviso de borrar en lote se titula en singular ("Eliminar foto" / "Delete photo" / "Elimina
   foto") aunque diga "250 fotos se eliminarán…". Con más de una, el título debería ir en plural.
 
+## T22 · Nombre de las fotos compartidas y textos cortados (2026-11-12)
+- Al compartir una foto desde Android (por ejemplo, por Gmail), el archivo llega con un número
+  largo como nombre. Propuesta: `iSIMILAR_AAAA-MM-DD_N.jpg` (ya se hace así al compartir desde el
+  editor: `iSIMILAR_<milisegundos>.jpg`, `annotate_editor.dart:397`). Revisar también iOS.
+- En Android, en español, el orden de los resultados sale cortado: "Más simila…". Que quepa
+  entero o se acorte a "Parecidas".
+
 **Decisión (Anibal, 2026-11-11):** T17–T21 van todas a la próxima versión.
