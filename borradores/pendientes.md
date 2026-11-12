@@ -270,6 +270,11 @@ Instrucciones completas y en orden: `borradores/2026-10-22-instrucciones-app.md`
 - [ ] Subir `IPHONEOS_DEPLOYMENT_TARGET` a 15.0 (límite primavera 2027). Recomendado en esta
       versión (el Podfile ya está en 15.0); si no entra, va con la de Firebase.
 
+## Dato orientativo de escaneo (2026-11-12)
+- Mi 10T Lite (Android 12): 9.156 fotos en 8:02 (~19 fotos/s), probablemente compilación debug.
+  Más lento que el Mi A3 (~30 fotos/s). Repetir en release; si se confirma, revisar la frase de la
+  web "tarda unos 3 minutos y medio" (línea 87, sin móvil) y añadir el dato a `definicion-tecnica.md`.
+
 ## A decidir con datos (después de publicar esta versión)
 - [ ] **Límite en lote durante la prueba** (propuesta de Anibal, 2026-10-24): hasta 30 fotos
       por acción durante los 7 días de prueba, sin límite al pagar. No entra en esta versión.
