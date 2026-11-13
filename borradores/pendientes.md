@@ -271,10 +271,10 @@ Instrucciones completas y en orden: `borradores/2026-10-22-instrucciones-app.md`
       versión (el Podfile ya está en 15.0); si no entra, va con la de Firebase.
 
 ## Capturas de tienda (2026-11-13)
-- [x] App Store: 21 PNG 1290×2796 en `archivo/Capturas/para-claude-design/` (revisados).
+- [x] App Store: 21 PNG 1290×2796 en `archivo/Capturas/para-claude-design-ios/` (revisados).
 - [x] Google Play: 21 PNG 1080×1920 en `archivo/Capturas/para-claude-design-android/` (revisados).
 - [x] Gráfico destacado de Google Play (1024×500) y cabecera + imagen de búsqueda de App Store
-      (iOS 27+): 9 PNG revisados el 2026-11-14 en `para-claude-design-android/`. Las de App Store,
+      (iOS 27+): 9 PNG revisados el 2026-11-14 (Google en `para-claude-design-android/`, App Store en `para-claude-design-ios/`). Las de App Store,
       con iPhone (sin Android, norma 2.3.10). Antes de subir la cabecera, verla en la vista previa
       de App Store Connect. Prompt: sección 8 de
       `borradores/2026-10-24-capturas-tienda.md`.
