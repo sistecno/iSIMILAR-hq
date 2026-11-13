@@ -261,3 +261,21 @@ demuestran que la app encuentra productos. Criterios de revisión de hq:
 - App Store: ningún teléfono Android, logo de Android ni Google Play en las fotos (norma 2.3.10).
 - Nada personal: caras de otras personas, matrículas, pantallas con correos, nombres o
   contraseñas de clientes.
+
+## 7. Prompt para Claude Design · Google Play (2026-11-13)
+Capturas del Mi 10T Lite (1080 × 2400) en `archivo/Capturas/para-claude-design-android/{ES,EN,IT}`.
+
+```
+Ahora el juego de Google Play, con el mismo estilo, titulares, palabras en degradado y elementos por escena que el de App Store que ya aprobé. Te adjunto las carpetas ES, EN e IT con capturas de un Android (1080×2400), con los mismos nombres: 1, 1b, 2, 3a, 3b, 4, 5, 6, 7. Genera 21 diseños: 7 escenas × 3 idiomas.
+
+CAMBIOS RESPECTO AL JUEGO DE APP STORE
+1. Lienzo vertical de 1080×1920 px (9:16). PNG opaco, sin canal alfa. Nombres: isimilar-gp-{idioma}-{n}.png.
+2. Nada de iPhone ni de iOS: sin muesca ni Dynamic Island. Usa un marco de móvil genérico, con bordes redondeados, el mismo borde degradado cian → verde y la misma sombra, y una cámara perforada pequeña y centrada arriba. Sin logotipos de ninguna marca.
+3. Barra de estado: deja solo la hora, el Wi-Fi o el avión y la batería. Tapa cualquier otro icono (notificaciones, NFC, cuadrados) con el color de fondo de la barra. En la escena 5 el icono del avión debe seguir visible, con su aro y su lupa.
+4. La barra de navegación de Android (los tres botones de abajo) puede quedar fuera del lienzo: el teléfono puede salir por el borde inferior.
+5. Escena 1: la 1b cambia en cada idioma (la pantalla del móvil está en ese idioma). Úsala en el mismo recuadro y con la misma línea cian hasta la foto buscada.
+6. Escena 3: misma composición que en App Store (3a delante a la izquierda, 3b detrás a la derecha, la línea sin cruzar fotos).
+7. Si un titular no cabe en 2 líneas en este lienzo más bajo, baja el cuerpo de letra en todo ese idioma a la vez.
+
+Primero hazme la escena 1 en EN como plantilla y enséñamela. Cuando la apruebe, haz las otras 20 y muéstramelas en una tabla de 7 × 3 antes de exportar.
+```
