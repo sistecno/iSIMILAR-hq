@@ -279,3 +279,23 @@ CAMBIOS RESPECTO AL JUEGO DE APP STORE
 
 Primero hazme la escena 1 en EN como plantilla y enséñamela. Cuando la apruebe, haz las otras 20 y muéstramelas en una tabla de 7 × 3 antes de exportar.
 ```
+
+## 8. Prompt para Claude Design · gráfico destacado (Google Play) y cabecera (App Store) (2026-11-13)
+Fotos del taller: `archivo/Capturas/para-claude-design-android/{ES,EN,IT}/*-1b.jpg` (móvil con resultados junto a la placa real).
+
+```
+Última tanda, con el mismo estilo que los dos juegos de capturas ya aprobados (fondo, rejilla, brillo, Inter, degradado verde → cian). Usa como imagen principal la foto 1b de cada idioma (el móvil con los resultados junto a la placa real del taller). Tres piezas, cada una en EN, ES e IT (9 archivos):
+
+1. Google Play, gráfico destacado: 1024×500 px, PNG opaco sin alfa. Nombre: isimilar-gp-destacado-{idioma}.png.
+2. App Store, cabecera de la ficha: 3840×1646 px (21:9), PNG opaco sin alfa. Todo lo importante dentro de la zona segura central de 1646×661 px. Nombre: isimilar-as-cabecera-{idioma}.png.
+3. App Store, imagen para resultados de búsqueda: 3840×2560 px (3:2), PNG opaco sin alfa. Nombre: isimilar-as-busqueda-{idioma}.png.
+
+CONTENIDO
+- Titular de la escena 1, exacto y con la misma palabra en degradado: "Find photos like this one" / "Encuentra fotos parecidas a esta" / "Trova foto simili a questa".
+- El logo iSIMILAR tal como sale en la app (naranja), pequeño, junto al titular.
+- La foto 1b recortada para que se vean el móvil con los resultados y la placa real. No retoques la pantalla.
+- Nada más: sin precio, sin "gratis", sin insignias de tienda, sin logotipos de terceros, sin manos añadidas.
+- En las tres piezas lo importante va centrado: Google y Apple pueden recortar los bordes.
+
+Primero enséñame las tres piezas en EN. Cuando las apruebe, haz ES e IT y exporta en la carpeta para-claude-design-android.
+```

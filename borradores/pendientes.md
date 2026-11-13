@@ -270,6 +270,14 @@ Instrucciones completas y en orden: `borradores/2026-10-22-instrucciones-app.md`
 - [ ] Subir `IPHONEOS_DEPLOYMENT_TARGET` a 15.0 (límite primavera 2027). Recomendado en esta
       versión (el Podfile ya está en 15.0); si no entra, va con la de Firebase.
 
+## Capturas de tienda (2026-11-13)
+- [x] App Store: 21 PNG 1290×2796 en `archivo/Capturas/para-claude-design/` (revisados).
+- [x] Google Play: 21 PNG 1080×1920 en `archivo/Capturas/para-claude-design-android/` (revisados).
+- [ ] Gráfico destacado de Google Play (1024×500) y cabecera + imagen de búsqueda de App Store
+      (iOS 27+): en esta versión (Anibal, 2026-11-13). Prompt: sección 8 de
+      `borradores/2026-10-24-capturas-tienda.md`.
+- [ ] Subir capturas: App Store con la versión nueva (6,9"); Google Play en la ficha (EN/ES/IT).
+
 ## Dato orientativo de escaneo (2026-11-12)
 - Mi 10T Lite (Android 12): 9.156 fotos en 8:02 (~19 fotos/s), probablemente compilación debug.
   Más lento que el Mi A3 (~30 fotos/s). Repetir en release; si se confirma, revisar la frase de la
