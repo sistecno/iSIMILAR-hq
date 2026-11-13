@@ -273,8 +273,10 @@ Instrucciones completas y en orden: `borradores/2026-10-22-instrucciones-app.md`
 ## Capturas de tienda (2026-11-13)
 - [x] App Store: 21 PNG 1290×2796 en `archivo/Capturas/para-claude-design/` (revisados).
 - [x] Google Play: 21 PNG 1080×1920 en `archivo/Capturas/para-claude-design-android/` (revisados).
-- [ ] Gráfico destacado de Google Play (1024×500) y cabecera + imagen de búsqueda de App Store
-      (iOS 27+): en esta versión (Anibal, 2026-11-13). Prompt: sección 8 de
+- [x] Gráfico destacado de Google Play (1024×500) y cabecera + imagen de búsqueda de App Store
+      (iOS 27+): 9 PNG revisados el 2026-11-14 en `para-claude-design-android/`. Las de App Store,
+      con iPhone (sin Android, norma 2.3.10). Antes de subir la cabecera, verla en la vista previa
+      de App Store Connect. Prompt: sección 8 de
       `borradores/2026-10-24-capturas-tienda.md`.
 - [ ] Subir capturas: App Store con la versión nueva (6,9"); Google Play en la ficha (EN/ES/IT).
 
