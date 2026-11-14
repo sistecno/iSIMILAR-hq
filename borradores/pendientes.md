@@ -323,7 +323,7 @@ Instrucciones completas y en orden: `borradores/2026-10-22-instrucciones-app.md`
       plan de vídeos de la guía (vídeos del fundador en su taller).
 
 ## Más adelante
-- [ ] Ficha de App Store para México.
+- [x] Ficha de App Store para México: se añade con la 1.2.0 (2026-11-14; `borradores/2026-11-14-ficha-app-store-es-it.md`).
 - [ ] Pantalla de consentimiento (cuando se reactive Analytics).
 - [ ] Revisión de la política y los términos por un abogado (cuando haya presupuesto).
 - [ ] Estrategia de contenido de autoridad (fotos en el móvil y privacidad).

@@ -116,3 +116,12 @@ Informativa sulla privacy: https://isimilar.app/it/privacy/
 • Una schermata PRO più chiara.
 • Correzioni e miglioramenti.
 ```
+
+## ESPAÑOL (MÉXICO) · decidido el 2026-11-14
+Igual que Español (España), con estos cambios:
+- Descripción y novedades: "teléfono" → "celular" en todas partes.
+- Palabras clave (94/100): parecidas,cámara,privado,galería,celular,álbum,imágenes,buscar,reparación,técnico,trabajo,lote
+- Capturas, cabecera y búsqueda: las de España (`isimilar-es-*`, `isimilar-as-*-es`).
+
+## URL de soporte (todas las localizaciones)
+https://isimilar.app (antes https://creadoresdeventas.com). La portada tiene el enlace de contacto.
