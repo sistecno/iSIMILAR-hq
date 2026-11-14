@@ -277,7 +277,12 @@ Instrucciones completas y en orden: `borradores/2026-10-22-instrucciones-app.md`
       con iPhone (sin Android, norma 2.3.10). Antes de subir la cabecera, verla en la vista previa
       de App Store Connect. Prompt: sección 8 de
       `borradores/2026-10-24-capturas-tienda.md`.
-- [ ] Subir capturas: App Store con la versión nueva (6,9"); Google Play en la ficha (EN/ES/IT).
+- [x] App Store iPhone: capturas subidas en EN, ES, ES-MX e IT (6,3": 1206×2622; 6,9": 1320×2868;
+      Face ID 6,5": 1284×2778). 2026-11-14.
+- [ ] App Store iPad 13": 2 capturas por idioma (escenas 1 y 2) en `para-claude-design-ipad/`.
+      La escena 6 se descarta en iPad (precio en dólares; borrado parecía roto). Más adelante, añadir
+      escenas sin precio desde el simulador.
+- [ ] Google Play: capturas, gráfico destacado y textos de la ficha (EN/ES/IT).
 
 ## Dato orientativo de escaneo (2026-11-12)
 - Mi 10T Lite (Android 12): 9.156 fotos en 8:02 (~19 fotos/s), probablemente compilación debug.
