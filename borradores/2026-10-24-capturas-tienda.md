@@ -299,3 +299,20 @@ CONTENIDO
 
 Primero enséñame las tres piezas en EN. Cuando las apruebe, haz ES e IT y exporta en la carpeta para-claude-design-android.
 ```
+
+## 9. Prompt para Claude Design · iPad 13" (2026-11-14)
+Capturas del simulador iPad Pro 13" (2064 × 2752) en `archivo/Capturas/para-claude-design-ipad/{EN,ES,IT}`: 1 = resultados, 2 = álbum de trabajo, 6 = muro.
+
+```
+Ahora el juego de iPad para App Store, con el mismo estilo, titulares, palabras en degradado y elementos que el de iPhone que ya aprobé. Te adjunto las carpetas EN, ES e IT con capturas de un iPad (2064×2752): 1 (resultados), 2 (álbum de trabajo) y 6 (muro de pago). Genera 9 diseños: 3 escenas × 3 idiomas.
+
+CAMBIOS RESPECTO AL JUEGO DE IPHONE
+1. Lienzo vertical de 2064×2752 px. PNG opaco, sin canal alfa (las capturas vienen con alfa: aplánalas). Nombres: isimilar-ipad-{idioma}-{n}.png (n = 1, 2, 6).
+2. Marco de iPad genérico: bordes redondeados finos, sin botón de inicio ni muesca, con el mismo borde degradado cian → verde y la misma sombra. El iPad puede salir por el borde inferior del lienzo.
+3. Escena 1: sin el recuadro 1b (en iPad la búsqueda es desde una foto de la galería). Mismo titular de la escena 1.
+4. Escena 2: mismo titular y píldora "PRO".
+5. Escena 6: el precio sale en dólares y no vale para todos los países. Encuadra el iPad para que solo se vean la parte superior del muro y las tarjetas de "Qué desbloqueas"; la tarjeta del precio ($11.99, "$1.00/mes" y el texto pequeño con el precio) no debe verse. Si no es posible, tapa esos tres importes con franjas del color de la tarjeta.
+6. No retoques el contenido de las capturas.
+
+Primero enséñame la escena 1 en EN como plantilla. Cuando la apruebe, haz las otras 8 y muéstramelas en una tabla de 3 × 3 antes de exportar en la carpeta para-claude-design-ipad.
+```
