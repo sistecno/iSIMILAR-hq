@@ -267,10 +267,9 @@ Instrucciones completas y en orden: `borradores/2026-10-22-instrucciones-app.md`
       16.1.2→16.7, remote_config 6.2→6.7) en una tarea propia, con prueba en dispositivo de
       notificaciones, Crashlytics, Remote Config y compras. Decidido el 2026-10-24: esta
       versión sale con el `pubspec.lock` de producción (opción A).
-- [ ] Subir `IPHONEOS_DEPLOYMENT_TARGET` a 15.0 (límite primavera 2027). Recomendado en esta
-      versión (el Podfile ya está en 15.0); si no entra, va con la de Firebase.
-
-## Capturas de tienda (2026-11-13)
+- [ ] Subir `IPHONEOS_DEPLOYMENT_TARGET` a 15.0. Apple ya avisa al subir 1.2.0 (aviso 90068: desde
+      abril de 2027 no acepta apps para iOS 13). Decidido el 2026-11-14: no entra en 1.2.0; va con la
+      versión técnica de Firebase.
 - [x] App Store: 21 PNG 1290×2796 en `archivo/Capturas/para-claude-design-ios/` (revisados).
 - [x] Google Play: 21 PNG 1080×1920 en `archivo/Capturas/para-claude-design-android/` (revisados).
 - [x] Gráfico destacado de Google Play (1024×500) y cabecera + imagen de búsqueda de App Store
