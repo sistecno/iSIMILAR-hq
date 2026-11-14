@@ -1,0 +1,62 @@
+NOMBRE
+iSIMILAR: Similar Photo Finder
+
+SUBTÍTULO
+Visual image search, offline
+
+TEXTO PROMOCIONAL
+New: write on a photo to point out a detail, then share it. Point your camera at anything and find the photos on your phone that look like it, even in airplane mode.
+
+PALABRAS CLAVE
+lookalike,camera,private,gallery,organize,album,sort,pictures,repair,technician,work,batch,local
+
+URL DE SOPORTE
+https://isimilar.app
+
+URL DE MARKETING
+https://isimilar.app
+
+NOVEDADES DE ESTA VERSIÓN
+• Write on a photo: add text or draw to point out a detail, then share it.
+• Share many photos at once with PRO.
+• A clearer PRO screen.
+• Fixes and improvements.
+
+DESCRIPCIÓN
+Find photos by looking, not by typing.
+
+Point your camera at something (a circuit board, a product on a shelf, a part on your bench) or pick a photo from your gallery. In under a second, iSIMILAR shows the photos on your phone that look like it. No typing, no tags, no internet.
+
+FIND
+• Search with your camera or with any photo you already have.
+• Keep searching from any result: one search leads to the next.
+• Sort results by most similar or by date.
+• Open any photo to see its date, resolution and size.
+
+ORGANIZE
+• Move hundreds of similar photos into an album in one go, and keep your work photos apart from your personal ones.
+• Delete or share hundreds of look-alike screenshots, memes and repeats at once.
+• Write on a photo or draw on it to point out a detail, then share it. Your original photo stays as it is.
+
+PRIVATE
+• Everything happens on your phone. It works offline, even in airplane mode.
+• Your photos never leave your phone: no photo uploads, no cloud storage, no account.
+• No ads. iSIMILAR is funded by PRO, not by advertising.
+
+MADE FOR PEOPLE WHO PHOTOGRAPH THE SAME KIND OF THING AGAIN AND AGAIN
+• Repair technicians: boards, screens and faults from past jobs, mixed with family photos.
+• Builders and installers: job sites, before-and-after shots, recurring damage.
+• Everyday life: supermarket products, receipts in the same format, greetings from your chats.
+
+GOOD TO KNOW
+iSIMILAR compares shape, texture, color and composition. It finds photos that look alike, not one exact photo, and it doesn't read text. It works best with photos taken in similar conditions: same angle, light and background. On first launch it scans your gallery once; after that, it only processes new photos.
+
+FREE AND PRO
+Free: scan your gallery, unlimited searches from saved photos, 5 camera searches, delete, move or share photos one at a time, and write on 1 photo a day (with a watermark).
+PRO: unlimited camera searches, batch actions (delete, move to an album or share many photos at once) and unlimited writing with no watermark.
+PRO is an annual subscription with a 7-day free trial. The exact price for your country is shown in the App Store. Cancel at least 24 hours before the trial ends and you won't be charged.
+
+Searching is free. Organizing in batches is PRO.
+
+Terms of Use: https://isimilar.app/terms/
+Privacy Policy: https://isimilar.app/privacy/
