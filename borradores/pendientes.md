@@ -3,6 +3,22 @@
 Actualizado: 2026-11-10. Marca con [x] lo hecho.
 Buzones leídos hasta: `solopila` — 2026-11-10 21:24 (T14–T16 probados, bc0765f) · web — (aún vacío).
 
+## Publicación 1.2.0 en App Store (checklist-release, 2026-11-14)
+Hecho: 1.2.0+29 en `main` (fd07089) y subida con Transporter; ficha completa en App Store Connect
+(capturas iPhone 6,3"/6,9"/Face ID e iPad 13" con 2 escenas, cabecera, búsqueda, textos EN/ES/ES-MX/IT,
+URL de soporte y de marketing). Google Play: capturas y gráfico destacado listos, sin subir.
+Falta, en este orden:
+- [ ] 1. TestFlight (iPhone): 7 días gratis con usuario sandbox nuevo; reinstalar + "Restaurar
+      compras"; muro en italiano; conceder permiso de fotos y comprobar que no se cierra (SIGSEGV
+      visto en el simulador de iPad).
+- [ ] 2. App Store Connect: etiqueta de privacidad (identificadores y compras vinculados, sin
+      rastreo, sin "Datos de rendimiento", sin token FCM en iOS).
+- [ ] 3. Enviar a revisión con **publicación manual**.
+- [ ] 4. Web, antes de liberar: política T4b (`borradores/2026-10-31-privacidad-interruptor-t4b.md`),
+      tiempo de escaneo (la web aún dice "2.5 to 3 minutes", visto el 2026-11-14) y "compartir" en
+      lote. En una sesión de la web.
+- [ ] 5. Liberar en App Store. Después, Google Play (aab, capturas, textos, formulario de datos).
+
 ## 2026-11-10 noche · Compilar (`decisiones/2026-11-10-compilar-sin-mas-pruebas.md`)
 - [ ] `solopila`: unir `fix/T14-T15` a `main`, subir versión y compilar. Sin más pruebas antes.
 - [ ] Capturas (Anibal) → revisión de hq → encargo de los marcos y textos de la ficha.
